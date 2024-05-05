@@ -21,11 +21,11 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ColorSchemeToggle from './ColorSchemeToggle';
 import {useResolvedPath} from "react-router-dom";
 
-function Toggler({ defaultExpanded = false, renderToggle, children }) {
+function Toggler({defaultExpanded = false, renderToggle, children}) {
     const [open, setOpen] = React.useState(defaultExpanded)
     return (
         <React.Fragment>
-            {renderToggle({ open, setOpen })}
+            {renderToggle({open, setOpen})}
             <Box
                 sx={{
                     display: "grid",
@@ -69,12 +69,12 @@ export function closeSidebar() {
     }
 }
 
-export default function NavBar(){
+export default function NavBar() {
     return (
         <Sheet
             className="Sidebar"
             sx={{
-                position: { xs: 'fixed', md: 'sticky' },
+                position: {xs: 'fixed', md: 'sticky'},
                 transform: {
                     xs: 'translateX(calc(100% * (var(--SideNavigation-slideIn, 0) - 1)))',
                     md: 'none',
@@ -122,14 +122,14 @@ export default function NavBar(){
                 }}
                 onClick={() => closeSidebar()}
             />
-            <Box sx={{ display: 'flex', gap: 1, alignItems: 'center' }}>
+            <Box sx={{display: 'flex', gap: 1, alignItems: 'center'}}>
                 <IconButton variant="soft" color="primary" size="sm" role="menuitem" component="a" href="/">
-                    <ForestIcon />
+                    <ForestIcon/>
                 </IconButton>
                 <Typography level="title-lg">Stromy</Typography>
-                <ColorSchemeToggle sx={{ ml: 'auto' }} />
+                <ColorSchemeToggle sx={{ml: 'auto'}}/>
             </Box>
-            <Input size="sm" startDecorator={<SearchRoundedIcon />} placeholder="Search" />
+            <Input size="sm" startDecorator={<SearchRoundedIcon/>} placeholder="Search"/>
             <Box
                 sx={{
                     minHeight: 0,
@@ -151,8 +151,9 @@ export default function NavBar(){
                     }}
                 >
                     <ListItem>
-                        <ListItemButton selected={useResolvedPath().pathname==="/"} role="menuitem" component="a" href="/">
-                            <ForestIcon />
+                        <ListItemButton selected={useResolvedPath().pathname === "/"} role="menuitem" component="a"
+                                        href="/">
+                            <ForestIcon/>
                             <ListItemContent>
                                 <Typography level="title-sm">Úvod</Typography>
                             </ListItemContent>
@@ -161,21 +162,23 @@ export default function NavBar(){
 
                     <ListItem nested>
                         <Toggler defaultExpanded={useResolvedPath().pathname.includes("/zakladni-pojmy")}
-                            renderToggle={({ open, setOpen }) => (
-                                <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon />
-                                    <ListItemContent>
-                                        <Typography level="title-sm">Základní pojmy</Typography>
-                                    </ListItemContent>
-                                    <KeyboardArrowDownIcon
-                                        sx={{ transform: open ? 'rotate(180deg)' : 'none' }}
-                                    />
-                                </ListItemButton>
-                            )}
+                                 renderToggle={({open, setOpen}) => (
+                                     <ListItemButton onClick={() => setOpen(!open)}>
+                                         <ParkIcon/>
+                                         <ListItemContent>
+                                             <Typography level="title-sm">Základní pojmy</Typography>
+                                         </ListItemContent>
+                                         <KeyboardArrowDownIcon
+                                             sx={{transform: open ? 'rotate(180deg)' : 'none'}}
+                                         />
+                                     </ListItemButton>
+                                 )}
                         >
-                            <List sx={{ gap: 0.5 }}>
-                                <ListItem sx={{ mt: 0.5 }}>
-                                    <ListItemButton selected={useResolvedPath().pathname==="/zakladni-pojmy/strom"} role="menuitem" component="a" href="/zakladni-pojmy/strom">Strom</ListItemButton>
+                            <List sx={{gap: 0.5}}>
+                                <ListItem sx={{mt: 0.5}}>
+                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/strom"}
+                                                    role="menuitem" component="a"
+                                                    href="/zakladni-pojmy/strom">Strom</ListItemButton>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemButton>Backlog</ListItemButton>
@@ -191,20 +194,20 @@ export default function NavBar(){
                     </ListItem>
                     <ListItem nested>
                         <Toggler
-                            renderToggle={({ open, setOpen }) => (
+                            renderToggle={({open, setOpen}) => (
                                 <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon />
+                                    <ParkIcon/>
                                     <ListItemContent>
                                         <Typography level="title-sm">Isomorfismus</Typography>
                                     </ListItemContent>
                                     <KeyboardArrowDownIcon
-                                        sx={{ transform: open ? 'rotate(180deg)' : 'none' }}
+                                        sx={{transform: open ? 'rotate(180deg)' : 'none'}}
                                     />
                                 </ListItemButton>
                             )}
                         >
-                            <List sx={{ gap: 0.5 }}>
-                                <ListItem sx={{ mt: 0.5 }}>
+                            <List sx={{gap: 0.5}}>
+                                <ListItem sx={{mt: 0.5}}>
                                     <ListItemButton
                                         role="menuitem"
                                         component="a"
@@ -225,20 +228,20 @@ export default function NavBar(){
 
                     <ListItem nested>
                         <Toggler
-                            renderToggle={({ open, setOpen }) => (
+                            renderToggle={({open, setOpen}) => (
                                 <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon />
+                                    <ParkIcon/>
                                     <ListItemContent>
                                         <Typography level="title-sm">Binární stromy</Typography>
                                     </ListItemContent>
                                     <KeyboardArrowDownIcon
-                                        sx={{ transform: open ? 'rotate(180deg)' : 'none' }}
+                                        sx={{transform: open ? 'rotate(180deg)' : 'none'}}
                                     />
                                 </ListItemButton>
                             )}
                         >
-                            <List sx={{ gap: 0.5 }}>
-                                <ListItem sx={{ mt: 0.5 }}>
+                            <List sx={{gap: 0.5}}>
+                                <ListItem sx={{mt: 0.5}}>
                                     <ListItemButton
                                         role="menuitem"
                                         component="a"
@@ -259,20 +262,20 @@ export default function NavBar(){
 
                     <ListItem nested>
                         <Toggler
-                            renderToggle={({ open, setOpen }) => (
+                            renderToggle={({open, setOpen}) => (
                                 <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon />
+                                    <ParkIcon/>
                                     <ListItemContent>
                                         <Typography level="title-sm">Minimální kostra</Typography>
                                     </ListItemContent>
                                     <KeyboardArrowDownIcon
-                                        sx={{ transform: open ? 'rotate(180deg)' : 'none' }}
+                                        sx={{transform: open ? 'rotate(180deg)' : 'none'}}
                                     />
                                 </ListItemButton>
                             )}
                         >
-                            <List sx={{ gap: 0.5 }}>
-                                <ListItem sx={{ mt: 0.5 }}>
+                            <List sx={{gap: 0.5}}>
+                                <ListItem sx={{mt: 0.5}}>
                                     <ListItemButton
                                         role="menuitem"
                                         component="a"
@@ -304,7 +307,7 @@ export default function NavBar(){
                 >
                     <ListItem>
                         <ListItemButton>
-                            <SupportRoundedIcon />
+                            <SupportRoundedIcon/>
                             Support
                         </ListItemButton>
                     </ListItem>

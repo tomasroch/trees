@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <Sheet
             sx={{
-                display: { xs: 'flex', md: 'none' },
+                display: {xs: 'flex', md: 'none'},
                 alignItems: 'center',
                 justifyContent: 'space-between',
                 position: 'fixed',
@@ -40,7 +40,7 @@ export default function Header() {
                 color="neutral"
                 size="sm"
             >
-                <MenuIcon />
+                <MenuIcon/>
             </IconButton>
         </Sheet>
     );
