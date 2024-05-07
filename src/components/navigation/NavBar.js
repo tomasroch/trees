@@ -96,9 +96,9 @@ export default function NavBar() {
             <GlobalStyles
                 styles={(theme) => ({
                     ':root': {
-                        '--Sidebar-width': '220px',
+                        '--Sidebar-width': '262px',
                         [theme.breakpoints.up('lg')]: {
-                            '--Sidebar-width': '240px',
+                            '--Sidebar-width': '262px',
                         },
                     },
                 })}
@@ -180,14 +180,58 @@ export default function NavBar() {
                                                     role="menuitem" component="a"
                                                     href="/zakladni-pojmy/strom">Strom</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Backlog</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/zakladni-pojmy/strom">Les</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>In progress</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/zakladni-pojmy/strom">Centrum / Bicentrum</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Done</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/zakladni-pojmy/strom">Centroid / Bicentroid</ListItemButton>
+                                </ListItem>
+                            </List>
+                        </Toggler>
+                    </ListItem>
+                    <ListItem nested>
+                        <Toggler defaultExpanded={useResolvedPath().pathname.includes("/korenove-stromy")}
+                                 renderToggle={({open, setOpen}) => (
+                                     <ListItemButton onClick={() => setOpen(!open)}>
+                                         <ParkIcon/>
+                                         <ListItemContent>
+                                             <Typography level="title-sm">Kořenové stromy</Typography>
+                                         </ListItemContent>
+                                         <KeyboardArrowDownIcon
+                                             sx={{transform: open ? 'rotate(180deg)' : 'none'}}
+                                         />
+                                     </ListItemButton>
+                                 )}
+                        >
+                            <List sx={{gap: 0.5}}>
+                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy}"}
+                                                    role="menuitem" component="a"
+                                                    href="/korenove-stromy/">Základní definice</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/korenove-stromy/strom">Předchůdce / Následník</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/korenove-stromy/strom">Vrstva / Hloubka / Výška</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/korenove-stromy/strom">Uspořádaný kořenový strom</ListItemButton>
                                 </ListItem>
                             </List>
                         </Toggler>
@@ -207,20 +251,20 @@ export default function NavBar() {
                             )}
                         >
                             <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>
-                                    <ListItemButton
-                                        role="menuitem"
-                                        component="a"
-                                        href="/joy-ui/getting-started/templates/profile-dashboard/"
-                                    >
-                                        My profile
-                                    </ListItemButton>
+                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/isomorfismus/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/isomorfismus/zakladni-definice">Základní definice</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Create a new user</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/isomorfismus/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/isomorfismus/korenove-stromy">Kořenové stromy</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Roles & permission</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/isomorfismus/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/isomorfismus/korenove-stromy">Uspořádané kořenové stromy</ListItemButton>
                                 </ListItem>
                             </List>
                         </Toggler>
@@ -241,20 +285,35 @@ export default function NavBar() {
                             )}
                         >
                             <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>
-                                    <ListItemButton
-                                        role="menuitem"
-                                        component="a"
-                                        href="/joy-ui/getting-started/templates/profile-dashboard/"
-                                    >
-                                        My profile
-                                    </ListItemButton>
+                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy"}
+                                                    role="menuitem" component="a"
+                                                    href="/binarni-stromy/zakladni-definice">Základní definice</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Create a new user</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/binarni-stromy/korenove-stromy">Binární vyhledávací strom</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Roles & permission</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/binarni-stromy/korenove-stromy">Prohledávání do hloubky</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/binarni-stromy/korenove-stromy">Prohledávání do šířky</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/binarni-stromy/korenove-stromy">Halda</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/binarni-stromy/korenove-stromy">Další varianty</ListItemButton>
                                 </ListItem>
                             </List>
                         </Toggler>
@@ -275,20 +334,25 @@ export default function NavBar() {
                             )}
                         >
                             <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>
-                                    <ListItemButton
-                                        role="menuitem"
-                                        component="a"
-                                        href="/joy-ui/getting-started/templates/profile-dashboard/"
-                                    >
-                                        My profile
-                                    </ListItemButton>
+                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra"}
+                                                    role="menuitem" component="a"
+                                                    href="/minimalni-kostra/zakladni-definice">Základní definice</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Create a new user</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/minimalni-kostra/korenove-stromy">Kruskalův algoritmus</ListItemButton>
                                 </ListItem>
-                                <ListItem>
-                                    <ListItemButton>Roles & permission</ListItemButton>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/minimalni-kostra/korenove-stromy">Jarníkův (Primův) algoritmus</ListItemButton>
+                                </ListItem>
+                                <ListItem>                                                          {/*TODO pathname a href*/}
+                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra/stro"}
+                                                    role="menuitem" component="a"
+                                                    href="/minimalni-kostra/korenove-stromy">Borůvkův algoritmus</ListItemButton>
                                 </ListItem>
                             </List>
                         </Toggler>
