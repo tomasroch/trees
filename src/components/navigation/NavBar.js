@@ -20,6 +20,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 import ColorSchemeToggle from './ColorSchemeToggle';
 import {useResolvedPath} from "react-router-dom";
+import pages from "../../data/pages";
 
 function Toggler({defaultExpanded = false, renderToggle, children}) {
     const [open, setOpen] = React.useState(defaultExpanded)
@@ -70,6 +71,7 @@ export function closeSidebar() {
 }
 
 export default function NavBar() {
+    const actualPath = useResolvedPath().pathname;
     return (
         <Sheet
             className="Sidebar"
@@ -160,203 +162,46 @@ export default function NavBar() {
                         </ListItemButton>
                     </ListItem>
 
-                    <ListItem nested>
-                        <Toggler defaultExpanded={useResolvedPath().pathname.includes("/zakladni-pojmy")}
-                                 renderToggle={({open, setOpen}) => (
-                                     <ListItemButton onClick={() => setOpen(!open)}>
-                                         <ParkIcon/>
-                                         <ListItemContent>
-                                             <Typography level="title-sm">Základní pojmy</Typography>
-                                         </ListItemContent>
-                                         <KeyboardArrowDownIcon
-                                             sx={{transform: open ? 'rotate(180deg)' : 'none'}}
-                                         />
-                                     </ListItemButton>
-                                 )}
-                        >
-                            <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>
-                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/strom"}
-                                                    role="menuitem" component="a"
-                                                    href="/zakladni-pojmy/strom">Strom</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/zakladni-pojmy/strom">Les</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/zakladni-pojmy/strom">Centrum / Bicentrum</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/zakladni-pojmy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/zakladni-pojmy/strom">Centroid / Bicentroid</ListItemButton>
-                                </ListItem>
-                            </List>
-                        </Toggler>
-                    </ListItem>
-                    <ListItem nested>
-                        <Toggler defaultExpanded={useResolvedPath().pathname.includes("/korenove-stromy")}
-                                 renderToggle={({open, setOpen}) => (
-                                     <ListItemButton onClick={() => setOpen(!open)}>
-                                         <ParkIcon/>
-                                         <ListItemContent>
-                                             <Typography level="title-sm">Kořenové stromy</Typography>
-                                         </ListItemContent>
-                                         <KeyboardArrowDownIcon
-                                             sx={{transform: open ? 'rotate(180deg)' : 'none'}}
-                                         />
-                                     </ListItemButton>
-                                 )}
-                        >
-                            <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy}"}
-                                                    role="menuitem" component="a"
-                                                    href="/korenove-stromy/">Základní definice</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/korenove-stromy/strom">Předchůdce / Následník</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/korenove-stromy/strom">Vrstva / Hloubka / Výška</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/korenove-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/korenove-stromy/strom">Uspořádaný kořenový strom</ListItemButton>
-                                </ListItem>
-                            </List>
-                        </Toggler>
-                    </ListItem>
-                    <ListItem nested>
-                        <Toggler
-                            renderToggle={({open, setOpen}) => (
-                                <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon/>
+                    {pages.map(page => {
+                        if (page.subpages === null) {
+                            return <ListItem>
+                                <ListItemButton selected={actualPath === page.path} role="menuitem" component="a"
+                                                href={page.path}>
+                                    <ForestIcon/>
                                     <ListItemContent>
-                                        <Typography level="title-sm">Isomorfismus</Typography>
+                                        <Typography level="title-sm">{page.name}</Typography>
                                     </ListItemContent>
-                                    <KeyboardArrowDownIcon
-                                        sx={{transform: open ? 'rotate(180deg)' : 'none'}}
-                                    />
                                 </ListItemButton>
-                            )}
-                        >
-                            <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/isomorfismus/stro"}
+                            </ListItem>
+                        } else {
+                            return <ListItem nested>
+                                <Toggler defaultExpanded={actualPath.includes(page.path)}
+                                         renderToggle={({open, setOpen}) => (
+                                             <ListItemButton onClick={() => setOpen(!open)}>
+                                                 <ParkIcon/>
+                                                 <ListItemContent>
+                                                     <Typography level="title-sm">{page.name}</Typography>
+                                                 </ListItemContent>
+                                                 <KeyboardArrowDownIcon
+                                                     sx={{transform: open ? 'rotate(180deg)' : 'none'}}
+                                                 />
+                                             </ListItemButton>
+                                         )}
+                                >
+                                    <List sx={{gap: 0.5}}>
+                                        {page.subpages.map(subpage => (
+                                            <ListItem sx={{mt: 0.5}}>
+                                                <ListItemButton
+                                                    selected={actualPath === page.path + "/" + subpage.path}
                                                     role="menuitem" component="a"
-                                                    href="/isomorfismus/zakladni-definice">Základní definice</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/isomorfismus/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/isomorfismus/korenove-stromy">Kořenové stromy</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/isomorfismus/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/isomorfismus/korenove-stromy">Uspořádané kořenové stromy</ListItemButton>
-                                </ListItem>
-                            </List>
-                        </Toggler>
-                    </ListItem>
-
-                    <ListItem nested>
-                        <Toggler
-                            renderToggle={({open, setOpen}) => (
-                                <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon/>
-                                    <ListItemContent>
-                                        <Typography level="title-sm">Binární stromy</Typography>
-                                    </ListItemContent>
-                                    <KeyboardArrowDownIcon
-                                        sx={{transform: open ? 'rotate(180deg)' : 'none'}}
-                                    />
-                                </ListItemButton>
-                            )}
-                        >
-                            <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy"}
-                                                    role="menuitem" component="a"
-                                                    href="/binarni-stromy/zakladni-definice">Základní definice</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/binarni-stromy/korenove-stromy">Binární vyhledávací strom</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/binarni-stromy/korenove-stromy">Prohledávání do hloubky</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/binarni-stromy/korenove-stromy">Prohledávání do šířky</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/binarni-stromy/korenove-stromy">Halda</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/binarni-stromy/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/binarni-stromy/korenove-stromy">Další varianty</ListItemButton>
-                                </ListItem>
-                            </List>
-                        </Toggler>
-                    </ListItem>
-
-                    <ListItem nested>
-                        <Toggler
-                            renderToggle={({open, setOpen}) => (
-                                <ListItemButton onClick={() => setOpen(!open)}>
-                                    <ParkIcon/>
-                                    <ListItemContent>
-                                        <Typography level="title-sm">Minimální kostra</Typography>
-                                    </ListItemContent>
-                                    <KeyboardArrowDownIcon
-                                        sx={{transform: open ? 'rotate(180deg)' : 'none'}}
-                                    />
-                                </ListItemButton>
-                            )}
-                        >
-                            <List sx={{gap: 0.5}}>
-                                <ListItem sx={{mt: 0.5}}>                                   {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra"}
-                                                    role="menuitem" component="a"
-                                                    href="/minimalni-kostra/zakladni-definice">Základní definice</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/minimalni-kostra/korenove-stromy">Kruskalův algoritmus</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/minimalni-kostra/korenove-stromy">Jarníkův (Primův) algoritmus</ListItemButton>
-                                </ListItem>
-                                <ListItem>                                                          {/*TODO pathname a href*/}
-                                    <ListItemButton selected={useResolvedPath().pathname === "/minimalni-kostra/stro"}
-                                                    role="menuitem" component="a"
-                                                    href="/minimalni-kostra/korenove-stromy">Borůvkův algoritmus</ListItemButton>
-                                </ListItem>
-                            </List>
-                        </Toggler>
-                    </ListItem>
+                                                    href={page.path + "/" + subpage.path}>{subpage.name}</ListItemButton>
+                                            </ListItem>
+                                        ))}
+                                    </List>
+                                </Toggler>
+                            </ListItem>
+                        }
+                    })}
                 </List>
 
                 <List
