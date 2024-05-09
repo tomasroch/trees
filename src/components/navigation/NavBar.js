@@ -167,7 +167,7 @@ export default function NavBar() {
                             return <ListItem>
                                 <ListItemButton selected={actualPath === page.path} role="menuitem" component="a"
                                                 href={page.path}>
-                                    <ForestIcon/>
+                                    <ParkIcon/>
                                     <ListItemContent>
                                         <Typography level="title-sm">{page.name}</Typography>
                                     </ListItemContent>

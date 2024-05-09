@@ -1,5 +1,15 @@
 const pages = [
     {
+        "name": "Test jednostranka",
+        "path": "/jednostranka",
+        "textData": [{
+            "smallTitle": "",
+            "text": "Jednostránka text",
+            "imagePath": null
+        }],
+        "subpages": null,
+    },
+    {
         "name": "Základní pojmy",
         "path": "/zakladni-pojmy",
         "textData": null,
@@ -8,7 +18,7 @@ const pages = [
                 "name": "Strom",
                 "path": "strom",
                 "textData": [{
-                    "smallTitle": "test",
+                    "smallTitle": "",
                     "text": "textik",
                     "imagePath": null
                 }]
@@ -49,7 +59,7 @@ const pages = [
         "subpages": [
             {
                 "name": "Základní definice",
-                "path": "strom",
+                "path": "zakladni-definice",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -92,7 +102,7 @@ const pages = [
         "subpages": [
             {
                 "name": "Základní definice",
-                "path": "strom",
+                "path": "zakladni-definice",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -126,7 +136,7 @@ const pages = [
         "subpages": [
             {
                 "name": "Základní definice",
-                "path": "strom",
+                "path": "zakladni-definice",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -177,7 +187,7 @@ const pages = [
                     "text": "textik",
                     "imagePath": null
                 }]
-            },
+            }
         ]
     },
     {
@@ -187,7 +197,7 @@ const pages = [
         "subpages": [
             {
                 "name": "Základní definice",
-                "path": "strom",
+                "path": "zakladni-definice",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -222,6 +232,6 @@ const pages = [
                 }]
             }
         ]
-    },
+    }
 ];
 export default pages;

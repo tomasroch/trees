@@ -20,12 +20,12 @@ root.render(
 
                 {pages.map(page => {
                     if (page.subpages === null){
-                        return <Route path={page.path} element={<TemplatePage/>}/>
+                        return <Route path={page.path} element={<TemplatePage page={page} subpage={null}/>}/>
                     } else {
                         return <Route path={page.path}>
                             {/*<Route index={true} element={<ZakladniPojmyPage/>}></Route>*/}
                             {page.subpages.map(subpage => (
-                                <Route path={subpage.path} element={<TemplatePage/>}/>
+                                <Route path={subpage.path} element={<TemplatePage page={page} subpage={subpage} />}/>
                             ))}
                         </Route>
                     }
