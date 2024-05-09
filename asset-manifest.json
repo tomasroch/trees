@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/trees/static/js/main.d12097cc.js",
+    "index.html": "/trees/index.html",
+    "main.d12097cc.js.map": "/trees/static/js/main.d12097cc.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d12097cc.js"
+  ]
+}

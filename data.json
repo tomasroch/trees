@@ -1,0 +1,142 @@
+{
+  "pages": [
+    {
+      "name": "Základní pojmy",
+      "path": "/zakladni-pojmy",
+      "textData": null,
+      "subpages": [
+        {
+          "name": "Strom",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+          "name": "Les",
+          "path": "les",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+          "name": "Centrum / Bicentrum",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+          "name": "Centroid / Bicentroid",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        }
+      ]
+    },
+    {
+      "name": "Kořenové stromy",
+      "path": "/korenove-stromy",
+      "textData": null,
+      "subpages": [
+        {
+          "name": "Strom",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+
+        }
+      ]
+    },
+    {
+      "name": "Isomorfismus",
+      "path": "/isomorfismus",
+      "textData": null,
+      "subpages": [
+        {
+          "name": "Strom",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+
+        }
+      ]
+    },
+    {
+      "name": "Binární stromy",
+      "path": "/binarni-stromy",
+      "textData": null,
+      "subpages": [
+        {
+          "name": "Strom",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+
+        }
+      ]
+    },
+    {
+      "name": "Minimální kostra",
+      "path": "/minimalni-kostra",
+      "textData": null,
+      "subpages": [
+        {
+          "name": "Strom",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+
+        }
+      ]
+    },
+    {
+      "name": "Základní pojmy",
+      "path": "/zakladni-pojmy",
+      "textData": null,
+      "subpages": [
+        {
+          "name": "Strom",
+          "path": "strom",
+          "textData": [{
+            "smallTitle": "test",
+            "text": "textik",
+            "imagePath": null
+          }]
+        },
+        {
+
+        }
+      ]
+    }
+  ]
+}
