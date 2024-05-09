@@ -105,7 +105,7 @@ export default function TemplateTabs() {
                                     </TabList>
                                     <TabPanel value={0} sx={{p: 0}}>
                                         <Box sx={{mb: 1}}>
-                                            {/*<Typography level="title-lg">Personal info</Typography>*/}
+                                            <Typography level="title-lg">Personal info</Typography>
                                             <Typography level="body-md">
                                                 Customize how your profile information will apper to the networks.
                                                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat
@@ -166,35 +166,7 @@ export default function TemplateTabs() {
                                                 vitae vehicula venenatis, tincidunt ac pede. Curabitur sagittis
                                                 hendrerit ante.
                                             </Typography>
-                                        </Box>
 
-                                        <Box
-                                            className="Pagination-laptopUp"
-                                            sx={{
-                                                pt: 2,
-                                                gap: 1,
-                                                [`& .${iconButtonClasses.root}`]: {borderRadius: '50%'},
-                                                display: {
-                                                    xs: 'flex',
-                                                    md: 'flex',
-                                                },
-                                            }}
-                                        >
-                                            <Button
-                                                size="sm"
-                                                variant="outlined"
-                                                startDecorator={<KeyboardArrowLeftIcon/>}
-                                            >
-                                                Previous
-                                            </Button>
-                                            <Box sx={{flex: 1}}/>
-                                            <Button
-                                                size="sm"
-                                                variant="outlined"
-                                                endDecorator={<KeyboardArrowRightIcon/>}
-                                            >
-                                                Next
-                                            </Button>
                                         </Box>
                                     </TabPanel>
                                     <TabPanel
@@ -202,7 +174,8 @@ export default function TemplateTabs() {
                                         sx={{display: 'flex', flexDirection: 'column', gap: 3}}
                                     >
                                         <Typography level="title-md">This week</Typography>
-
+                                    </TabPanel>
+                                </Tabs>
                                         <Box
                                             className="Pagination-laptopUp"
                                             sx={{
@@ -231,8 +204,7 @@ export default function TemplateTabs() {
                                                 Next
                                             </Button>
                                         </Box>
-                                    </TabPanel>
-                                </Tabs>
+
                             </Card>
                         </Stack>
                     </Box>

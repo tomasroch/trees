@@ -9,7 +9,7 @@ import Typography from '@mui/joy/Typography';
 import Breadcrumbs from '@mui/joy/Breadcrumbs';
 import Link from '@mui/joy/Link';
 import Card from '@mui/joy/Card';
-import {CssVarsProvider, iconButtonClasses} from "@mui/joy";
+import {CssVarsProvider, iconButtonClasses, Tab, TabList, TabPanel, Tabs} from "@mui/joy";
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
@@ -19,6 +19,7 @@ import ForestIcon from "@mui/icons-material/Forest";
 export default function Tree({page, subpage}) {
     const isSinglePage = page.subpages === null;
     const mainPage = isSinglePage ? page : subpage;
+    const hasTabs = mainPage.tabs !== null;
     return (
         <CssVarsProvider>
             <CssBaseline/>
@@ -41,21 +42,21 @@ export default function Tree({page, subpage}) {
                     }}
                 >
 
-                    <Box sx={{ flex: 1, width: '100%' }}>
+                    <Box sx={{flex: 1, width: '100%'}}>
                         <Box
                             sx={{
                                 position: 'sticky',
-                                top: { sm: -100, md: -110 },
+                                top: {sm: -100, md: -110},
                                 bgcolor: 'background.body',
                                 zIndex: 9995,
                             }}
                         >
-                            <Box sx={{ px: { xs: 2, md: 6 } }}>
+                            <Box sx={{px: {xs: 2, md: 6}}}>
                                 <Breadcrumbs
                                     size="sm"
                                     aria-label="breadcrumbs"
-                                    separator={<ChevronRightRoundedIcon fontSize="sm" />}
-                                    sx={{ pl: 0 }}
+                                    separator={<ChevronRightRoundedIcon fontSize="sm"/>}
+                                    sx={{pl: 0}}
                                 >
                                     <Link
                                         underline="none"
@@ -63,7 +64,7 @@ export default function Tree({page, subpage}) {
                                         href="/"
                                         aria-label="Home"
                                     >
-                                        <ForestIcon />
+                                        <ForestIcon/>
                                     </Link>
                                     {!isSinglePage ? (
                                         <Link
@@ -76,11 +77,11 @@ export default function Tree({page, subpage}) {
                                         >
                                             {page.name}
                                         </Link>
-                                        ):(
+                                    ) : (
                                         <Typography color="primary" fontWeight={500} fontSize={12}>
                                             {page.name}
                                         </Typography>
-                                        )
+                                    )
                                     }
 
                                     {!isSinglePage &&
@@ -90,7 +91,7 @@ export default function Tree({page, subpage}) {
                                     }
 
                                 </Breadcrumbs>
-                                <Typography level="h2" component="h1" sx={{ mt: 1, mb: 2 }}>
+                                <Typography level="h2" component="h1" sx={{mt: 1, mb: 2}}>
                                     {mainPage.name}
                                 </Typography>
                             </Box>
@@ -102,30 +103,60 @@ export default function Tree({page, subpage}) {
                                 display: 'flex',
                                 maxWidth: '1000px',
                                 mx: 'auto',
-                                px: { xs: 2, md: 6 },
-                                py: { xs: 2, md: 3 },
+                                px: {xs: 2, md: 6},
+                                py: {xs: 2, md: 3},
                             }}
                         >
                             <Card>
-                                <Box sx={{ mb: 1 }}>
-                                    {mainPage.textData.map(textData => (
-                                        <div key={mainPage.path}>
-                                            {textData.smallTitle !== null &&
-                                                <Typography level="title-lg">{textData.smallTitle}</Typography>
-                                            }
-                                        <Typography level="body-md">
-                                            {textData.text}
-                                        </Typography>
-                                        </div>
-                                    ))}
-                                </Box>
+                                {hasTabs ? (
+                                    <Tabs>
+                                        <TabList>
+                                            {mainPage.tabs.map(tab => (
+                                                <Tab sx={{flexGrow: 1}}>
+                                                    <Typography level="title-sm">{tab.name}</Typography>
+                                                </Tab>
+                                            ))}
+                                        </TabList>           {/*MAP INDEX -> iteration number*/}
+                                        {mainPage.tabs.map((tab, index) => (
+                                            <TabPanel value={index} sx={{p: 0}}>
+                                                <Box sx={{mb: 1}}>
+                                                    {tab.textData.map(textData => (
+                                                        <div key={mainPage.path}>
+                                                            {textData.smallTitle !== null &&
+                                                                <Typography
+                                                                    level="title-lg">{textData.smallTitle}</Typography>
+                                                            }
+                                                            <Typography level="body-md">
+                                                                {textData.text}
+                                                            </Typography>
+                                                        </div>
+                                                    ))}
+                                                </Box>
+                                            </TabPanel>
+                                        ))}
+                                    </Tabs>
+                                ) : (
+                                    <Box sx={{mb: 1}}>
+                                        {mainPage.textData.map(textData => (
+                                            <div key={mainPage.path}>
+                                                {textData.smallTitle !== null &&
+                                                    <Typography level="title-lg">{textData.smallTitle}</Typography>
+                                                }
+                                                <Typography level="body-md">
+                                                    {textData.text}
+                                                </Typography>
+                                            </div>
+                                        ))}
+                                    </Box>
+                                )}
+
 
                                 <Box
                                     className="Pagination-laptopUp"
                                     sx={{
                                         pt: 2,
                                         gap: 1,
-                                        [`& .${iconButtonClasses.root}`]: { borderRadius: '50%' },
+                                        [`& .${iconButtonClasses.root}`]: {borderRadius: '50%'},
                                         display: {
                                             xs: 'flex',
                                             md: 'flex',
@@ -135,15 +166,15 @@ export default function Tree({page, subpage}) {
                                     <Button
                                         size="sm"
                                         variant="outlined"
-                                        startDecorator={<KeyboardArrowLeftIcon />}
+                                        startDecorator={<KeyboardArrowLeftIcon/>}
                                     >
                                         Previous
                                     </Button>
-                                    <Box sx={{ flex: 1 }} />
+                                    <Box sx={{flex: 1}}/>
                                     <Button
                                         size="sm"
                                         variant="outlined"
-                                        endDecorator={<KeyboardArrowRightIcon />}
+                                        endDecorator={<KeyboardArrowRightIcon/>}
                                     >
                                         Next
                                     </Button>
