@@ -11,7 +11,6 @@ import {
     useColorScheme
 } from "@mui/joy";
 import CssBaseline from "@mui/joy/CssBaseline";
-import {Route, Routes} from "react-router-dom";
 
 function ModeToggle() {
     const {mode, setMode} = useColorScheme();

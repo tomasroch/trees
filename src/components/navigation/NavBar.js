@@ -152,7 +152,7 @@ export default function NavBar() {
                         '--ListItem-radius': (theme) => theme.vars.radius.sm,
                     }}
                 >
-                    <ListItem>
+                    <ListItem key="1">
                         <ListItemButton selected={useResolvedPath().pathname === "/"} role="menuitem" component="a"
                                         href="/">
                             <ForestIcon/>
@@ -164,7 +164,7 @@ export default function NavBar() {
 
                     {pages.map(page => {
                         if (page.subpages === null) {
-                            return <ListItem>
+                            return <ListItem key={page.path}>
                                 <ListItemButton selected={actualPath === page.path} role="menuitem" component="a"
                                                 href={page.path}>
                                     <ParkIcon/>
@@ -174,7 +174,7 @@ export default function NavBar() {
                                 </ListItemButton>
                             </ListItem>
                         } else {
-                            return <ListItem nested>
+                            return <ListItem key={page.path} nested>
                                 <Toggler defaultExpanded={actualPath.includes(page.path)}
                                          renderToggle={({open, setOpen}) => (
                                              <ListItemButton onClick={() => setOpen(!open)}>
@@ -190,7 +190,7 @@ export default function NavBar() {
                                 >
                                     <List sx={{gap: 0.5}}>
                                         {page.subpages.map(subpage => (
-                                            <ListItem sx={{mt: 0.5}}>
+                                            <ListItem key={subpage.path} sx={{mt: 0.5}}>
                                                 <ListItemButton
                                                     selected={actualPath === page.path + "/" + subpage.path}
                                                     role="menuitem" component="a"
@@ -214,7 +214,7 @@ export default function NavBar() {
                         mb: 2,
                     }}
                 >
-                    <ListItem>
+                    <ListItem key="2">
                         <ListItemButton>
                             <SupportRoundedIcon/>
                             Support

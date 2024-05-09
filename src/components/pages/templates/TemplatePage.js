@@ -109,7 +109,7 @@ export default function Tree({page, subpage}) {
                             <Card>
                                 <Box sx={{ mb: 1 }}>
                                     {mainPage.textData.map(textData => (
-                                        <div>
+                                        <div key={mainPage.path}>
                                             {textData.smallTitle !== null &&
                                                 <Typography level="title-lg">{textData.smallTitle}</Typography>
                                             }

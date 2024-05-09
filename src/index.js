@@ -12,20 +12,20 @@ root.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route path="/tabs" element={<TreeTabs/>}/> TODO
-                <Route path="/" element={<HomePage/>}/>
-                <Route path="/test" element={<App/>}/> TODO
-                <Route path="/*" element={<HomePage/>}/>
+                <Route key="1" path="/tabs" element={<TreeTabs/>}/> TODO
+                <Route key="2" path="/" element={<HomePage/>}/>
+                <Route key="3" path="/test" element={<App/>}/> TODO
+                <Route key="4" path="/*" element={<HomePage/>}/>
 
 
                 {pages.map(page => {
                     if (page.subpages === null){
-                        return <Route path={page.path} element={<TemplatePage page={page} subpage={null}/>}/>
+                        return <Route key={page.path} path={page.path} element={<TemplatePage page={page} subpage={null}/>}/>
                     } else {
-                        return <Route path={page.path}>
+                        return <Route key={page.path} path={page.path}>
                             {/*<Route index={true} element={<ZakladniPojmyPage/>}></Route>*/}
                             {page.subpages.map(subpage => (
-                                <Route path={subpage.path} element={<TemplatePage page={page} subpage={subpage} />}/>
+                                <Route key={page.path} path={subpage.path} element={<TemplatePage page={page} subpage={subpage} />}/>
                             ))}
                         </Route>
                     }

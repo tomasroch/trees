@@ -34,7 +34,7 @@ const pages = [
             },
             {
                 "name": "Centrum / Bicentrum",
-                "path": "stromm",
+                "path": "centrum-bicentrum",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -43,7 +43,7 @@ const pages = [
             },
             {
                 "name": "Centroid / Bicentroid",
-                "path": "strommm",
+                "path": "centroid-bicentroid",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -68,7 +68,7 @@ const pages = [
             },
             {
                 "name": "Předchůdce / Následník",
-                "path": "strom",
+                "path": "predchudce-naslednik",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -77,7 +77,7 @@ const pages = [
             },
             {
                 "name": "Vrstva / Hloubka / Výška",
-                "path": "strom",
+                "path": "vrstva-hloubka-vyska",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -86,7 +86,7 @@ const pages = [
             },
             {
                 "name": "Uspořádaný kořenový strom",
-                "path": "strom",
+                "path": "usporadany-korenovy-strom",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -111,7 +111,7 @@ const pages = [
             },
             {
                 "name": "Kořenové stromy",
-                "path": "strom",
+                "path": "korenove-stromy",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -120,7 +120,7 @@ const pages = [
             },
             {
                 "name": "Uspořádané kořenové stromy",
-                "path": "strom",
+                "path": "usporadane-korenovy-stromy",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -145,7 +145,7 @@ const pages = [
             },
             {
                 "name": "Binární vyhledávací strom",
-                "path": "Prohledávání do hloubky",
+                "path": "binarni-vyhledavaci-strom",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -154,7 +154,7 @@ const pages = [
             },
             {
                 "name": "Prohledávání do hloubky",
-                "path": "strom",
+                "path": "prohledavani-do-hloubky",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -163,7 +163,7 @@ const pages = [
             },
             {
                 "name": "Prohledávání do šířky",
-                "path": "strom",
+                "path": "prohledavani-do-sirky",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -172,7 +172,7 @@ const pages = [
             },
             {
                 "name": "Halda",
-                "path": "strom",
+                "path": "halda",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -181,7 +181,7 @@ const pages = [
             },
             {
                 "name": "Další varianty",
-                "path": "strom",
+                "path": "dalsi-varianty",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -206,7 +206,7 @@ const pages = [
             },
             {
                 "name": "Kruskalův algoritmus",
-                "path": "strom",
+                "path": "kruskaluv-algoritmus",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -215,7 +215,7 @@ const pages = [
             },
             {
                 "name": "Jarníkův (Primův) algoritmus",
-                "path": "strom",
+                "path": "jarnikuv-algoritmus",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
@@ -224,7 +224,7 @@ const pages = [
             },
             {
                 "name": "Borůvkův algoritmus",
-                "path": "strom",
+                "path": "boruvkuv-algoritmus",
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
