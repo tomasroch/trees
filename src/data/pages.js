@@ -1,11 +1,11 @@
 const pages = [
     {
-        "name": "Test jednostranka",
+        "name": "Test jednostranka TEMP",
         "path": "/jednostranka",
         "textData": [{
             "smallTitle": "",
             "text": "Jednostránka text",
-            "imagePath": null
+            "images": null
         }],
         "tabs": null,
         "subpages": null
@@ -18,7 +18,7 @@ const pages = [
         "tabs": null,
         "subpages": [
             {
-                "name": "Tabs",
+                "name": "Tabs TEMP",
                 "path": "tabs",
                 "tabs": [
                     {
@@ -26,7 +26,16 @@ const pages = [
                         "textData": [{
                             "smallTitle": "",
                             "text": "detail",
-                            "imagePath": null
+                            "images": [
+                                {
+                                    "imagePath": "/logo192.png",
+                                    "imageDescription": "React logo"
+                                },
+                                {
+                                    "imagePath": "/wide.jpeg",
+                                    "imageDescription": "Širokoúhlý obrázek"
+                                },
+                            ]
                         }]
                     },
                     {
@@ -34,7 +43,7 @@ const pages = [
                         "textData": [{
                             "smallTitle": "",
                             "text": "activity",
-                            "imagePath": null
+                            "images": null
                         }]
                     }
                 ],
@@ -47,7 +56,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -57,7 +66,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -67,7 +76,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -77,7 +86,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             }
         ]
@@ -95,7 +104,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -105,7 +114,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -115,7 +124,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -125,7 +134,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             }
         ]
@@ -143,7 +152,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -153,7 +162,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -163,7 +172,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             }
         ]
@@ -181,7 +190,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -191,7 +200,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -201,7 +210,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -211,7 +220,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -221,7 +230,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -231,7 +240,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             }
         ]
@@ -249,7 +258,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -259,7 +268,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -269,7 +278,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             },
             {
@@ -279,7 +288,7 @@ const pages = [
                 "textData": [{
                     "smallTitle": "test",
                     "text": "textik",
-                    "imagePath": null
+                    "images": null
                 }]
             }
         ]

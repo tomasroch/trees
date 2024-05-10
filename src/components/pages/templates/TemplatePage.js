@@ -9,7 +9,17 @@ import Typography from '@mui/joy/Typography';
 import Breadcrumbs from '@mui/joy/Breadcrumbs';
 import Link from '@mui/joy/Link';
 import Card from '@mui/joy/Card';
-import {CssVarsProvider, iconButtonClasses, Tab, TabList, TabPanel, Tabs} from "@mui/joy";
+import {
+    AspectRatio,
+    CardContent,
+    CardOverflow,
+    CssVarsProvider, Divider,
+    iconButtonClasses,
+    Tab,
+    TabList,
+    TabPanel,
+    Tabs
+} from "@mui/joy";
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
@@ -107,7 +117,7 @@ export default function Tree({page, subpage}) {
                                 py: {xs: 2, md: 3},
                             }}
                         >
-                            <Card>
+                            <Card>          {/*multiple tabs page*/}
                                 {hasTabs ? (
                                     <Tabs>
                                         <TabList>
@@ -129,13 +139,29 @@ export default function Tree({page, subpage}) {
                                                             <Typography level="body-md">
                                                                 {textData.text}
                                                             </Typography>
+                                                            {textData.images !== null && textData.images.map(image => (
+                                                                <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
+                                                                    <CardOverflow>
+                                                                        <AspectRatio objectFit="contain" ratio="2">
+                                                                            <img
+                                                                                src={image.imagePath}
+                                                                                loading="lazy"
+                                                                                alt={image.imageDescription}
+                                                                            />
+                                                                        </AspectRatio>
+                                                                    </CardOverflow>
+                                                                    <CardContent>
+                                                                        <Typography level="body-sm">{image.imageDescription}</Typography>
+                                                                    </CardContent>
+                                                                </Card>
+                                                            ))}
                                                         </div>
                                                     ))}
                                                 </Box>
                                             </TabPanel>
                                         ))}
                                     </Tabs>
-                                ) : (
+                                ) : ( /*Only one tab - singlepage*/
                                     <Box sx={{mb: 1}}>
                                         {mainPage.textData.map(textData => (
                                             <div key={mainPage.path}>
@@ -145,12 +171,29 @@ export default function Tree({page, subpage}) {
                                                 <Typography level="body-md">
                                                     {textData.text}
                                                 </Typography>
+                                                {textData.images !== null && textData.images.map(image => (
+                                                    <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
+                                                        <CardOverflow>
+                                                            <AspectRatio objectFit="contain" ratio="2">
+                                                                <img
+                                                                    src={image.imagePath}
+                                                                    loading="lazy"
+                                                                    alt={image.imageDescription}
+                                                                />
+                                                            </AspectRatio>
+                                                        </CardOverflow>
+                                                        <CardContent>
+                                                            <Typography level="body-sm">{image.imageDescription}</Typography>
+                                                        </CardContent>
+                                                    </Card>
+                                                ))}
                                             </div>
                                         ))}
                                     </Box>
                                 )}
 
-
+                                {/* For both multipleTabPage and SinglePage*/}
+                                {/*TODO Dodělat Next and previous Page odkazy!*/}
                                 <Box
                                     className="Pagination-laptopUp"
                                     sx={{
