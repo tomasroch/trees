@@ -31,7 +31,7 @@ export default function HomePage() {
                     }}
                 >
                     <Typography level="h2" component="h1">
-                        HomePage
+                        Úvodní stránka
                     </Typography>
                 </Box>
             </Box>

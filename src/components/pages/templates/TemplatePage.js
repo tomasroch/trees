@@ -136,8 +136,9 @@ export default function Tree({page, subpage}) {
                                                                 <Typography
                                                                     level="title-lg">{textData.smallTitle}</Typography>
                                                             }
+                                                            {/*it is safe to use dangerouslySetInnerHTML because data are static!*/}
                                                             <Typography level="body-md">
-                                                                {textData.text}
+                                                                <article dangerouslySetInnerHTML={{ __html: textData.text }} />
                                                             </Typography>
                                                             {textData.images !== null && textData.images.map(image => (
                                                                 <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
@@ -169,7 +170,7 @@ export default function Tree({page, subpage}) {
                                                     <Typography level="title-lg">{textData.smallTitle}</Typography>
                                                 }
                                                 <Typography level="body-md">
-                                                    {textData.text}
+                                                    <article dangerouslySetInnerHTML={{ __html: textData.text }} />
                                                 </Typography>
                                                 {textData.images !== null && textData.images.map(image => (
                                                     <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
