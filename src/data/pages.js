@@ -1,74 +1,10 @@
 const pages = [
     {
-        "name": "Test jednostranka TEMP",
-        "path": "/jednostranka",
-        "textData": [
-            {
-                "smallTitle": "",
-                "text": "Jednostránka text",
-                "images": null
-            }
-        ],
-        "tabs": null,
-        "subpages": null
-    },
-    {
         "name": "Základní pojmy",
         "path": "/zakladni-pojmy",
         "textData": null,
         "tabs": null,
         "subpages": [
-            {
-                "name": "Tabs TEMP",
-                "path": "tabs",
-                "tabs": [
-                    {
-                        "name": "Detail",
-                        "textData": [
-                            {
-                                "smallTitle": "",
-                                "text": "detail",
-                                "images": [
-                                    {
-                                        "imagePath": "/logo192.png",
-                                        "imageDescription": "React logo"
-                                    },
-                                    {
-                                        "imagePath": "/wide.jpeg",
-                                        "imageDescription": "Širokoúhlý obrázek"
-                                    }
-                                ]
-                            },
-                            {
-                                "smallTitle": "",
-                                "text": "odstavec2?",
-                                "images": null
-                            },
-                            {
-                                "smallTitle": "",
-                                "text": "odstavec3?",
-                                "images": null
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Activity",
-                        "textData": [
-                            {
-                                "smallTitle": "",
-                                "text": "activity",
-                                "images": [
-                                    {
-                                        "imagePath": "/logo192.png",
-                                        "imageDescription": "React logo"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "textData": null
-            },
             {
                 "name": "Strom",
                 "path": "strom",
@@ -76,8 +12,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Strom se řadí mezi jedny ze základních struktur v přírodě i v oblasti matematiky. Stromy v přírodě vynikají svou rozmanitou a výrazně složitou strukturou. Naopak stromy v rámci teorie grafů představují prakticky nejjednodušší varianty grafů, ačkoliv analýza jejich vlast- ností poskytuje zajímavý výzkumný prostor. V kontextu teorie grafů je strom definován jako konečný graf, to znamená, že počet jeho vrcholů je konečný.<br><b>Strom je souvislý graf, neobsahující kružnici (acyklický souvislý graf)</b>. <br> Strom obsahující pouze jeden vrchol, nazýváme triviálním stromem. Strom, který obsahuje alespoň dva vrcholy, nazveme netriviálním stromem. TODO obrázek",
-                        "images": null
+                        "text": "Strom se řadí mezi jedny ze základních struktur v přírodě i v oblasti matematiky. Stromy v přírodě vynikají svou rozmanitou a výrazně složitou strukturou. Naopak stromy v rámci teorie grafů představují prakticky nejjednodušší varianty grafů, ačkoliv analýza jejich vlast- ností poskytuje zajímavý výzkumný prostor. V kontextu teorie grafů je strom definován jako konečný graf, to znamená, že počet jeho vrcholů je konečný.<br><b>Strom je souvislý graf, neobsahující kružnici (acyklický souvislý graf)</b>. <br> Strom obsahující pouze jeden vrchol, nazýváme triviálním stromem. Strom, který obsahuje alespoň dva vrcholy, nazveme netriviálním stromem.",
+                        "images": [
+                            {
+                                "imagePath": "/images/strom.jpeg",
+                                "imageDescription": "Příklad čtyř různých stromů",
+                                "aspectRatio": "4"
+                            }
+                        ]
                     }
                 ]
             },
@@ -88,8 +30,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Graf bez cyklů (acyklický graf) se nazývá les. Lze tedy les definovat jako nespojitý graf, jehož každá spojitá složka je strom. Les tedy může být i jeden souvislý strom bez cyklů nebo soubor izolovaných stromů. TODO obrázek",
-                        "images": null
+                        "text": "Graf bez cyklů (acyklický graf) se nazývá les. Lze tedy les definovat jako nespojitý graf, jehož každá spojitá složka je strom. Les tedy může být i jeden souvislý strom bez cyklů nebo soubor izolovaných stromů.",
+                        "images": [
+                            {
+                                "imagePath": "/images/les.jpeg",
+                                "imageDescription": "Dva stromy na obrázku představují příklad lesa",
+                                "aspectRatio": "2"
+                            }
+                        ]
                     }
                 ]
             },
@@ -100,8 +48,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Jedná se o vrchol (centrum) nebo dvojici sousedících vrcholů (bicentrum) tvořící střed stromu. Tento střed je tedy vrchol (nebo vrcholy) ze kterého je nejkratší maximální vzdálenost ke všem ostatním vrcholům ve stromě. Bicentrum, kdy dva vrcholy tvoří střed stromu obvykle nastane, když nejdelší cesta ve stromu má sudý počet vrcholů a střed tedy leží na hraně mezi dvěma vrcholy. Bicentrum lze předělat na centrum přidáním dalšího vrcholu mezi vrcholy tvořící bicentrum. TODO obrázek",
-                        "images": null
+                        "text": "Jedná se o vrchol (centrum) nebo dvojici sousedících vrcholů (bicentrum) tvořící střed stromu. Tento střed je tedy vrchol (nebo vrcholy) ze kterého je nejkratší maximální vzdálenost ke všem ostatním vrcholům ve stromě. Bicentrum, kdy dva vrcholy tvoří střed stromu obvykle nastane, když nejdelší cesta ve stromu má sudý počet vrcholů a střed tedy leží na hraně mezi dvěma vrcholy. Bicentrum lze předělat na centrum přidáním dalšího vrcholu mezi vrcholy tvořící bicentrum.",
+                        "images": [
+                            {
+                                "imagePath": "/images/centrum.jpeg",
+                                "imageDescription": "Nalevo je zobrazen vrchol tvořící centrum. Druhý obrázek znázorňuje hranu mezi dvěmi vrcholy tvořící bicentrum",
+                                "aspectRatio": "4"
+                            }
+                        ]
                     }
                 ]
             },
@@ -112,8 +66,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Centroid je vrchol, který rozděluje strom rovnovážně z hlediska počtu vrcholů. Je to vrchol, který když bude odstraněn rozdělí strom na dva a více stromů, kdy žádný z těchto stromů nemá více než polovinu vrcholů původního stromu. Centroid nemusí být zároveň centrem stromu. Analogicky bicentroid je definován jako dva sousedící vrcholy rozdělující strom na samostatné vyvážené stromy. TODO obrázek",
-                        "images": null
+                        "text": "Centroid je vrchol, který rozděluje strom rovnovážně z hlediska počtu vrcholů. Je to vrchol, který když bude odstraněn rozdělí strom na dva a více stromů, kdy žádný z těchto stromů nemá více než polovinu vrcholů původního stromu. Centroid nemusí být zároveň centrem stromu. Analogicky bicentroid je definován jako dva sousedící vrcholy rozdělující strom na samostatné vyvážené stromy.",
+                        "images": [
+                            {
+                                "imagePath": "/images/centroid.jpeg",
+                                "imageDescription": "Na obrázku je zobrazen vrchol, který je centroidem.",
+                                "aspectRatio": "2"
+                            }
+                        ]
                     }
                 ]
             }
@@ -132,8 +92,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Patří k užitečným a často používaným grafům. Je často využíván pro znázornění libovolné hierarchické struktury napříč různými obory.<br>Kořenový strom je definován tím, že vždy obsahuje jeden význačný vrchol, který se nazývá Kořen. Kořen je vrchol do kterého nevede žádná hrana. Do každého dalšího vrcholu v kořenovém stromě vede právě jedna hrana a každý tento vrchol je dostupný z kořenového vrcholu. Obvykle se kořenový strom kreslí do roviny, tak aby hrany vedly od shora dolů a byly znázorněny jednotlivé úrovně stromu a kořen je umístěn nahoře, ale není tento typ znázornění pravidlem . TODO obrázek",
-                        "images": null
+                        "text": "Patří k užitečným a často používaným grafům. Je často využíván pro znázornění libovolné hierarchické struktury napříč různými obory.<br>Kořenový strom je definován tím, že vždy obsahuje jeden význačný vrchol, který se nazývá Kořen. Kořen je vrchol do kterého nevede žádná hrana. Do každého dalšího vrcholu v kořenovém stromě vede právě jedna hrana a každý tento vrchol je dostupný z kořenového vrcholu. Obvykle se kořenový strom kreslí do roviny, tak aby hrany vedly od shora dolů a byly znázorněny jednotlivé úrovně stromu a kořen je umístěn nahoře, ale není tento typ znázornění pravidlem.",
+                        "images": [
+                            {
+                                "imagePath": "/images/korenove_stromy.jpeg",
+                                "imageDescription": "Obvykle vedou hrany od shora dolů jako u stromu vlevo, ale není to pravidlem.",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     }
                 ]
             },
@@ -161,8 +127,14 @@ const pages = [
                     },
                     {
                         "smallTitle": "Vrstva",
-                        "text": "Vrstva je množina všech vrcholů, které se nacházejí ve stejné hloubce, nikoliv výšce, protože ta se může vrcholy ve stejné hloubce lišit. Stane se tak v případě, když ve stejné vrstvě nejsou všechny listy. TODO přidat obrázek",
-                        "images": null
+                        "text": "Vrstva je množina všech vrcholů, které se nacházejí ve stejné hloubce, nikoliv výšce, protože ta se může vrcholy ve stejné hloubce lišit. Stane se tak v případě, když ve stejné vrstvě nejsou všechny listy.",
+                        "images": [
+                            {
+                                "imagePath": "/images/VHV.jpeg",
+                                "imageDescription": "Na obrázku je znázorněna hloubka každého vrcholu. Vrcholy ve stejné hloubce tvoří vrstvu",
+                                "aspectRatio": "2"
+                            }
+                        ]
                     }
                 ]
             },
@@ -193,8 +165,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Týká se rovnocennosti dvou obecných stromů. Isomorfismus stromů je koncept v teorii grafů, který se týká rovnocennosti dvou stromů. Stromy se považují za isomorfní, pokud existuje jeden k jednomu korespondence mezi jejich uzly tak, že struktura těchto stromů je zachována. To znamená, že pokud se dva stromy dají přetvořit tak, že se stane identickými pouhým přeuspořádáním uzlů (aniž by se měnila jejich vazba), pak jsou tyto stromy isomorfní. Jedná se o obecné typy stromů bez určeného kořene nebo specifického uspořádání potomků. Problém zjištění, zda jsou dva stromy isomorfní, má praktické aplikace v informatice, například v porovnávání syntaktických stromů v kompilátorech. TODO TADY DAT OBRAZEK",
-                        "images": null
+                        "text": "Týká se rovnocennosti dvou obecných stromů. Isomorfismus stromů je koncept v teorii grafů, který se týká rovnocennosti dvou stromů. Stromy se považují za isomorfní, pokud existuje jeden k jednomu korespondence mezi jejich uzly tak, že struktura těchto stromů je zachována. To znamená, že pokud se dva stromy dají přetvořit tak, že se stane identickými pouhým přeuspořádáním uzlů (aniž by se měnila jejich vazba), pak jsou tyto stromy isomorfní. Jedná se o obecné typy stromů bez určeného kořene nebo specifického uspořádání potomků. Problém zjištění, zda jsou dva stromy isomorfní, má praktické aplikace v informatice, například v porovnávání syntaktických stromů v kompilátorech.",
+                        "images": [
+                            {
+                                "imagePath": "/images/isom.jpeg",
+                                "imageDescription": "Příklad dvou obecných isomorfních stromů",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     },
                     {
                         "smallTitle": "",
@@ -210,8 +188,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Isomorfismus kořenových stromů přidává požadavek, že oba stromy musí mít specifikovaný kořen. Kořen jednoho stromu musí být zobrazen na kořen druhého stromu, tak aby byla zachována kořenová hierarchie  a struktura spojení vrcholů. TODO tady bude obrázek",
-                        "images": null
+                        "text": "Isomorfismus kořenových stromů přidává požadavek, že oba stromy musí mít specifikovaný kořen. Kořen jednoho stromu musí být zobrazen na kořen druhého stromu, tak aby byla zachována kořenová hierarchie  a struktura spojení vrcholů.",
+                        "images": [
+                            {
+                                "imagePath": "/images/isom_koren.jpeg",
+                                "imageDescription": "Příklad isomorfismu kořenových stromů, uspořádání potomků lze zaměnit",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     }
                 ]
             },
@@ -223,7 +207,13 @@ const pages = [
                     {
                         "smallTitle": "",
                         "text": "Označován také jako isomorfismus pěstovaných stromů. Jedná se o nejstriktnější z výše popsaných isomorfismů stromů. Krom zachování kořene a struktury spojení vrcholů musí být také zachováno přesné uspořádání potomků každého vrcholu. Tedy při rovinném zobrazení musí být zohledněno i pořadí jednotlivých potomků",
-                        "images": null
+                        "images": [
+                            {
+                                "imagePath": "/images/isom_usp_koren.jpeg",
+                                "imageDescription": "Z pohledu uspořádaných kořenových stromů nejsou stromy na obrázku totožné, protože uspořádání potomků musí být identické",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     }
                 ]
             }
@@ -247,8 +237,14 @@ const pages = [
                     },
                     {
                         "smallTitle": "Konverze obecného stromu na binární",
-                        "text": "Tato technika se skládá z následujících dvou kroků.<ol><li>Vložení nových hran, které spojí všechny sourozenecké vrcholy.</li><li>pojeným sourozeneckým vrcholům zároveň odebereme všechny hrany, které do nich vedou od jejich rodiče kromě jediné – hrana nacházející se nejvíce vlevo zůstane.</li>\n</ol>Volitelném krokem je natočení celého grafu o 45° pro lepší znázornění pravého a levého podstromu. TODO PRIDAT OBRAZEK",
-                        "images": null
+                        "text": "Tato technika se skládá z následujících dvou kroků.<ol><li>Vložení nových hran, které spojí všechny sourozenecké vrcholy.</li><li>pojeným sourozeneckým vrcholům zároveň odebereme všechny hrany, které do nich vedou od jejich rodiče kromě jediné – hrana nacházející se nejvíce vlevo zůstane.</li>\n</ol>Volitelném krokem je natočení celého grafu o 45° pro lepší znázornění pravého a levého podstromu.",
+                        "images": [
+                            {
+                                "imagePath": "/images/bin.jpeg",
+                                "imageDescription": "Převod obecného stromu (vlevo) na binární",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     }
                 ]
             },
@@ -259,8 +255,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Binární vyhledávací strom (BVS) v angličtině Binary Search Tree (BST) je typ binárního stromu. Je speciálně upraven pro účely efektivního vyhledávání, vkládání a mazání vrcholů. Každý vrchol uchovává hodnotu (klíč). V levém podstromu jsou všechny hodnoty menší než v rodičovském vrcholu a pravém podstromu naopak všechny hodnoty větší. Toto pravidlo platí pro všechny vrcholy stromu. Zároveň tato vlastnost umožňuje jednoduché a rychlé vyhledávání.<br>Z tohoto důvodu jsou BVS ve velké míře používány v informatice. Tvoří důležité datové struktury. Slouží pro ukládání prvků, které jsou seřazeny podle svého identifikátoru (klíče), aby poté mohly být rychle vyhledány. Vyhledání hodnoty trvá průměrně logaritmický čas O(log n) za předpokladu, že je BVS správně vyvážený. Čím méně je balancovaný a bude se podobat více seznamu, tím více se bude vyhledávání blížit lineární časové složitosti O(n). Proto je velmi důležité udržovat strom vyvážený a tomu přizpůsobit mazání a vkládání dalších hodnot, které by měly udržovat strom stále vyvážený. TODO DOPLNIT obrázek",
-                        "images": null
+                        "text": "Binární vyhledávací strom (BVS) v angličtině Binary Search Tree (BST) je typ binárního stromu. Je speciálně upraven pro účely efektivního vyhledávání, vkládání a mazání vrcholů. Každý vrchol uchovává hodnotu (klíč). V levém podstromu jsou všechny hodnoty menší než v rodičovském vrcholu a pravém podstromu naopak všechny hodnoty větší. Toto pravidlo platí pro všechny vrcholy stromu. Zároveň tato vlastnost umožňuje jednoduché a rychlé vyhledávání.<br>Z tohoto důvodu jsou BVS ve velké míře používány v informatice. Tvoří důležité datové struktury. Slouží pro ukládání prvků, které jsou seřazeny podle svého identifikátoru (klíče), aby poté mohly být rychle vyhledány. Vyhledání hodnoty trvá průměrně logaritmický čas O(log n) za předpokladu, že je BVS správně vyvážený. Čím méně je balancovaný a bude se podobat více seznamu, tím více se bude vyhledávání blížit lineární časové složitosti O(n). Proto je velmi důležité udržovat strom vyvážený a tomu přizpůsobit mazání a vkládání dalších hodnot, které by měly udržovat strom stále vyvážený.",
+                        "images": [
+                            {
+                                "imagePath": "/images/bvs.jpeg",
+                                "imageDescription": "Příklad nevyváženého BVS (vlevo) a vyváženého BVS",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     },
                     {
                         "smallTitle": "Operace nad BVS",
@@ -315,8 +317,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Označovaná také jako binární halda. Je datová struktura pole, kterou lze zobrazit jako kompletní binární strom. To znamená, že halda je binární strom, kde jsou všechny vrstvy zaplněny vrcholy s výjimkou poslední vrstvy, která nemusí být zaplněna celá. Pokud tomu, tak není je postupně zaplněna zleva, aby nevzniklo mezi vrcholy volné místo. Binární halda se dělí na dva následující typy.<ul><li><b>Max-halda</b> – Pro každý prvek s výjimkou kořene platí, že hodnota klíče rodiče je větší nebo rovna hodnotě klíče potomka. Maximální hodnota je tedy uložena v kořenu.</li><li><b>Min-halda</b> – Analogicky pro každý prvek s výjimkou kořene platí, že hodnota klíče rodiče je menší nebo rovna hodnotě klíče potomka. Minimální hodnota je uložena v kořenu.</ul></li> TODO TADY PRIDAT OBRAZEK",
-                        "images": null
+                        "text": "Označovaná také jako binární halda. Je datová struktura pole, kterou lze zobrazit jako kompletní binární strom. To znamená, že halda je binární strom, kde jsou všechny vrstvy zaplněny vrcholy s výjimkou poslední vrstvy, která nemusí být zaplněna celá. Pokud tomu, tak není je postupně zaplněna zleva, aby nevzniklo mezi vrcholy volné místo. Binární halda se dělí na dva následující typy.<ul><li><b>Max-halda</b> – Pro každý prvek s výjimkou kořene platí, že hodnota klíče rodiče je větší nebo rovna hodnotě klíče potomka. Maximální hodnota je tedy uložena v kořenu.</li><li><b>Min-halda</b> – Analogicky pro každý prvek s výjimkou kořene platí, že hodnota klíče rodiče je menší nebo rovna hodnotě klíče potomka. Minimální hodnota je uložena v kořenu.</ul></li>",
+                        "images": [
+                            {
+                                "imagePath": "/images/halda.jpeg",
+                                "imageDescription": "Příklad min-haldy (vlevo) a max-haldy",
+                                "aspectRatio": "3"
+                            }
+                        ]
                     },
                     {
                         "smallTitle": "",
@@ -382,8 +390,14 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Kostra grafu je strom daného spojitého grafu, který zahrnuje všechny vrcholy původního grafu. Pro spojitý graf s N vrcholy má kostra vždy N - 1 hran.<br>Problém minimální kostry z anglického MST je úloha nalezení takové kostry v grafu, jejíž součet vah (každá hrana je ohodnocena) všech hran v kostře je minimální ze všech možných koster grafu. Tento problém je aplikovatelný na mnoho reálných situací jako je projektování a optimalizace všech typů sítí například telekomunikační, elektrické, silniční, železniční a další. TODO SEM PRIDAT OBRAZEK",
-                        "images": null
+                        "text": "Kostra grafu je strom daného spojitého grafu, který zahrnuje všechny vrcholy původního grafu. Pro spojitý graf s N vrcholy má kostra vždy N - 1 hran.<br>Problém minimální kostry z anglického MST je úloha nalezení takové kostry v grafu, jejíž součet vah (každá hrana je ohodnocena) všech hran v kostře je minimální ze všech možných koster grafu. Tento problém je aplikovatelný na mnoho reálných situací jako je projektování a optimalizace všech typů sítí například telekomunikační, elektrické, silniční, železniční a další.",
+                        "images": [
+                            {
+                                "imagePath": "/images/min_kostra.jpeg",
+                                "imageDescription": "Zelené hrany znázorňují minimální kostru grafu",
+                                "aspectRatio": "2"
+                            }
+                        ]
                     }
                 ]
             },

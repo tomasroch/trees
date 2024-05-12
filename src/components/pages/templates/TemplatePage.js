@@ -13,7 +13,7 @@ import {
     AspectRatio,
     CardContent,
     CardOverflow,
-    CssVarsProvider, Divider,
+    CssVarsProvider,
     iconButtonClasses,
     Tab,
     TabList,
@@ -122,16 +122,16 @@ export default function Tree({page, subpage}) {
                                     <Tabs>
                                         <TabList>
                                             {mainPage.tabs.map(tab => (
-                                                <Tab sx={{flexGrow: 1}}>
+                                                <Tab key={tab.name} sx={{flexGrow: 1}}>
                                                     <Typography level="title-sm">{tab.name}</Typography>
                                                 </Tab>
                                             ))}
                                         </TabList>           {/*MAP INDEX -> iteration number*/}
                                         {mainPage.tabs.map((tab, index) => (
-                                            <TabPanel value={index} sx={{p: 0}}>
+                                            <TabPanel key={tab.name} value={index} sx={{p: 0}}>
                                                 <Box sx={{mb: 1}}>
-                                                    {tab.textData.map(textData => (
-                                                        <div key={mainPage.path}>
+                                                    {tab.textData.map((textData, index) => (
+                                                        <div key={index}>
                                                             {textData.smallTitle !== null &&
                                                                 <Typography
                                                                     level="title-lg">{textData.smallTitle}</Typography>
@@ -141,9 +141,17 @@ export default function Tree({page, subpage}) {
                                                                 <article dangerouslySetInnerHTML={{ __html: textData.text }} />
                                                             </Typography>
                                                             {textData.images !== null && textData.images.map(image => (
-                                                                <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
+                                                                // <Box display="flex" justifyContent="center" alignItems="center">
+                                                                //     minWidth:{
+                                                                //     xs: '100%',   // Minimální šířka na velmi malých zařízeních (mobilní telefony)
+                                                                //     sm: '100%',   // Minimální šířka na malých zařízeních (tablety)
+                                                                //     md: '100%',   // Minimální šířka na středních zařízeních (malé desktopy)
+                                                                //     lg: '50%',   // Minimální šířka na velkých zařízeních (velké desktopy)
+                                                                //     xl: '50%'    // Minimální šířka na extra velkých zařízeních (velké monitory)
+                                                                // } ,
+                                                                <Card key={image.imagePath} variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
                                                                     <CardOverflow>
-                                                                        <AspectRatio objectFit="contain" ratio="2">
+                                                                        <AspectRatio objectFit="contain" ratio={image.aspectRatio}>
                                                                             <img
                                                                                 src={image.imagePath}
                                                                                 loading="lazy"
@@ -155,6 +163,7 @@ export default function Tree({page, subpage}) {
                                                                         <Typography level="body-sm">{image.imageDescription}</Typography>
                                                                     </CardContent>
                                                                 </Card>
+                                                                // </Box>
                                                             ))}
                                                         </div>
                                                     ))}
@@ -170,12 +179,12 @@ export default function Tree({page, subpage}) {
                                                     <Typography level="title-lg">{textData.smallTitle}</Typography>
                                                 }
                                                 <Typography level="body-md">
-                                                    <article dangerouslySetInnerHTML={{ __html: textData.text }} />
+                                                    <span dangerouslySetInnerHTML={{ __html: textData.text }} />
                                                 </Typography>
                                                 {textData.images !== null && textData.images.map(image => (
                                                     <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
                                                         <CardOverflow>
-                                                            <AspectRatio objectFit="contain" ratio="2">
+                                                            <AspectRatio objectFit="contain" ratio={image.aspectRatio}>
                                                                 <img
                                                                     src={image.imagePath}
                                                                     loading="lazy"
