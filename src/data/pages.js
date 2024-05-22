@@ -216,6 +216,47 @@ const pages = [
                         ]
                     }
                 ]
+            },
+            {
+                "name": "Kódování stromů",
+                "path": "kodovani-stromu",
+                "tabs": null,
+                "textData": [
+                    {
+                        "smallTitle": "",
+                        "text": "Každý uspořádaný kořenový strom lze jednoznačně identifikovat jednoduchým řetězcem, který se skládá ze svou symbolů a to jsou nuly a jedničky. Takový řetězec na první pohled vypadá jako binární kód, a proto je také občas nazýván „binární kód stromu“. Nuly a jedničky lze nahradit libovolnými dvěma symboly a na principu kódování to nic nezmění.<br>Kódování stromu probíhá rekurzivně od listů až ke kořeni. Každý vrchol je uzavřený pár nuly a jedničky. Nejprve se tedy označí všechny listy jako „01“ a poté se postupuje po předchůdcích. Každý vrchol začne nulou a poté se přidají kódy všech následníků zleva doprava a nakonec se uzavře kódování vrcholu jedničkou. Takto se postupuje až ke kořeni, kde vznikne výsledný kód stromu. Rovnost výsledného řetězce s řetězcem jiného stromu potvrzuje, že stromy jsou isomorfní jako uspořádané kořenové stromy.",
+                        "images": [
+                            {
+                                "imagePath": "/images/kod_stromu.jpeg",
+                                "imageDescription": "Zakódovaný strom",
+                                "aspectRatio": "2"
+                            }
+                        ]
+                    },
+                    {
+                        "smallTitle": "",
+                        "text": "Pokud již existuje řetězec daného stromu, lze z něj opět sestavit strom (dekódovat) následujícím postupem.<ul><li>S prvním znakem nuly se vytvoří kořen a to bude aktuální vrchol.</li><li>Každá další nula znamená novou hranu z aktuálního vrcholu a vytvoření vrcholu následníka. Tento vrchol následníka se stává aktuálním vrcholem.</li><li>Každý znak jedničky znamená, že se předchůdce aktuálního vrcholu stane aktuálním vrcholem.</li></ul> Alternativním postupem je použít šipkovou metodu.",
+                        "images": null
+                    }
+                ]
+            },
+            {
+                "name": "Minimální kód stromu",
+                "path": "minimalni-kod-stromu",
+                "tabs": null,
+                "textData": [
+                    {
+                        "smallTitle": "",
+                        "text": "Kódování stromu lze využít pro potvrzení isomorfismu stromů pouze u uspořádaných kořenových stromů, protože u kořenových stromů a obecných stromů se může lišit pořadí potomků jednotlivých vrcholů. Právě proto vznikla modifikace, která se nazývá „minimální kód stromu“.<br>Minimální kód stromu je modifikace kódování stromu, kde je slovníkové uspořádání (také nazýváno „lexikografické uspořádání“) potomků vrcholů. Minimální kód stromu, tak může určit isomorfismus i kořenových a obecných stromů. Platí zde stejné pravidlo jako u kódování stromu. Pokud se řetězce minimálního kódu dvou stromů rovnají, tak jsou tyto dva stromy isomorfní.<br>Jediný rozdíl při tvorbě minimálního kódu stromu je ten, že každý vrchol s následníky nemá kódy následníků seřazené zleva doprava, ale musí mít slovníkové uspořádání. Uspořádání probíhá tak, že se porovnávají nuly a jedničky v kódech následníků znak po znaku zleva doprava. Jakmile jsou tedy na stejné pozici různé znaky (tedy nula a jednička) řetězec s jedničkou půjde nakonec, protože ta je větší než nula. Pokud je jeden řetězec kratší a celý je identický s částí druhého řetězce znamená to, že je menší a půjde dopředu, protože v druhém delším řetězci musí být minimálně ještě jedna jednička. Pokud jsou řetězce identické i délkou, tak na pořadí nezáleží.",
+                        "images": [
+                            {
+                                "imagePath": "/images/minimalni_kod.jpeg",
+                                "imageDescription": "Minimální kód stromu",
+                                "aspectRatio": "2"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
