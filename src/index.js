@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import App from './components/pages/templates/App';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
-import TreeTabs from "./components/pages/templates/TemplateTabs";
+import TreeTabs from "./components/pages/templates/TEMPlateTabs";
 import TemplatePage from "./components/pages/templates/TemplatePage"
 import pages from "./data/pages";
 

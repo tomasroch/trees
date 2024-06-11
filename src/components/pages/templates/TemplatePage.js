@@ -25,8 +25,7 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import ForestIcon from "@mui/icons-material/Forest";
 
-
-export default function Tree({page, subpage}) {
+export default function TemplatePage({page, subpage}) {
     const isSinglePage = page.subpages === null;
     const mainPage = isSinglePage ? page : subpage;
     const hasTabs = mainPage.tabs !== null;
@@ -126,7 +125,7 @@ export default function Tree({page, subpage}) {
                                                     <Typography level="title-sm">{tab.name}</Typography>
                                                 </Tab>
                                             ))}
-                                        </TabList>           {/*MAP INDEX -> iteration number*/}
+                                        </TabList> {/*MAP INDEX -> iteration number*/}
                                         {mainPage.tabs.map((tab, index) => (
                                             <TabPanel key={tab.name} value={index} sx={{p: 0}}>
                                                 <Box sx={{mb: 1}}>
@@ -138,7 +137,8 @@ export default function Tree({page, subpage}) {
                                                             }
                                                             {/*it is safe to use dangerouslySetInnerHTML because data are static!*/}
                                                             <Typography level="body-md">
-                                                                <article dangerouslySetInnerHTML={{ __html: textData.text }} />
+                                                                <article
+                                                                    dangerouslySetInnerHTML={{__html: textData.text}}/>
                                                             </Typography>
                                                             {textData.images !== null && textData.images.map(image => (
                                                                 // <Box display="flex" justifyContent="center" alignItems="center">
@@ -149,9 +149,11 @@ export default function Tree({page, subpage}) {
                                                                 //     lg: '50%',   // Minimální šířka na velkých zařízeních (velké desktopy)
                                                                 //     xl: '50%'    // Minimální šířka na extra velkých zařízeních (velké monitory)
                                                                 // } ,
-                                                                <Card key={image.imagePath} variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
+                                                                <Card key={image.imagePath} variant="outlined"
+                                                                      sx={{maxWidth: 1000, mb: 1}}>
                                                                     <CardOverflow>
-                                                                        <AspectRatio objectFit="contain" ratio={image.aspectRatio}>
+                                                                        <AspectRatio objectFit="contain"
+                                                                                     ratio={image.aspectRatio}>
                                                                             <img
                                                                                 src={image.imagePath}
                                                                                 loading="lazy"
@@ -160,7 +162,8 @@ export default function Tree({page, subpage}) {
                                                                         </AspectRatio>
                                                                     </CardOverflow>
                                                                     <CardContent>
-                                                                        <Typography level="body-sm">{image.imageDescription}</Typography>
+                                                                        <Typography
+                                                                            level="body-sm">{image.imageDescription}</Typography>
                                                                     </CardContent>
                                                                 </Card>
                                                                 // </Box>
@@ -179,10 +182,11 @@ export default function Tree({page, subpage}) {
                                                     <Typography level="title-lg">{textData.smallTitle}</Typography>
                                                 }
                                                 <Typography level="body-md">
-                                                    <span dangerouslySetInnerHTML={{ __html: textData.text }} />
+                                                    <span dangerouslySetInnerHTML={{__html: textData.text}}/>
                                                 </Typography>
                                                 {textData.images !== null && textData.images.map(image => (
-                                                    <Card variant="outlined" sx={{ maxWidth: 1000, mb:1 }}>
+                                                    <Card key={mainPage.path} variant="outlined"
+                                                          sx={{maxWidth: 1000, mb: 1}}>
                                                         <CardOverflow>
                                                             <AspectRatio objectFit="contain" ratio={image.aspectRatio}>
                                                                 <img
@@ -193,7 +197,8 @@ export default function Tree({page, subpage}) {
                                                             </AspectRatio>
                                                         </CardOverflow>
                                                         <CardContent>
-                                                            <Typography level="body-sm">{image.imageDescription}</Typography>
+                                                            <Typography
+                                                                level="body-sm">{image.imageDescription}</Typography>
                                                         </CardContent>
                                                     </Card>
                                                 ))}
