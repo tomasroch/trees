@@ -5,6 +5,12 @@ import DarkModeRoundedIcon from '@mui/icons-material/DarkModeRounded';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import {IconButton} from "@mui/joy";
 
+function invertImages(value){
+    var img = document.getElementsByTagName("img");
+    var imgList = Array.prototype.slice.call(img);
+    imgList.forEach(image => image.style.filter="invert("+value+")");
+}
+
 export default function ColorSchemeToggle(props) {
     const {onClick, sx, ...other} = props;
     const {mode, setMode} = useColorScheme();
@@ -34,8 +40,10 @@ export default function ColorSchemeToggle(props) {
             onClick={(event) => {
                 if (mode === 'light') {
                     setMode('dark');
+                    invertImages(1);
                 } else {
                     setMode('light');
+                    invertImages(0);
                 }
                 onClick?.(event);
             }}
