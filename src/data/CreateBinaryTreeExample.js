@@ -4,7 +4,7 @@ export const exampleNodes = [
     {
         id: '1',
         position: {x: -32, y: 0},
-        data: {result: '18', width:width, placeHolder: ""},
+        data: {result: '25', width:width, placeHolder: ""},
         hidden: false,
         type:'minimalCodeNode'
     },
@@ -34,7 +34,7 @@ export const exampleNodes = [
     {
         id: '5',
         position: {x: -160, y: 140},
-        data: {result: '5', width:width, placeHolder: ""},
+        data: {result: '18', width:width, placeHolder: ""},
         hidden: false,
         type:'minimalCodeNode'
     },
@@ -70,14 +70,14 @@ export const exampleNodes = [
     {
         id: '10',
         position: {x: -224, y: 210},
-        data: {result: '4', width:width, placeHolder: ""},
+        data: {result: '5', width:width, placeHolder: ""},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '11',
         position: {x: -96, y: 210},
-        data: {result: '14', width:width, placeHolder: ""},
+        data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
         type:'minimalCodeNode'
     },
@@ -141,14 +141,14 @@ export const exampleNodes = [
     {
         id: '20',
         position: {x: -256, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '4', width:width, placeHolder: ""},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '21',
         position: {x: -192, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '14', width:width, placeHolder: ""},
         hidden: false,
         type:'minimalCodeNode'
     },

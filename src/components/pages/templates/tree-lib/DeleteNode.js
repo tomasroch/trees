@@ -27,6 +27,23 @@ export default memo(({ data, id }) => {
         console.log("id: " + id)
         setNodes((nds) =>
             nds.map((node) => {
+                if (id ==='1' && node.id ==='1'){ // pokud klikneme na nápovědu u kořene zobrazíme první variantu
+                    console.log(node)
+                    node.data.result = node.data.newResult[0].value
+                    node.data.newResult[0].nodesNewResult.map(newResult => {
+                        setNodes((nds) =>
+                            nds.map((node) => {
+                                if (node.id === newResult.id){
+                                    node.data.newResult = [{value:newResult.result, nodesNewResult:[]}]
+                                    console.log(node.data.newResult)
+                                    console.log(node)
+                                }
+                                console.log(node)
+                                return node;
+                            })
+                        );
+                    })
+                }
                 if (node.id === '1'){
                     //node.data.result = data.newResult[0];
                     console.log(node)

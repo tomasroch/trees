@@ -55,7 +55,7 @@ export const exampleNodes = [
     {
         id: '6',
         position: {x: 96, y: 140},
-        data: {result: '30', nodesNewResult:[], width:width, placeHolder: ""},
+        data: {result: '30', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
