@@ -10,7 +10,7 @@ export const exampleNodes = [
     },
     //2. rada
     {
-        id: '2a',
+        id: '2',
         position: {x: -292, y: 70},
         data: {result: '4', width:width, placeHolder: ""},
         hidden: false,
@@ -240,9 +240,9 @@ export const exampleNodes = [
 
 export const exampleEdges = [
     {
-        id: '1-2a',
+        id: '1-2',
         source: '1',
-        target: '2a',
+        target: '2',
         hidden: false,
         animated: true,
         type: ''
@@ -256,16 +256,16 @@ export const exampleEdges = [
         type: ''
     },
     {
-        id: '222-4',
-        source: '2a',
+        id: '2-4',
+        source: '2',
         target: '4',
         hidden: false,
         animated: true,
         type: ''
     },
     {
-        id: '2a-5',
-        source: '2a',
+        id: '2-5',
+        source: '2',
         target: '5',
         hidden: false,
         animated: true,
