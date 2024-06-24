@@ -38,7 +38,7 @@ export default function CommonNode({ data, id })  {
 
     return (
         <>
-            <Input inputProps={{ style: { textAlign: 'center'}}} sx={{width: data.width}}
+            <Input sx={{width: data.width}}
                    size="sm" placeholder={data.placeHolder} color={color} onChange={handleOnChange} value={inputData}
                    endDecorator={icon}
             />
