@@ -4,7 +4,7 @@ export const exampleNodes = [
     {
         id: '1',
         position: {x: 0, y: 0},
-        data: {result: false, source: true, sourcePosition: "BOTTOM", target: true, targetPosition: "RIGHT", width:width},
+        data: {result: true, source: true, sourcePosition: "BOTTOM", target: true, targetPosition: "RIGHT", width:width},
         hidden: false,
         type:'centeringNode'
     },
@@ -32,7 +32,7 @@ export const exampleNodes = [
     {
         id: '5',
         position: {x: 200, y: 0},
-        data: {result: true, source: true, sourcePosition: "LEFT", target: true, targetPosition: "RIGHT", width:width},
+        data: {result: false, source: true, sourcePosition: "LEFT", target: true, targetPosition: "RIGHT", width:width},
         hidden: false,
         type:'centeringNode'
     },
