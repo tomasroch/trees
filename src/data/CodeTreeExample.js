@@ -4,7 +4,7 @@ export const exampleNodes = [
         position: {x: -50, y: 0},
         data: {result: '0000101101101000101111', width:250, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     //2. rada
     {
@@ -12,21 +12,21 @@ export const exampleNodes = [
         position: {x: -150, y: 100},
         data: {result: '0001011011', width:150, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '3',
         position: {x: 0, y: 100},
         data: {result: '01', width:150, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '4',
         position: {x: 150, y: 100},
         data: {result: '00010111', width:150, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     // 3. rada
     {
@@ -34,21 +34,21 @@ export const exampleNodes = [
         position: {x: -200, y: 200},
         data: {result: '001011', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '6',
         position: {x: -50, y: 200},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '7',
         position: {x: 175, y: 200},
         data: {result: '001011', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     //4. rada
     {
@@ -56,28 +56,28 @@ export const exampleNodes = [
         position: {x: -250, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '9',
         position: {x: -150, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '10',
         position: {x: 125, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '11',
         position: {x: 225, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
 ]
 

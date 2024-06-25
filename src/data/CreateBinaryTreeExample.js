@@ -6,7 +6,7 @@ export const exampleNodes = [
         position: {x: -32, y: 0},
         data: {result: '25', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     //2. rada
     {
@@ -14,14 +14,14 @@ export const exampleNodes = [
         position: {x: -292, y: 70},
         data: {result: '1', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '3',
         position: {x: 228, y: 70},
         data: {result: '31', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     // 3. rada
     {
@@ -29,28 +29,28 @@ export const exampleNodes = [
         position: {x: -416, y: 140},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '5',
         position: {x: -160, y: 140},
         data: {result: '18', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '6',
         position: {x: 96, y: 140},
         data: {result: '30', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '7',
         position: {x: 352, y: 140},
         data: {result: '31', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     // 4. rada
     {
@@ -58,56 +58,56 @@ export const exampleNodes = [
         position: {x: -480, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '9',
         position: {x: -352, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '10',
         position: {x: -224, y: 210},
         data: {result: '5', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '11',
         position: {x: -96, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '12',
         position: {x: 32, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '13',
         position: {x: 160, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '14',
         position: {x: 288, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '15',
         position: {x: 416, y: 210},
         data: {result: '40', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     //5. rada
     {
@@ -115,126 +115,126 @@ export const exampleNodes = [
         position: {x: -512, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '17',
         position: {x: -448, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '18',
         position: {x: -384, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '19',
         position: {x: -320, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '20',
         position: {x: -256, y: 280},
         data: {result: '4', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '21',
         position: {x: -192, y: 280},
         data: {result: '14', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '22',
         position: {x: -128, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '23',
         position: {x: -64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '24',
         position: {x: -128, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '25',
         position: {x: -64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '26',
         position: {x: 0, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '27',
         position: {x: 64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '28',
         position: {x: 128, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '29',
         position: {x: 192, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '30',
         position: {x: 256, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '31',
         position: {x: 320, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '32',
         position: {x: 384, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
     {
         id: '33',
         position: {x: 448, y: 280},
         data: {result: '60', width:width, placeHolder: ""},
         hidden: false,
-        type:'minimalCodeNode'
+        type:'commonNode'
     },
 ]
 
