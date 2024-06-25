@@ -6,7 +6,6 @@ import Stack from "@mui/joy/Stack";
 
 //TODO odmazat console.log ale všude !
 //TODO odmazat unused importy ale taky všude!
-
 export default memo(({data, id}) => {
     const {setNodes} = useReactFlow();
 
@@ -30,6 +29,8 @@ export default memo(({data, id}) => {
             array = data.inOrder
         else if (selectValue === "PostOrder")
             array = data.postOrder
+        else if (selectValue === "LevelOrder")
+            array = data.levelOrder
         return array;
     }
 
@@ -102,6 +103,7 @@ export default memo(({data, id}) => {
                     <Option value="PreOrder">PreOrder</Option>
                     <Option value="InOrder">InOrder</Option>
                     <Option value="PostOrder">PostOrder</Option>
+                    <Option value="LevelOrder">LevelOrder</Option>
                 </Select>
                 <Box direction="row">
                     <Button onClick={() =>handleClickBack()} startDecorator={<ArrowBackIos />} type="submit"></Button>

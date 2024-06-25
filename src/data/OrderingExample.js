@@ -8,6 +8,7 @@ export const exampleNodes = [
             preOrder: [22, 5, 2, 11, 7, 14, 30, 25, 33, 38, 60],
             inOrder: [2, 5, 7, 11, 14, 22, 25, 30, 33, 38, 60],
             postOrder: [2, 7, 14, 11, 5, 25, 60, 38, 33, 30, 22],
+            levelOrder: [22, 5, 30, 2, 11, 25, 33, 7, 14, 38, 60],
         },
         hidden: false,
         type:'orderingButtonNode'
