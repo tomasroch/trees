@@ -33,7 +33,7 @@ export default memo(({ data, id }) => {
     //TODO jestli bude border v inputu solid nebo ne , border: '3px solid' TODO smazat input props asi a pak i všude najít a smazat
     return (
         <>
-            <Input sx={{width: data.width}}
+            <Input sx={{width: data.width, border: '3px solid'}}
                    size="sm" placeholder={data.placeHolder} color={color} value={result}
             />
             <Handle type="target" position={Position.Top}/>
