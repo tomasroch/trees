@@ -5,6 +5,7 @@ import {CheckCircle, Visibility} from "@mui/icons-material";
 
 //TODO odmazat console.log ale všude !
 //TODO odmazat unused importy ale taky všude!
+// TODO tady to chce brutální refaktor ještě
 export default memo(({ data, id }) => {
     const { setNodes } = useReactFlow();
 
@@ -93,18 +94,6 @@ export default memo(({ data, id }) => {
             })
         );
 
-        if (result === inputData){
-            setColor("success")
-            setIcon(<CheckCircle style={{ color: 'green' }} />)
-        }
-        else if (inputData === ""){
-            setColor("primary")
-            setIcon(<Visibility onClick={handleIconChange} color="outlined" />)
-        }
-        else{
-            setColor("danger")
-            setIcon(<Visibility onClick={handleIconChange} color="outlined" />)
-        }
 
         console.log("result="+result)
         console.log("result="+data)

@@ -41,7 +41,7 @@ export const exampleNodes = [
     {
         id: '4',
         position: {x: -416, y: 140},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
@@ -70,14 +70,14 @@ export const exampleNodes = [
     {
         id: '8',
         position: {x: -480, y: 210},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '9',
         position: {x: -352, y: 210},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
@@ -91,28 +91,28 @@ export const exampleNodes = [
     {
         id: '11',
         position: {x: -96, y: 210},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '12',
         position: {x: 32, y: 210},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '13',
         position: {x: 160, y: 210},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '14',
         position: {x: 288, y: 210},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
@@ -127,28 +127,28 @@ export const exampleNodes = [
     {
         id: '16',
         position: {x: -512, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '17',
         position: {x: -448, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '18',
         position: {x: -384, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '19',
         position: {x: -320, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
@@ -169,77 +169,77 @@ export const exampleNodes = [
     {
         id: '22',
         position: {x: -128, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '23',
         position: {x: -64, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '24',
         position: {x: -128, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '25',
         position: {x: -64, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '26',
         position: {x: 0, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '27',
         position: {x: 64, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '28',
         position: {x: 128, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '29',
         position: {x: 192, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '30',
         position: {x: 256, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '31',
         position: {x: 320, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
     {
         id: '32',
         position: {x: 384, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
