@@ -1,4 +1,4 @@
-import React, {memo, useEffect, useState} from 'react';
+import React, {memo, useState} from 'react';
 import {Handle, Position, useReactFlow, useStore} from 'reactflow';
 import {Input} from "@mui/joy";
 import {CheckCircle, Visibility} from "@mui/icons-material";

@@ -1,9 +1,9 @@
-const width = 64
+const width = 50
 
 export const exampleNodes = [
     {
         id: '101',
-        position: {x: -64, y: -100},
+        position: {x: -75, y: -100},
         data: {
             preOrder: [22, 5, 2, 11, 7, 14, 30, 25, 33, 38, 60],
             inOrder: [2, 5, 7, 11, 14, 22, 25, 30, 33, 38, 60],
@@ -14,7 +14,7 @@ export const exampleNodes = [
     },
     {
         id: '1',
-        position: {x: -32, y: 0},
+        position: {x: 0, y: 0},
         data: {result: 22, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
@@ -22,14 +22,14 @@ export const exampleNodes = [
     //2. rada
     {
         id: '2',
-        position: {x: -292, y: 70},
+        position: {x: -100, y: 70},
         data: {result: 5, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
     },
     {
         id: '3',
-        position: {x: 228, y: 70},
+        position: {x: 100, y: 70},
         data: {result: 30, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
@@ -37,28 +37,28 @@ export const exampleNodes = [
     // 3. rada
     {
         id: '4',
-        position: {x: -416, y: 140},
+        position: {x: -150, y: 140},
         data: {result: 2, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
     },
     {
         id: '5',
-        position: {x: -160, y: 140},
+        position: {x: -50, y: 140},
         data: {result: 11, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
     },
     {
         id: '6',
-        position: {x: 96, y: 140},
+        position: {x: 50, y: 140},
         data: {result: 25, processing: false, processed: false, nodesNewResult:[], width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
     },
     {
         id: '7',
-        position: {x: 352, y: 140},
+        position: {x: 150, y: 140},
         data: {result: 33, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
@@ -66,21 +66,21 @@ export const exampleNodes = [
     // 4. rada
     {
         id: '10',
-        position: {x: -224, y: 210},
+        position: {x: -100, y: 210},
         data: {result: 7, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
     },
     {
         id: '11',
-        position: {x: -96, y: 210},
+        position: {x: 0, y: 210},
         data: {result: 14, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
     },
     {
         id: '15',
-        position: {x: 416, y: 210},
+        position: {x: 200, y: 210},
         data: {result: 38, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'
@@ -88,7 +88,7 @@ export const exampleNodes = [
     //5. rada
     {
         id: '33',
-        position: {x: 448, y: 280},
+        position: {x: 250, y: 280},
         data: {result: 60, processing: false, processed: false, width:width, placeHolder: ""},
         hidden: false,
         type:'orderingNode'

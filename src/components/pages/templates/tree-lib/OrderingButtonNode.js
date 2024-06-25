@@ -90,7 +90,7 @@ export default memo(({data, id}) => {
                     value={selectValue}
                     indicator={<KeyboardArrowDown/>}
                     sx={{
-                        width: 240,
+                        width: 200,
                         [`& .${selectClasses.indicator}`]: {
                             transition: '0.2s',
                             [`&.${selectClasses.expanded}`]: {

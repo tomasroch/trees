@@ -1,35 +1,37 @@
 export const exampleNodes = [
     {
         id: '1',
-        position: {x: 0, y: 0},
-        data: {result: '0000101101101000101111', width:100, placeHolder: "Kód..."},
+        position: {x: -50, y: 0},
+        data: {result: '0000101101101000101111', width:250, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
+    //2. rada
     {
         id: '2',
-        position: {x: -100, y: 100},
-        data: {result: '0001011011', width:100, placeHolder: "Kód..."},
+        position: {x: -150, y: 100},
+        data: {result: '0001011011', width:150, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '3',
         position: {x: 0, y: 100},
-        data: {result: '01', width:100, placeHolder: "Kód..."},
+        data: {result: '01', width:150, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '4',
-        position: {x: 100, y: 100},
-        data: {result: '00010111', width:100, placeHolder: "Kód..."},
+        position: {x: 150, y: 100},
+        data: {result: '00010111', width:150, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
+    // 3. rada
     {
         id: '5',
-        position: {x: -150, y: 200},
+        position: {x: -200, y: 200},
         data: {result: '001011', width:100, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
@@ -43,35 +45,36 @@ export const exampleNodes = [
     },
     {
         id: '7',
-        position: {x: 100, y: 200},
+        position: {x: 175, y: 200},
         data: {result: '001011', width:100, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
+    //4. rada
     {
         id: '8',
-        position: {x: -200, y: 300},
+        position: {x: -250, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '9',
-        position: {x: -100, y: 300},
+        position: {x: -150, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '10',
-        position: {x: 50, y: 300},
+        position: {x: 125, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
     },
     {
         id: '11',
-        position: {x: 150, y: 300},
+        position: {x: 225, y: 300},
         data: {result: '01', width:100, placeHolder: "Kód..."},
         hidden: false,
         type:'minimalCodeNode'
