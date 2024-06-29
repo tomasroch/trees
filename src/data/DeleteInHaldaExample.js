@@ -253,7 +253,7 @@ export const exampleEdges = [
         target: '2',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '1-3',
@@ -261,7 +261,7 @@ export const exampleEdges = [
         target: '3',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '2-4',
@@ -269,7 +269,7 @@ export const exampleEdges = [
         target: '4',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '2-5',
@@ -277,7 +277,7 @@ export const exampleEdges = [
         target: '5',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '3-6',
@@ -285,7 +285,7 @@ export const exampleEdges = [
         target: '6',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '3-7',
@@ -293,7 +293,7 @@ export const exampleEdges = [
         target: '7',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '4-8',
@@ -301,7 +301,7 @@ export const exampleEdges = [
         target: '8',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '4-9',
@@ -309,7 +309,7 @@ export const exampleEdges = [
         target: '9',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '5-10',
@@ -317,7 +317,7 @@ export const exampleEdges = [
         target: '10',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '5-11',
@@ -325,7 +325,7 @@ export const exampleEdges = [
         target: '11',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '6-12',
@@ -333,7 +333,7 @@ export const exampleEdges = [
         target: '12',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '6-13',
@@ -341,7 +341,7 @@ export const exampleEdges = [
         target: '13',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '7-14',
@@ -349,7 +349,7 @@ export const exampleEdges = [
         target: '14',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '7-15',
@@ -357,7 +357,7 @@ export const exampleEdges = [
         target: '15',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '8-16',
@@ -365,7 +365,7 @@ export const exampleEdges = [
         target: '16',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '8-17',
@@ -373,7 +373,7 @@ export const exampleEdges = [
         target: '17',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '9-18',
@@ -381,7 +381,7 @@ export const exampleEdges = [
         target: '18',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '9-19',
@@ -389,7 +389,7 @@ export const exampleEdges = [
         target: '19',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '10-20',
@@ -397,7 +397,7 @@ export const exampleEdges = [
         target: '20',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '10-21',
@@ -405,7 +405,7 @@ export const exampleEdges = [
         target: '21',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '11-22',
@@ -413,7 +413,7 @@ export const exampleEdges = [
         target: '22',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '11-23',
@@ -421,7 +421,7 @@ export const exampleEdges = [
         target: '23',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '12-26',
@@ -429,7 +429,7 @@ export const exampleEdges = [
         target: '26',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '12-27',
@@ -437,7 +437,7 @@ export const exampleEdges = [
         target: '27',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '13-28',
@@ -445,7 +445,7 @@ export const exampleEdges = [
         target: '28',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '13-29',
@@ -453,7 +453,7 @@ export const exampleEdges = [
         target: '29',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '14-30',
@@ -461,7 +461,7 @@ export const exampleEdges = [
         target: '30',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '14-31',
@@ -469,7 +469,7 @@ export const exampleEdges = [
         target: '31',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '15-32',
@@ -477,7 +477,7 @@ export const exampleEdges = [
         target: '32',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '15-33',
@@ -485,7 +485,7 @@ export const exampleEdges = [
         target: '33',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
 
 ]

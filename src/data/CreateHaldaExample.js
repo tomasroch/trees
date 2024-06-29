@@ -6,7 +6,7 @@ export const exampleNodes = [
         position: {x: -32, y: 0},
         data: {result: '1', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     //2. rada
     {
@@ -14,14 +14,14 @@ export const exampleNodes = [
         position: {x: -292, y: 70},
         data: {result: '4', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '3',
         position: {x: 228, y: 70},
         data: {result: '14', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     // 3. rada
     {
@@ -29,28 +29,28 @@ export const exampleNodes = [
         position: {x: -416, y: 140},
         data: {result: '5', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '5',
         position: {x: -160, y: 140},
         data: {result: '31', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '6',
         position: {x: 96, y: 140},
         data: {result: '18', nodesNewResult:[], width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '7',
         position: {x: 352, y: 140},
         data: {result: '30', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     // 4. rada
     {
@@ -58,56 +58,56 @@ export const exampleNodes = [
         position: {x: -480, y: 210},
         data: {result: '31', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '9',
         position: {x: -352, y: 210},
         data: {result: '26', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '10',
         position: {x: -224, y: 210},
         data: {result: '40', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '11',
         position: {x: -96, y: 210},
         data: {result: '60', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '12',
         position: {x: 32, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '13',
         position: {x: 160, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '14',
         position: {x: 288, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '15',
         position: {x: 416, y: 210},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     //5. rada
     {
@@ -115,126 +115,126 @@ export const exampleNodes = [
         position: {x: -512, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '17',
         position: {x: -448, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '18',
         position: {x: -384, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '19',
         position: {x: -320, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '20',
         position: {x: -256, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '21',
         position: {x: -192, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '22',
         position: {x: -128, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '23',
         position: {x: -64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '24',
         position: {x: -128, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '25',
         position: {x: -64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '26',
         position: {x: 0, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '27',
         position: {x: 64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '28',
         position: {x: 128, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '29',
         position: {x: 192, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '30',
         position: {x: 256, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '31',
         position: {x: 320, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '32',
         position: {x: 384, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
     {
         id: '33',
         position: {x: 448, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
-        type:'commonNode'
+        type:'haldaNode'
     },
 ]
 
@@ -245,7 +245,7 @@ export const exampleEdges = [
         target: '2',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '1-3',
@@ -253,7 +253,7 @@ export const exampleEdges = [
         target: '3',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '2-4',
@@ -261,7 +261,7 @@ export const exampleEdges = [
         target: '4',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '2-5',
@@ -269,7 +269,7 @@ export const exampleEdges = [
         target: '5',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '3-6',
@@ -277,7 +277,7 @@ export const exampleEdges = [
         target: '6',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '3-7',
@@ -285,7 +285,7 @@ export const exampleEdges = [
         target: '7',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '4-8',
@@ -293,7 +293,7 @@ export const exampleEdges = [
         target: '8',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '4-9',
@@ -301,7 +301,7 @@ export const exampleEdges = [
         target: '9',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '5-10',
@@ -309,7 +309,7 @@ export const exampleEdges = [
         target: '10',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '5-11',
@@ -317,7 +317,7 @@ export const exampleEdges = [
         target: '11',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '6-12',
@@ -325,7 +325,7 @@ export const exampleEdges = [
         target: '12',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '6-13',
@@ -333,7 +333,7 @@ export const exampleEdges = [
         target: '13',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '7-14',
@@ -341,7 +341,7 @@ export const exampleEdges = [
         target: '14',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '7-15',
@@ -349,7 +349,7 @@ export const exampleEdges = [
         target: '15',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '8-16',
@@ -357,7 +357,7 @@ export const exampleEdges = [
         target: '16',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '8-17',
@@ -365,7 +365,7 @@ export const exampleEdges = [
         target: '17',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '9-18',
@@ -373,7 +373,7 @@ export const exampleEdges = [
         target: '18',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '9-19',
@@ -381,7 +381,7 @@ export const exampleEdges = [
         target: '19',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '10-20',
@@ -389,7 +389,7 @@ export const exampleEdges = [
         target: '20',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '10-21',
@@ -397,7 +397,7 @@ export const exampleEdges = [
         target: '21',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '11-22',
@@ -405,7 +405,7 @@ export const exampleEdges = [
         target: '22',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '11-23',
@@ -413,7 +413,7 @@ export const exampleEdges = [
         target: '23',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '12-26',
@@ -421,7 +421,7 @@ export const exampleEdges = [
         target: '26',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '12-27',
@@ -429,7 +429,7 @@ export const exampleEdges = [
         target: '27',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '13-28',
@@ -437,7 +437,7 @@ export const exampleEdges = [
         target: '28',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '13-29',
@@ -445,7 +445,7 @@ export const exampleEdges = [
         target: '29',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '14-30',
@@ -453,7 +453,7 @@ export const exampleEdges = [
         target: '30',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '14-31',
@@ -461,7 +461,7 @@ export const exampleEdges = [
         target: '31',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '15-32',
@@ -469,7 +469,7 @@ export const exampleEdges = [
         target: '32',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
     {
         id: '15-33',
@@ -477,7 +477,7 @@ export const exampleEdges = [
         target: '33',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'swapEdge'
     },
 
 ]
