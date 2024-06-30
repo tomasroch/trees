@@ -5,37 +5,14 @@ import OrderingInput from "./OrderingInput";
 
 export default function OrderingInputs(data) {
     const [inputData, setInputData] = useState()
-    console.log(data.dfs)
+
+    const [icon, setIcon] = useState(<Visibility onClick={handleIconChange} color="outlined"/>)
+    const [color, setColor] = useState("primary")
 
     function handleIconChange() {
         setInputData(data.data.levelOrder)
         setColor("success")
         setIcon(<CheckCircle style={{color: 'green'}}/>)
-    }
-
-
-    const [icon, setIcon] = useState(<Visibility onClick={handleIconChange} color="outlined"/>)
-    const [color, setColor] = useState("primary")
-
-
-    const handleOnChange = event => {
-        let inputData = event.target.value;
-        setInputData(inputData)
-        inputData = (inputData.trim().split(/ +/).join(''))
-
-
-        let str = `${data.data.levelOrder}`;
-        if (str === inputData) {
-            setColor("success")
-            setIcon(<CheckCircle style={{color: 'green'}}/>)
-        } else if (inputData === "") {
-            setColor("primary")
-            setIcon(<Visibility onClick={handleIconChange} color="outlined"/>)
-        } else {
-            setColor("danger")
-            setIcon(<Visibility onClick={handleIconChange} color="outlined"/>)
-        }
-
     }
 
     if (data.dfs) {
