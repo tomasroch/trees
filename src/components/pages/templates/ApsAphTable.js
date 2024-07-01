@@ -20,7 +20,7 @@ export default function ApsAphTable(props) {
         edgesIn = props.nodes[0].fifoEdgesIn;
         edgesOut = props.nodes[0].fifoEdgesOut;
     } else {
-        title = "FIFO:";
+        title = "LIFO:";
         result = props.nodes[0].lifo;
         nodes = props.nodes[0].lifoNodes;
         edgesIn = props.nodes[0].lifoEdgesIn;
