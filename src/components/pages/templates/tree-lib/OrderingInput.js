@@ -38,7 +38,7 @@ export default function OrderingInput(data) {
         return (
 
                 <Input //sx={{width: data.width}}
-                    size="sm" placeholder={"1, 2, 3, 4...."} color={color} onChange={handleOnChange} value={inputData}
+                    size="sm" placeholder={data.placeHolder} color={color} onChange={handleOnChange} value={inputData}
                     endDecorator={icon}
                 />
         )
