@@ -60,7 +60,7 @@ export const exampleEdges = [
         target: '2',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'floatingEdge'
     },
     {
         id: '1-3',
@@ -68,7 +68,7 @@ export const exampleEdges = [
         target: '3',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'floatingEdge'
     },
     {
         id: '1-4',
@@ -76,7 +76,7 @@ export const exampleEdges = [
         target: '4',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'floatingEdge'
     },
     {
         id: '5-1',
@@ -84,7 +84,7 @@ export const exampleEdges = [
         target: '1',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'floatingEdge'
     },
     {
         id: '6-5',
@@ -92,7 +92,7 @@ export const exampleEdges = [
         target: '5',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'floatingEdge'
     },
     {
         id: '7-6',
@@ -100,6 +100,6 @@ export const exampleEdges = [
         target: '6',
         hidden: false,
         animated: true,
-        type: ''
+        type: 'floatingEdge'
     },
 ]

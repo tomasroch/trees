@@ -22,31 +22,14 @@ export default memo(({data, id}) => {
             setIcon(<CancelOutlined />)
         }
     }
-
-    function getPosition(stringPosition) {
-        if (stringPosition === "BOTTOM")
-            return Position.Bottom
-        if (stringPosition === "TOP")
-            return Position.Top
-        if (stringPosition === "LEFT")
-            return Position.Left
-        if (stringPosition === "RIGHT")
-            return Position.Right
-    }
-
-    let source;
-    if (data.source)
-        source = <Handle type="source" position={getPosition(data.sourcePosition)}/>
-
-    let target;
-    if (data.target)
-        target = <Handle type="target" position={getPosition(data.targetPosition)}/>
-
+    
     return (
         <>
             <IconButton sx={{width: data.width, border: "2px solid"}} onClick={() =>handleClick()} color={color} type="submit">{icon}</IconButton>
-            {source}
-            {target}
+            <Handle type="source" position={Position.Top} id="a" />
+            <Handle type="source" position={Position.Right} id="b" />
+            <Handle type="source" position={Position.Bottom} id="c" />
+            <Handle type="source" position={Position.Left} id="d" />
         </>
     );
 })
