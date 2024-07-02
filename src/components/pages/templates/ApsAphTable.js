@@ -71,7 +71,7 @@ export default function ApsAphTable(props) {
                         // find edge of two vertexes
                         let edgeExist = props.edges.find(edge => ((edge.source === node.id && edge.target === nodeInner.id) || (edge.source === nodeInner.id && edge.target === node.id)))
                         if (edgeExist)
-                            return <td style={{textAlign:"center"}}><Button style={{textDecoration:'none'}} id={node.id + nodeInner.id} onClick={() => changeStyles(node.id + nodeInner.id, node.id, nodeInner.id + node.id)}>1</Button></td>
+                            return <td style={{textAlign:"center"}}><Button size="sm" style={{ width:"100%", textDecoration:'none'}} id={"b" +node.id + nodeInner.id} onClick={() => changeStyles("b" +node.id + nodeInner.id, node.id, "b" +nodeInner.id + node.id)}>1</Button></td>
                         return <td style={{textAlign:"center"}}>0</td>
                     })}
                 </tr>
