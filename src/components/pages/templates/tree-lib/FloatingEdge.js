@@ -60,7 +60,7 @@ function FloatingEdge({data, id, source, target, markerEnd, style}) {
                         pointerEvents: 'all',
                     }}
                 >
-                    <Input sx={{width: 35, height: 30, border: '1px solid'}}
+                    <Input  sx={{width: 35, height: 30, border: '1px solid', borderRadius: "100px"}}
                            size="sm" color="neutral" value={data.value}
                     />
                 </div>
