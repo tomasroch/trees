@@ -22,7 +22,9 @@ export default function InputResultKruskalNode({ data, id })  {
             setEdges((nds) =>
                 nds.map((edge) => {
                     if (edge.id === edges[i]) {
-                        edge.animated= true
+                        // zvýraznění vybrané hrany
+                        edge.animated= true;
+                        edge.style = {strokeWidth: 3, stroke: '#0d6efd'};
                     }
                     return edge;
                 })
@@ -39,6 +41,7 @@ export default function InputResultKruskalNode({ data, id })  {
         setEdges((nds) =>
             nds.map((edge) => {
                 edge.animated= false
+                edge.style = {};
                 return edge;
             })
         );
