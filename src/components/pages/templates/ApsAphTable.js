@@ -8,6 +8,13 @@ export default function ApsAphTable(props) {
     const placeHolderNode = "a, b, c, d..."
     const placeHolderEdges = "ab, ac, bc, bd..."
 
+    let edges = "";
+    props.edges.map(edge => {
+        edges = edges + edge.id + ", "
+        return edge
+    })
+    edges = edges.substring(0, edges.length - 2);
+
     let title;
     let result;
     let nodes;
@@ -79,6 +86,7 @@ export default function ApsAphTable(props) {
             </tbody>
         </Table>
         <FormControl sx={{mt: 0, mb: 1}}>
+            <FormLabel>Hrany: {edges}</FormLabel>
             <FormLabel>{title}</FormLabel>
             <OrderingInput data={result} placeholder={placeHolderNode} />
             <FormLabel>Vrcholy:</FormLabel>
