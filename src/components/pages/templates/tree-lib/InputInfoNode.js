@@ -1,8 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import {FormControl, FormLabel, Input} from "@mui/joy";
 
 export default function InputInfoNode({ data, id })  {
-    //
     return (
         <>
             <FormControl sx={{mt: 2, mb: 1}}>
