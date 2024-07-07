@@ -3,8 +3,6 @@ import {Handle, Position} from 'reactflow';
 import {IconButton} from "@mui/joy";
 import {CancelOutlined, CheckCircleOutlined, Visibility} from "@mui/icons-material";
 
-//TODO odmazat console.log ale všude !
-//TODO odmazat unused importy ale taky všude!
 export default memo(({data, id}) => {
 
     let [color, setColor] = useState("primary")

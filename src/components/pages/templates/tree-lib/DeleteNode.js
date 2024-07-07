@@ -3,9 +3,6 @@ import {Handle, Position, useReactFlow, useStore} from 'reactflow';
 import {Input} from "@mui/joy";
 import {CheckCircle, Visibility} from "@mui/icons-material";
 
-//TODO odmazat console.log ale všude !
-//TODO odmazat unused importy ale taky všude!
-// TODO tady to chce brutální refaktor ještě
 export default memo(({data, id}) => {
     const {setNodes} = useReactFlow();
 
@@ -88,7 +85,9 @@ export default memo(({data, id}) => {
                                     })
                                 );
                             }
+                            return result;
                         })
+                        return newResult;
                     })
                 }
                 return node;

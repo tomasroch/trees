@@ -2,8 +2,6 @@ import React, {memo, useState} from 'react';
 import {Handle, Position, useReactFlow, useStore} from 'reactflow';
 import {Input} from "@mui/joy";
 
-//TODO odmazat console.log ale všude !
-//TODO odmazat unused importy ale taky všude!
 export default memo(({ data, id }) => {
     const { setNodes } = useReactFlow();
 
@@ -30,7 +28,7 @@ export default memo(({ data, id }) => {
 
     if (data.processed)
         color = "success"
-    //TODO jestli bude border v inputu solid nebo ne , border: '3px solid' TODO smazat input props asi a pak i všude najít a smazat
+
     return (
         <>
             <Input sx={{width: data.width, border: '3px solid'}}
@@ -38,8 +36,6 @@ export default memo(({ data, id }) => {
             />
             <Handle type="target" position={Position.Top}/>
             <Handle type="source" position={Position.Bottom}/>
-
-            {/*<Typography>{id}</Typography>*/}
         </>
     );
 })

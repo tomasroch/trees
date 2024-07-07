@@ -1,9 +1,7 @@
 import React, {memo, useState} from 'react';
-import {Handle, Position, useReactFlow} from 'reactflow';
-import {IconButton, Input} from "@mui/joy";
+import {Handle, Position} from 'reactflow';
+import {Input} from "@mui/joy";
 
-//TODO odmazat console.log ale všude !
-//TODO odmazat unused importy ale taky všude!
 export default memo(({data, id}) => {
     let [color, setColor] = useState("primary")
 

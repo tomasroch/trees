@@ -4,8 +4,6 @@ import {Box, Button, Option, Select, selectClasses} from "@mui/joy";
 import {ArrowBackIos, ArrowForwardIos, KeyboardArrowDown} from "@mui/icons-material";
 import Stack from "@mui/joy/Stack";
 
-//TODO odmazat console.log ale všude !
-//TODO odmazat unused importy ale taky všude!
 export default memo(({data, id}) => {
     const {setNodes} = useReactFlow();
 
@@ -74,8 +72,8 @@ export default memo(({data, id}) => {
                             return;
                         }
                         if (!node.data.processed && node.data.processing && !foundProcessed){
-                            node.data.processing = false
-                        };
+                            node.data.processing = false;
+                        }
                     }
                     return node;
                 })
@@ -85,7 +83,7 @@ export default memo(({data, id}) => {
 
     return (
         <>
-            <Stack spacing={1} alignItems="flex-start"   alignItems="center" justifyContent="center" >
+            <Stack spacing={1} alignItems="flex-start" alignItems="center" justifyContent="center" >
                 <Select
                     onChange={handleSelectChange}
                     value={selectValue}
