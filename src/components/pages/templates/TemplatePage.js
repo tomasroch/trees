@@ -13,9 +13,7 @@ import {
     AspectRatio,
     CardContent,
     CardOverflow,
-    CssVarsProvider,
-    iconButtonClasses,
-    Tab,
+    CssVarsProvider, iconButtonClasses, Tab,
     TabList,
     TabPanel,
     Tabs
@@ -24,6 +22,10 @@ import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import ForestIcon from "@mui/icons-material/Forest";
+import {exampleMap} from "../../../data/ExamplesMap";
+import CustomTreeFlow from "./tree-lib/CustomTreeFlow";
+import OrderingInputs from "./tree-lib/OrderingInputs";
+import ApsAphTable from "./ApsAphTable";
 
 export default function TemplatePage({page, subpage}) {
     const isSinglePage = page.subpages === null;
@@ -119,7 +121,7 @@ export default function TemplatePage({page, subpage}) {
                             <Card>          {/*multiple tabs page*/}
                                 {hasTabs ? (
                                     <Tabs>
-                                        <TabList>
+                                        <TabList sx={{mb:1}}>
                                             {mainPage.tabs.map(tab => (
                                                 <Tab key={tab.name} sx={{flexGrow: 1}}>
                                                     <Typography level="title-sm">{tab.name}</Typography>
@@ -140,6 +142,13 @@ export default function TemplatePage({page, subpage}) {
                                                                 <article
                                                                     dangerouslySetInnerHTML={{__html: textData.text}}/>
                                                             </Typography>
+                                                            {/*přidání doplňku ke cvičením prohledávání do šířky/hloubky*/}
+                                                            {textData.exercise !== undefined && textData.exercise.dfs !== undefined && <OrderingInputs dfs={textData.exercise.dfs} data={exampleMap[textData.exercise.name].exampleNodes[0].data} /> }
+                                                            {/*přidání cvičení*/}
+                                                            {textData.exercise !== undefined && <CustomTreeFlow nodes={exampleMap[textData.exercise.name].exampleNodes} edges={exampleMap[textData.exercise.name].exampleEdges} />}
+                                                            {/*přidání aps/aph cvičení*/}
+                                                            {textData.apsaph !== undefined && <ApsAphTable nodes={exampleMap[textData.apsaph.name].exampleNodes} edges={exampleMap[textData.apsaph.name].exampleEdges} fifo={textData.apsaph.fifo} />}
+
                                                             {textData.images !== null && textData.images.map(image => (
                                                                 // <Box display="flex" justifyContent="center" alignItems="center">
                                                                 //     minWidth:{

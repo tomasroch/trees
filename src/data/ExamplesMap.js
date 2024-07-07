@@ -7,6 +7,10 @@ import * as DELETE_IN_HALDA_EXAMPLE1 from "../data/DeleteInHaldaExample"
 import * as ORDERING_EXAMPLE1 from "../data/OrderingExample"
 import * as CENTERING_EXAMPLE1 from "../data/CenteringExample"
 import * as CENTROID_EXAMPLE1 from "../data/CentroidExample"
+import * as APS_EXAMPLE1 from "../data/APSExample"
+import * as KRUSKAL_EXAMPLE1 from "../data/KruskalExample"
+import * as JARNIK_EXAMPLE1 from "../data/JarnikExample"
+import * as SPANNING_EXAMPLE1 from "../data/SpanningExample"
 
 export const exampleMap = {
     center1: CENTERING_EXAMPLE1,
@@ -18,4 +22,8 @@ export const exampleMap = {
     ordering1: ORDERING_EXAMPLE1,
     createHalda1: CREATE_HALDA_EXAMPLE1,
     deleteInHalda1: DELETE_IN_HALDA_EXAMPLE1,
+    APSAPH1: APS_EXAMPLE1,
+    kruskal1: KRUSKAL_EXAMPLE1,
+    jarnik1: JARNIK_EXAMPLE1,
+    spanning1: SPANNING_EXAMPLE1,
 }
