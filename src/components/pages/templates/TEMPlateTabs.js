@@ -15,8 +15,8 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import ForestIcon from "@mui/icons-material/Forest";
 
-
-export default function TemplateTabs() {
+//TODO SMAZAT?
+export default function TEMPlateTabs() {
     return (
         <CssVarsProvider>
             <CssBaseline/>
@@ -100,7 +100,10 @@ export default function TemplateTabs() {
                                             <Typography level="title-sm">Details</Typography>
                                         </Tab>
                                         <Tab sx={{flexGrow: 1}}>
-                                            <Typography level="title-sm">Activity</Typography>
+                                            <Typography level="title-sm">Příklady odeber vrchol z haldy</Typography>
+                                        </Tab>
+                                        <Tab sx={{flexGrow: 1}}>
+                                            <Typography level="title-sm">Příklady sestav haldu</Typography>
                                         </Tab>
                                     </TabList>
                                     <TabPanel value={0} sx={{p: 0}}>
