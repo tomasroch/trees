@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './components/pages/templates/App';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
-import TreeTabs from "./components/pages/templates/TEMPlateTabs";
 import TemplatePage from "./components/pages/templates/TemplatePage"
 import pages from "./data/pages";
 
@@ -12,7 +11,6 @@ root.render(
     <React.StrictMode>
         <BrowserRouter>
             <Routes>
-                <Route key="1" path="/tabs" element={<TreeTabs/>}/> TODO
                 <Route key="2" path="/" element={<HomePage/>}/>
                 <Route key="3" path="/test" element={<App/>}/> TODO
                 <Route key="4" path="/*" element={<HomePage/>}/>

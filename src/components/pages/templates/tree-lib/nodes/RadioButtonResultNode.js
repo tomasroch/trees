@@ -1,6 +1,6 @@
 import React from 'react';
 import {Box, List, ListDivider, ListItem, RadioGroup, Typography} from "@mui/joy";
-import RadioButtonResult from "./RadioButtonResult";
+import RadioButtonResult from "../components/RadioButtonResult";
 
 export default function InputResultKruskalNode({data}) {
     return (

@@ -4,19 +4,19 @@ import 'reactflow/dist/style.css';
 import Card from "@mui/joy/Card";
 import {CardCover} from "@mui/joy";
 import React from "react";
-import SwapEdge from "./SwapEdge";
-import FloatingEdge from "./FloatingEdge";
-import CommonNode from "./CommonNode";
-import DeleteNode from "./DeleteNode";
-import OrderingNode from "./OrderingNode";
-import OrderingButtonNode from "./OrderingButtonNode";
-import CenteringNode from "./CenteringNode";
-import haldaNode from "./HaldaNode";
-import SpanningNode from "./SpanningNode";
-import InputInfoNode from "./InputInfoNode";
-import InputHelperNode from "./InputHelperNode";
-import InputResultKruskalNode from "./InputResultKruskalNode";
-import RadioButtonResultNode from "./RadioButtonResultNode";
+import SwapEdge from "./edges/SwapEdge";
+import FloatingEdge from "./edges/FloatingEdge";
+import CommonNode from "./nodes/CommonNode";
+import DeleteNode from "./nodes/DeleteNode";
+import OrderingNode from "./nodes/OrderingNode";
+import OrderingButtonNode from "./nodes/OrderingButtonNode";
+import CenteringNode from "./nodes/CenteringNode";
+import haldaNode from "./nodes/HaldaNode";
+import SpanningNode from "./nodes/SpanningNode";
+import InputInfoNode from "./nodes/InputInfoNode";
+import InputHelperNode from "./nodes/InputHelperNode";
+import InputResultKruskalNode from "./nodes/InputResultKruskalNode";
+import RadioButtonResultNode from "./nodes/RadioButtonResultNode";
 
 const nodeTypes = {
     'commonNode': CommonNode,

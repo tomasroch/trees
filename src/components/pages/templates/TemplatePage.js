@@ -24,7 +24,7 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import ForestIcon from "@mui/icons-material/Forest";
 import {exampleMap} from "../../../data/ExamplesMap";
 import CustomTreeFlow from "./tree-lib/CustomTreeFlow";
-import OrderingInputs from "./tree-lib/OrderingInputs";
+import OrderingInputs from "./tree-lib/components/OrderingInputs";
 import ApsAphTable from "./ApsAphTable";
 
 export default function TemplatePage({page, subpage}) {

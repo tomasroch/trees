@@ -2,7 +2,7 @@ import * as React from 'react';
 import Table from '@mui/joy/Table';
 import {Clear} from "@mui/icons-material";
 import {Box, Button, FormControl, FormLabel} from "@mui/joy";
-import OrderingInput from "./tree-lib/OrderingInput";
+import OrderingInput from "./tree-lib/components/OrderingInput";
 
 export default function ApsAphTable(props) {
     const placeHolderNode = "a, b, c, d..."

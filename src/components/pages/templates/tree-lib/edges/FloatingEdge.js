@@ -1,7 +1,7 @@
 import React, {useCallback} from 'react';
 import {EdgeLabelRenderer, getBezierPath, getStraightPath, useStore} from 'reactflow';
 
-import {getEdgeParams} from './utils.js';
+import {getEdgeParams} from '../utils.js';
 import {Input} from "@mui/joy";
 
 function FloatingEdge({data, id, source, target, markerEnd, style}) {
