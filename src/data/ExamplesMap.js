@@ -10,7 +10,7 @@ import * as CENTROID_EXAMPLE1 from "./exercises/centroid/CentroidExample"
 import * as APS_EXAMPLE1 from "./exercises/aps_aph/APSExample"
 import * as KRUSKAL_EXAMPLE1 from "./exercises/kruskal/KruskalExample"
 import * as JARNIK_EXAMPLE1 from "./exercises/jarnik/JarnikExample"
-import * as SPANNING_EXAMPLE1 from "./exercises/spanning/SpanningExample"
+import * as SPANNING_EXAMPLE1 from "../data/SpanningExample"
 
 export const exampleMap = {
     center1: CENTERING_EXAMPLE1,
