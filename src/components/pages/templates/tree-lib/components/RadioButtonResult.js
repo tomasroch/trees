@@ -21,7 +21,7 @@ export default function RadioButtonResult(data) {
     }
     return (
         <>
-        <Radio on onChange={handleOnChange} color={color} id={data.data.value} value={data.data.value} label={data.data.value} />
+        <Radio onChange={handleOnChange} color={color} id={data.data.value} value={data.data.value} label={data.data.value} />
             <ListItemDecorator>
                 {icon}
             </ListItemDecorator>
