@@ -3,7 +3,6 @@ import React from "react";
 import NavBar from "../../navigation/NavBar";
 import Header from "../../navigation/Header";
 import Box from '@mui/joy/Box';
-import Button from '@mui/joy/Button';
 import Stack from '@mui/joy/Stack';
 import Typography from '@mui/joy/Typography';
 import Breadcrumbs from '@mui/joy/Breadcrumbs';
@@ -13,14 +12,12 @@ import {
     AspectRatio,
     CardContent,
     CardOverflow,
-    CssVarsProvider, iconButtonClasses, Tab,
+    CssVarsProvider, Tab,
     TabList,
     TabPanel,
     Tabs
 } from "@mui/joy";
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import ForestIcon from "@mui/icons-material/Forest";
 import {exampleMap} from "../../../data/ExamplesMap";
 import CustomTreeFlow from "./tree-lib/CustomTreeFlow";
@@ -33,7 +30,7 @@ export default function TemplatePage({page, subpage}) {
     const hasTabs = mainPage.tabs !== null;
     return (
         <CssVarsProvider>
-            <CssBaseline/>
+            <CssBaseline/> {/*Důležitý - normalizace a resetování stylů v celé webové aplikaci. Napříč různými prohlížeči*/}
             <Box sx={{display: 'flex', minHeight: '100dvh'}}>
                 <NavBar/>
                 <Header/>
@@ -217,7 +214,7 @@ export default function TemplatePage({page, subpage}) {
                                 )}
 
                                 {/* For both multipleTabPage and SinglePage*/}
-                                {/*TODO Dodělat Next and previous Page odkazy!*/}
+                                {/*TODO Dodělat Next and previous Page odkazy!
                                 <Box
                                     className="Pagination-laptopUp"
                                     sx={{
@@ -245,7 +242,7 @@ export default function TemplatePage({page, subpage}) {
                                     >
                                         Next
                                     </Button>
-                                </Box>
+                                </Box>*/}
                             </Card>
                         </Stack>
                     </Box>

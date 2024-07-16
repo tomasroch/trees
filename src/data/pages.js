@@ -144,7 +144,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Také se používá označení z „rodinné“ terminologie otec a syn. V kořenovém stromě, pokud existuje hrana vedoucí z vrcholu x do vrcholu y, pak je vrchol x považován za předchůdce vrcholu y a vrchol y je považován za následníka vrcholu x. Lze je oba označit jako předchůdce i následníka přímého, protože se jedná o sousední vrcholy. Vrcholy, které mají společného předchůdce lze také označit jako bratry. Analogicky se pak lze setkat s označením dědeček pro předchůdce předchůdce a vnuka pro následníka následníka, že se nejedná o přímého předchůdce a následníka lze zdůraznit přívlastkem „nepřímý“ předchůdce a následník.<br>V kořenovém stromě má tedy každý vrchol svého předchůdce s výjimkou kořene, ten předchůdce nemá. Pokud vrchol nemá žádného následníka je označován jako list. Pokud alespoň jednoho následníka má, tak se jedná o vnitřní vrchol. TODO doplnit obrázek? ",
+                        "text": "Také se používá označení z „rodinné“ terminologie otec a syn. V kořenovém stromě, pokud existuje hrana vedoucí z vrcholu x do vrcholu y, pak je vrchol x považován za předchůdce vrcholu y a vrchol y je považován za následníka vrcholu x. Lze je oba označit jako předchůdce i následníka přímého, protože se jedná o sousední vrcholy. Vrcholy, které mají společného předchůdce lze také označit jako bratry. Analogicky se pak lze setkat s označením dědeček pro předchůdce předchůdce a vnuka pro následníka následníka, že se nejedná o přímého předchůdce a následníka lze zdůraznit přívlastkem „nepřímý“ předchůdce a následník.<br>V kořenovém stromě má tedy každý vrchol svého předchůdce s výjimkou kořene, ten předchůdce nemá. Pokud vrchol nemá žádného následníka je označován jako list. Pokud alespoň jednoho následníka má, tak se jedná o vnitřní vrchol.",
                         "images": null
                     }
                 ]
@@ -377,7 +377,7 @@ const pages = [
                             },
                             {
                                 "smallTitle": "Operace nad BVS",
-                                "text": "Nad BVS lze definovat dva typy operací. Prvním typem operací jsou dotazy.<ul><li><b>Vyhledání</b> – Vyhledá a vrátí prvek podle klíče, pokud se v BVS nachází.</li><li><b>Minimum a maximum</b> – Vyhledá prvek s minimální nebo maximální hodnotou klíče. Minimální je prvek nejvíc vlevo a maximální prvek nejvíc vpravo.</li><li><b>Předchůdce a následník</b> – Vyhledá prvek s předchozí menší hodnotou nebo prvek s další větší hodnotou.</li></ul>Druhým typem operací jsou operace upravující.<ul><li><b>Vložení</b> – Přidá prvek do BVS na vhodný prázdný list, tak aby zachoval vlastnosti BVS.</li><li><b>Smazání</b> – Odebere prvek z BVS, tak aby strom zůstal správně uspořádaný.</li></ul> TODO OBRAZEK MOZNA DOPLNIT",
+                                "text": "Nad BVS lze definovat dva typy operací. Prvním typem operací jsou dotazy.<ul><li><b>Vyhledání</b> – Vyhledá a vrátí prvek podle klíče, pokud se v BVS nachází.</li><li><b>Minimum a maximum</b> – Vyhledá prvek s minimální nebo maximální hodnotou klíče. Minimální je prvek nejvíc vlevo a maximální prvek nejvíc vpravo.</li><li><b>Předchůdce a následník</b> – Vyhledá prvek s předchozí menší hodnotou nebo prvek s další větší hodnotou.</li></ul>Druhým typem operací jsou operace upravující.<ul><li><b>Vložení</b> – Přidá prvek do BVS na vhodný prázdný list, tak aby zachoval vlastnosti BVS.</li><li><b>Smazání</b> – Odebere prvek z BVS, tak aby strom zůstal správně uspořádaný.</li></ul>",
                                 "images": null
                             }
                         ]
@@ -411,15 +411,15 @@ const pages = [
                 ],
             },
             {
-                "name": "Prohledávání do hloubky",
-                "path": "prohledavani-do-hloubky",
+                "name": "Průchod stromu do hloubky",
+                "path": "pruchod-stromu-do-hloubky",
                 "tabs": [
                     {
                         "name": "Detail",
                         "textData": [
                             {
                                 "smallTitle": "",
-                                "text": "Prohledávání stromu do hloubky v angličtině DFS je často používáno v algoritmech hledání cest, detekce cyklů, topologické řazení, a řešení bludiště. In-order, pre-order a post-order jsou způsoby průchodu binárním stromem do hloubky, tedy metody, kterými lze projít a zpracovat všechny vrcholy ve stromu. Každý z těchto průchodů má specifické pořadí, v jakém jsou uzly procházeny, což má za následek různé aplikace a využití.<ul><li><b>Preorder</b> – Rodič se zpracuje jako první, následovaný jeho levým podstromem a poté pravým podstromem.</li><li><b>Inorder</b> – Pro každého rodiče se nejprve zpracuje jeho levý podstrom, poté se zpracuje samotný rodič a nakonec jeho pravý podstrom.</li><li><b>Postorder</b> – Nejprve zpracují oba podstromy rodiče (první levý, poté pravý) a až poté samotný kořen. </ul></li>Pořadí preorder a postoder je běžně používané i pro obecné kořenové stromy, ale inorder má význam hlavně pro binární stromy. Výběr konkrétního průchodu závisí na požadovaném výstupu a úloze, která je potřeba řešit.",
+                                "text": "In-order, pre-order a post-order jsou způsoby průchodu binárním stromem do hloubky, tedy metody, kterými lze projít a zpracovat všechny vrcholy ve stromu. Každý z těchto průchodů má specifické pořadí, v jakém jsou uzly procházeny, což má za následek různé aplikace a využití.<ul><li><b>Preorder</b> – Rodič se zpracuje jako první, následovaný jeho levým podstromem a poté pravým podstromem.</li><li><b>Inorder</b> – Pro každého rodiče se nejprve zpracuje jeho levý podstrom, poté se zpracuje samotný rodič a nakonec jeho pravý podstrom.</li><li><b>Postorder</b> – Nejprve zpracují oba podstromy rodiče (první levý, poté pravý) a až poté samotný kořen. </ul></li>Pořadí preorder a postoder je běžně používané i pro obecné kořenové stromy, ale inorder má význam hlavně pro binární stromy. Výběr konkrétního průchodu závisí na požadovaném výstupu a úloze, která je potřeba řešit.",
                                 "images": null
                             },
                             {
@@ -453,39 +453,6 @@ const pages = [
                                         "preOrder": "22, 5, 2, 11, 7, 14, 30, 25, 33, 38, 60",
                                         "inOrder": "2, 5, 7, 11, 14, 22, 25, 30, 33, 38, 60",
                                         "postOrder": "2, 7, 14, 11, 5, 25, 60, 38, 33, 30, 22",
-                                    },
-                                }
-                            }
-                        ]
-                    }
-                ],
-            },
-            {
-                "name": "Prohledávání do šířky",
-                "path": "prohledavani-do-sirky",
-                "tabs": [
-                    {
-                        "name": "Detail",
-                        "textData": [
-                            {
-                                "smallTitle": "",
-                                "text": "Prohledávání stromu do šířky v angličtině BFS prozkoumává všechny sousední vrcholy na stejné úrovni. Začíná se kořenem a procházením jednotlivých vrcholů se zároveň řadí jejich potomci do fronty. To vede k tomu, že se prochází stromem horizontálně úroveň po úrovni zleva doprava.<br>BFS je často používán k nalezení nejkratší cesty v nevážených grafech, protože garantuje, že pokud existuje cesta, první nalezená cesta bude nejkratší. BFS je také užitečný pro prohledávání stromů a grafů ve scénářích, kde je důležitá úroveň nebo vzdálenost od kořene, například v síťových protokolech.",
-                                "images": null
-                            }
-                        ]
-                    },
-                    {
-                        "name": "Příklady",
-                        "textData": [
-                            {
-                                "smallTitle": "Příklad 1",
-                                "text": "Zapiš průchod vrcholy (čísla vrcholů oddělené čárkou) zobrazeného stromu. Jako nápovědu lze využít animaci.",
-                                "images": null,
-                                "exercise": {
-                                    "name": "ordering1",
-                                    "dfs": false,
-                                    "data": {
-                                        "levelOrder": "22, 5, 30, 2, 11, 25, 33, 7, 14, 38, 60",
                                     },
                                 }
                             }
@@ -601,14 +568,8 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "TODO + OBRAZEK Kostra grafu je strom daného spojitého grafu, který zahrnuje všechny vrcholy původního grafu. Pro spojitý graf s N vrcholy má kostra vždy N - 1 hran.<br>Problém minimální kostry z anglického MST je úloha nalezení takové kostry v grafu, jejíž součet vah (každá hrana je ohodnocena) všech hran v kostře je minimální ze všech možných koster grafu. Tento problém je aplikovatelný na mnoho reálných situací jako je projektování a optimalizace všech typů sítí například telekomunikační, elektrické, silniční, železniční a další.",
-                        "images": [
-                            {
-                                "imagePath": "/images/min_kostra.jpeg",
-                                "imageDescription": "Zvýrazněné hrany znázorňují minimální kostru grafu",
-                                "aspectRatio": "2"
-                            }
-                        ]
+                        "text": "Kostra grafu je strom daného spojitého grafu, který zahrnuje všechny vrcholy původního grafu. Pro spojitý graf s N vrcholy má kostra vždy N - 1 hran. Kostra grafu tedy spojuje všechny vrcholy původního grafu s co nejmenším počtem hran a neobsahuje žádné kružnice. V závislosti na typu grafu existují postupy jak určit počet možných koster grafu.",
+                        "images": null,
                     }
                 ]
             },
@@ -617,7 +578,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "Příklad 1",
-                        "text": "TODO ",
+                        "text": "Urči počet možných koster v grafu.",
                         "images": null,
                         "exercise": {
                             "name": "spanning1"
@@ -640,7 +601,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Kostra grafu je strom daného spojitého grafu, který zahrnuje všechny vrcholy původního grafu. Pro spojitý graf s N vrcholy má kostra vždy N - 1 hran.<br>Problém minimální kostry z anglického MST je úloha nalezení takové kostry v grafu, jejíž součet vah (každá hrana je ohodnocena) všech hran v kostře je minimální ze všech možných koster grafu. Tento problém je aplikovatelný na mnoho reálných situací jako je projektování a optimalizace všech typů sítí například telekomunikační, elektrické, silniční, železniční a další.",
+                        "text": "Problém minimální kostry z anglického MST je úloha nalezení takové kostry v grafu, jejíž součet vah (každá hrana je ohodnocena) všech hran v kostře je minimální ze všech možných koster grafu. Tento problém je aplikovatelný na mnoho reálných situací jako je projektování a optimalizace všech typů sítí například telekomunikační, elektrické, silniční, železniční a další.",
                         "images": [
                             {
                                 "imagePath": "/images/min_kostra.jpeg",
@@ -733,7 +694,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "TODO",
+                        "text": "Prohledávání stromu do hloubky v angličtině Depth-first search (DFS) na rozdíl od BFS, který prohledává postupně všechny vrcholy v jedné určité vzdálenosti jde algoritmus 17 DFS vždy nejhlouběji co to jde. Vrcholy jsou zde ukládány do zásobníku (LIFO) z angl. stack. Algoritmus prochází z první zvoleného vrcholu do prvního neprozkoumaného vrcholu ve kterém ještě nebyl a takto postupně prochází vrcholy do hloubky, dokud nenarazí na poslední vrchol nebo cesta nevede do vrcholu v kterém už byl. V ten moment se postupně vrací na začátek ke zdrojovému vrcholu dokud po cestě nenalezne hranu, která vede do dalšího neprozkoumaného vrcholu. Takto pokračuje dokud nezbudou žádné neprozkoumané vrcholy. DFS je často používáno v algoritmech hledání cest, detekce cyklů, topologické řazení a řešení bludiště. Pro oba typy algoritmů se používá technika obarvení vrcholů, které značí jejich stav v algoritmu.",
                         "images": null,
                     }
                 ]
@@ -743,7 +704,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "Příklad 1",
-                        "text": "TODO Řeš příklad prohledávání do hloubky",
+                        "text": "Řeš příklad prohledávání do hloubky",
                         "images": null,
                         "apsaph": {
                             "name": "APSAPH1",
@@ -764,7 +725,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "TODO",
+                        "text": "Prohledávání stromu do šířky v angličtině Breadth-first search (BFS) je algoritmus na sys- tematické prozkoumávání všech sousední vrcholů a poté jejich sousedů. Začíná se zvoleným vrcholem, kdy se všechny jeho sousední vrcholy vloží do fronty (FIFO) z angl. queue. Ná- sledně se veme další vrchol z fronty a opět se jeho sousední vrcholy, které ještě nejsou ve frontě do ní vloží. Takto algoritmus pokračuje dokud neprojde všechny vrcholy ve frontě. Svůj název získal, protože rozšiřuje hranici objevených vrcholů vždy jednotně o stejnou vzdálenost. Nejdříve objeví sousedy prvního vybraného vrcholu a poté sousedy těchto sou- sedů, tedy vždy objevuje vrcholy na stejné hranici vzdálenosti od zdrojového vrcholu. BFS je často používán k nalezení nejkratší cesty v nevážených grafech, protože garantuje, že pokud existuje cesta, první nalezená cesta bude nejkratší. BFS je také užitečný pro prohledávání stromů a grafů ve scénářích, kde je důležitá úroveň nebo vzdálenost od kořene, například v síťových protokolech. Tento algoritmus slouží také jako základ pro Jarníkův algoritmus pro nalezení minimální kostry.",
                         "images": null,
                     }
                 ]
@@ -774,7 +735,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "Příklad 1",
-                        "text": "TODO Řeš příklad prohledávání do šířky",
+                        "text": "Řeš příklad prohledávání do šířky",
                         "images": null,
                         "apsaph": {
                             "name": "APSAPH1",

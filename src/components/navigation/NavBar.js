@@ -3,7 +3,6 @@ import {
     Box,
     GlobalStyles,
     IconButton,
-    Input,
     List,
     ListItem,
     ListItemButton,
@@ -12,8 +11,6 @@ import {
     Sheet,
     Typography
 } from "@mui/joy";
-import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
-import SupportRoundedIcon from '@mui/icons-material/SupportRounded';
 import ForestIcon from '@mui/icons-material/Forest';
 import ParkIcon from '@mui/icons-material/Park';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
@@ -131,7 +128,7 @@ export default function NavBar() {
                 <Typography level="title-lg">Stromy</Typography>
                 <ColorSchemeToggle sx={{ml: 'auto'}}/>
             </Box>
-            <Input size="sm" startDecorator={<SearchRoundedIcon/>} placeholder="Search"/>
+            {/*<Input size="sm" startDecorator={<SearchRoundedIcon/>} placeholder="Search"/>*/}
             <Box
                 sx={{
                     minHeight: 0,
@@ -214,12 +211,12 @@ export default function NavBar() {
                         mb: 2,
                     }}
                 >
-                    <ListItem key="2">
+                    {/*<ListItem key="2">
                         <ListItemButton>
                             <SupportRoundedIcon/>
                             Support
                         </ListItemButton>
-                    </ListItem>
+                    </ListItem>*/}
                 </List>
             </Box>
         </Sheet>
