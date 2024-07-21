@@ -286,7 +286,87 @@ const pages = [
                                 "exercise": {
                                     "name": "code1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Do jednotlivých vrcholů zapiš správný kód daného vrcholu a do kořene kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "code11"
+                                }
+                            },
                         ]
                     }
                 ],

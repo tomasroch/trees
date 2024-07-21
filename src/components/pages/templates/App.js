@@ -37,6 +37,7 @@ function ModeToggle() {
     );
 }
 
+//TODO smazat
 export default function App() {
     return (
         <CssVarsProvider>
