@@ -2,7 +2,7 @@ export const exampleNodes = [
     {
         id: '1',
         position: {x: -50, y: 0},
-        data: {result: '00010001011101100010110111', width:250, placeHolder: "Kód..."},
+        data: {result: '0000101110101100010110111', width:250, placeHolder: "Kód..."},
         hidden: false,
         type:'commonNode'
     },
@@ -10,7 +10,7 @@ export const exampleNodes = [
     {
         id: '2',
         position: {x: -200, y: 100},
-        data: {result: '00100010111011', width:150, placeHolder: "Kód..."},
+        data: {result: '00001011101011', width:150, placeHolder: "Kód..."},
         hidden: false,
         type:'commonNode'
     },

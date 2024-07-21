@@ -401,7 +401,87 @@ const pages = [
                                 "exercise": {
                                     "name": "minimalCode1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Do jednotlivých vrcholů zapiš správný minimální kód daného vrcholu a do kořene minimální kód celého stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "minimalCode11"
+                                }
+                            },
                         ]
                     }
                 ],
