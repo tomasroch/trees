@@ -21,6 +21,16 @@ import * as MINIMAL_CODE_TREE_EXAMPLE9 from "./exercises/minimal_code_tree/Minim
 import * as MINIMAL_CODE_TREE_EXAMPLE10 from "./exercises/minimal_code_tree/MinimalCodeTreeExample10"
 import * as MINIMAL_CODE_TREE_EXAMPLE11 from "./exercises/minimal_code_tree/MinimalCodeTreeExample11"
 import * as CREATE_BINARY_TREE_EXAMPLE1 from "./exercises/create_binary_tree/CreateBinaryTreeExample"
+import * as CREATE_BINARY_TREE_EXAMPLE2 from "./exercises/create_binary_tree/CreateBinaryTreeExample2"
+import * as CREATE_BINARY_TREE_EXAMPLE3 from "./exercises/create_binary_tree/CreateBinaryTreeExample3"
+import * as CREATE_BINARY_TREE_EXAMPLE4 from "./exercises/create_binary_tree/CreateBinaryTreeExample4"
+import * as CREATE_BINARY_TREE_EXAMPLE5 from "./exercises/create_binary_tree/CreateBinaryTreeExample5"
+import * as CREATE_BINARY_TREE_EXAMPLE6 from "./exercises/create_binary_tree/CreateBinaryTreeExample6"
+import * as CREATE_BINARY_TREE_EXAMPLE7 from "./exercises/create_binary_tree/CreateBinaryTreeExample7"
+import * as CREATE_BINARY_TREE_EXAMPLE8 from "./exercises/create_binary_tree/CreateBinaryTreeExample8"
+import * as CREATE_BINARY_TREE_EXAMPLE9 from "./exercises/create_binary_tree/CreateBinaryTreeExample9"
+import * as CREATE_BINARY_TREE_EXAMPLE10 from "./exercises/create_binary_tree/CreateBinaryTreeExample10"
+import * as CREATE_BINARY_TREE_EXAMPLE11 from "./exercises/create_binary_tree/CreateBinaryTreeExample11"
 import * as DELETE_IN_BINARY_TREE_EXAMPLE1 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample"
 import * as CREATE_HALDA_EXAMPLE1 from "./exercises/create_halda/CreateHaldaExample"
 import * as DELETE_IN_HALDA_EXAMPLE1 from "./exercises/delete_in_halda/DeleteInHaldaExample"
@@ -58,6 +68,16 @@ export const exampleMap = {
     minimalCode10: MINIMAL_CODE_TREE_EXAMPLE10,
     minimalCode11: MINIMAL_CODE_TREE_EXAMPLE11,
     createBinaryTree1: CREATE_BINARY_TREE_EXAMPLE1,
+    createBinaryTree2: CREATE_BINARY_TREE_EXAMPLE2,
+    createBinaryTree3: CREATE_BINARY_TREE_EXAMPLE3,
+    createBinaryTree4: CREATE_BINARY_TREE_EXAMPLE4,
+    createBinaryTree5: CREATE_BINARY_TREE_EXAMPLE5,
+    createBinaryTree6: CREATE_BINARY_TREE_EXAMPLE6,
+    createBinaryTree7: CREATE_BINARY_TREE_EXAMPLE7,
+    createBinaryTree8: CREATE_BINARY_TREE_EXAMPLE8,
+    createBinaryTree9: CREATE_BINARY_TREE_EXAMPLE9,
+    createBinaryTree10: CREATE_BINARY_TREE_EXAMPLE10,
+    createBinaryTree11: CREATE_BINARY_TREE_EXAMPLE11,
     deleteInBinaryTree1: DELETE_IN_BINARY_TREE_EXAMPLE1,
     ordering1: ORDERING_EXAMPLE1,
     createHalda1: CREATE_HALDA_EXAMPLE1,
