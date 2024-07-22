@@ -645,7 +645,87 @@ const pages = [
                                 "exercise": {
                                     "name": "deleteInBinaryTree1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Odstraň kořen stromu a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInBinaryTree11"
+                                }
+                            },
                         ]
                     }
                 ],

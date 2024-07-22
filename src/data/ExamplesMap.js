@@ -32,6 +32,16 @@ import * as CREATE_BINARY_TREE_EXAMPLE9 from "./exercises/create_binary_tree/Cre
 import * as CREATE_BINARY_TREE_EXAMPLE10 from "./exercises/create_binary_tree/CreateBinaryTreeExample10"
 import * as CREATE_BINARY_TREE_EXAMPLE11 from "./exercises/create_binary_tree/CreateBinaryTreeExample11"
 import * as DELETE_IN_BINARY_TREE_EXAMPLE1 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE2 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample2"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE3 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample3"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE4 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample4"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE5 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample5"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE6 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample6"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE7 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample7"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE8 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample8"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE9 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample9"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE10 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample10"
+import * as DELETE_IN_BINARY_TREE_EXAMPLE11 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample11"
 import * as CREATE_HALDA_EXAMPLE1 from "./exercises/create_halda/CreateHaldaExample"
 import * as DELETE_IN_HALDA_EXAMPLE1 from "./exercises/delete_in_halda/DeleteInHaldaExample"
 import * as ORDERING_EXAMPLE1 from "./exercises/ordering/OrderingExample"
@@ -79,6 +89,16 @@ export const exampleMap = {
     createBinaryTree10: CREATE_BINARY_TREE_EXAMPLE10,
     createBinaryTree11: CREATE_BINARY_TREE_EXAMPLE11,
     deleteInBinaryTree1: DELETE_IN_BINARY_TREE_EXAMPLE1,
+    deleteInBinaryTree2: DELETE_IN_BINARY_TREE_EXAMPLE2,
+    deleteInBinaryTree3: DELETE_IN_BINARY_TREE_EXAMPLE3,
+    deleteInBinaryTree4: DELETE_IN_BINARY_TREE_EXAMPLE4,
+    deleteInBinaryTree5: DELETE_IN_BINARY_TREE_EXAMPLE5,
+    deleteInBinaryTree6: DELETE_IN_BINARY_TREE_EXAMPLE6,
+    deleteInBinaryTree7: DELETE_IN_BINARY_TREE_EXAMPLE7,
+    deleteInBinaryTree8: DELETE_IN_BINARY_TREE_EXAMPLE8,
+    deleteInBinaryTree9: DELETE_IN_BINARY_TREE_EXAMPLE9,
+    deleteInBinaryTree10: DELETE_IN_BINARY_TREE_EXAMPLE10,
+    deleteInBinaryTree11: DELETE_IN_BINARY_TREE_EXAMPLE11,
     ordering1: ORDERING_EXAMPLE1,
     createHalda1: CREATE_HALDA_EXAMPLE1,
     deleteInHalda1: DELETE_IN_HALDA_EXAMPLE1,
