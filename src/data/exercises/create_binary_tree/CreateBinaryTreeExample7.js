@@ -167,20 +167,6 @@ export const exampleNodes = [
         type:'commonNode'
     },
     {
-        id: '24',
-        position: {x: -128, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
-        hidden: false,
-        type:'commonNode'
-    },
-    {
-        id: '25',
-        position: {x: -64, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
-        hidden: false,
-        type:'commonNode'
-    },
-    {
         id: '26',
         position: {x: 0, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},

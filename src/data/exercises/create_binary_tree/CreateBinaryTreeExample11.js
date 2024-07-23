@@ -160,20 +160,6 @@ export const exampleNodes = [
         type:'commonNode'
     },
     {
-        id: '23',
-        position: {x: -64, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
-        hidden: false,
-        type:'commonNode'
-    },
-    {
-        id: '24',
-        position: {x: -128, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
-        hidden: false,
-        type:'commonNode'
-    },
-    {
         id: '25',
         position: {x: -64, y: 280},
         data: {result: 'ㅤ', width:width, placeHolder: ""},
@@ -410,7 +396,7 @@ export const exampleEdges = [
     {
         id: '11-23',
         source: '11',
-        target: '23',
+        target: '25',
         hidden: false,
         animated: true,
         type: ''

@@ -182,20 +182,6 @@ export const exampleNodes = [
         type:'deleteNode'
     },
     {
-        id: '24',
-        position: {x: -128, y: 280},
-        data: {result: '', width:width, placeHolder: ""},
-        hidden: false,
-        type:'deleteNode'
-    },
-    {
-        id: '25',
-        position: {x: -64, y: 280},
-        data: {result: '', width:width, placeHolder: ""},
-        hidden: false,
-        type:'deleteNode'
-    },
-    {
         id: '26',
         position: {x: 0, y: 280},
         data: {result: '', width:width, placeHolder: ""},
