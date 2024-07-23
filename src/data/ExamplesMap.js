@@ -43,6 +43,16 @@ import * as DELETE_IN_BINARY_TREE_EXAMPLE9 from "./exercises/delete_in_binary_tr
 import * as DELETE_IN_BINARY_TREE_EXAMPLE10 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample10"
 import * as DELETE_IN_BINARY_TREE_EXAMPLE11 from "./exercises/delete_in_binary_tree/DeleteInBinaryTreeExample11"
 import * as CREATE_HALDA_EXAMPLE1 from "./exercises/create_halda/CreateHaldaExample"
+import * as CREATE_HALDA_EXAMPLE2 from "./exercises/create_halda/CreateHaldaExample2"
+import * as CREATE_HALDA_EXAMPLE3 from "./exercises/create_halda/CreateHaldaExample3"
+import * as CREATE_HALDA_EXAMPLE4 from "./exercises/create_halda/CreateHaldaExample4"
+import * as CREATE_HALDA_EXAMPLE5 from "./exercises/create_halda/CreateHaldaExample5"
+import * as CREATE_HALDA_EXAMPLE6 from "./exercises/create_halda/CreateHaldaExample6"
+import * as CREATE_HALDA_EXAMPLE7 from "./exercises/create_halda/CreateHaldaExample7"
+import * as CREATE_HALDA_EXAMPLE8 from "./exercises/create_halda/CreateHaldaExample8"
+import * as CREATE_HALDA_EXAMPLE9 from "./exercises/create_halda/CreateHaldaExample9"
+import * as CREATE_HALDA_EXAMPLE10 from "./exercises/create_halda/CreateHaldaExample10"
+import * as CREATE_HALDA_EXAMPLE11 from "./exercises/create_halda/CreateHaldaExample11"
 import * as DELETE_IN_HALDA_EXAMPLE1 from "./exercises/delete_in_halda/DeleteInHaldaExample"
 import * as ORDERING_EXAMPLE1 from "./exercises/ordering/OrderingExample"
 import * as CENTERING_EXAMPLE1 from "./exercises/centering/CenteringExample"
@@ -101,6 +111,16 @@ export const exampleMap = {
     deleteInBinaryTree11: DELETE_IN_BINARY_TREE_EXAMPLE11,
     ordering1: ORDERING_EXAMPLE1,
     createHalda1: CREATE_HALDA_EXAMPLE1,
+    createHalda2: CREATE_HALDA_EXAMPLE2,
+    createHalda3: CREATE_HALDA_EXAMPLE3,
+    createHalda4: CREATE_HALDA_EXAMPLE4,
+    createHalda5: CREATE_HALDA_EXAMPLE5,
+    createHalda6: CREATE_HALDA_EXAMPLE6,
+    createHalda7: CREATE_HALDA_EXAMPLE7,
+    createHalda8: CREATE_HALDA_EXAMPLE8,
+    createHalda9: CREATE_HALDA_EXAMPLE9,
+    createHalda10: CREATE_HALDA_EXAMPLE10,
+    createHalda11: CREATE_HALDA_EXAMPLE11,
     deleteInHalda1: DELETE_IN_HALDA_EXAMPLE1,
     APSAPH1: APS_EXAMPLE1,
     kruskal1: KRUSKAL_EXAMPLE1,

@@ -810,12 +810,92 @@ const pages = [
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
-                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla:  25, 1, 18, 5, 31, 14, 30, 31, 4, 40, 60",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 25, 1, 18, 5, 31, 14, 30, 31, 4, 40, 60",
                                 "images": null,
                                 "exercise": {
                                     "name": "createHalda1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 15, 13, 20, 7, 14, 18, 25, 100, 21, 2, 10",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 23, 15, 30, 7, 18, 35, 25, 28, 29, 1",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 40, 25, 7, 8, 50, 45, 53, 2, 37, 39",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 18, 52, 6, 5, 28, 38, 48, 11, 13, 12",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 42, 70, 21, 5, 52, 62, 22, 32, 5, 1",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 13, 8, 19, 7, 20, 15, 14, 5, 3, 2, 4",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 28, 16, 38, 10, 40, 30, 8, 32, 4, 2, 12",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 33, 43, 13, 23, 53, 3, 5, 15, 25, 35",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 32, 17, 43, 7, 40, 5, 30, 16, 13, 8",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Vytvořte haldu postupným vkládáním čísel pomocí operace insert.<br>Čísla: 17, 7, 27, 3, 13, 23, 5, 15, 25, 1",
+                                "images": null,
+                                "exercise": {
+                                    "name": "createHalda11"
+                                }
+                            },
                         ]
                     },
                     {
