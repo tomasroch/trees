@@ -54,6 +54,16 @@ import * as CREATE_HALDA_EXAMPLE9 from "./exercises/create_halda/CreateHaldaExam
 import * as CREATE_HALDA_EXAMPLE10 from "./exercises/create_halda/CreateHaldaExample10"
 import * as CREATE_HALDA_EXAMPLE11 from "./exercises/create_halda/CreateHaldaExample11"
 import * as DELETE_IN_HALDA_EXAMPLE1 from "./exercises/delete_in_halda/DeleteInHaldaExample"
+import * as DELETE_IN_HALDA_EXAMPLE2 from "./exercises/delete_in_halda/DeleteInHaldaExample2"
+import * as DELETE_IN_HALDA_EXAMPLE3 from "./exercises/delete_in_halda/DeleteInHaldaExample3"
+import * as DELETE_IN_HALDA_EXAMPLE4 from "./exercises/delete_in_halda/DeleteInHaldaExample4"
+import * as DELETE_IN_HALDA_EXAMPLE5 from "./exercises/delete_in_halda/DeleteInHaldaExample5"
+import * as DELETE_IN_HALDA_EXAMPLE6 from "./exercises/delete_in_halda/DeleteInHaldaExample6"
+import * as DELETE_IN_HALDA_EXAMPLE7 from "./exercises/delete_in_halda/DeleteInHaldaExample7"
+import * as DELETE_IN_HALDA_EXAMPLE8 from "./exercises/delete_in_halda/DeleteInHaldaExample8"
+import * as DELETE_IN_HALDA_EXAMPLE9 from "./exercises/delete_in_halda/DeleteInHaldaExample9"
+import * as DELETE_IN_HALDA_EXAMPLE10 from "./exercises/delete_in_halda/DeleteInHaldaExample10"
+import * as DELETE_IN_HALDA_EXAMPLE11 from "./exercises/delete_in_halda/DeleteInHaldaExample11"
 import * as ORDERING_EXAMPLE1 from "./exercises/ordering/OrderingExample"
 import * as CENTERING_EXAMPLE1 from "./exercises/centering/CenteringExample"
 import * as CENTROID_EXAMPLE1 from "./exercises/centroid/CentroidExample"
@@ -122,6 +132,16 @@ export const exampleMap = {
     createHalda10: CREATE_HALDA_EXAMPLE10,
     createHalda11: CREATE_HALDA_EXAMPLE11,
     deleteInHalda1: DELETE_IN_HALDA_EXAMPLE1,
+    deleteInHalda2: DELETE_IN_HALDA_EXAMPLE2,
+    deleteInHalda3: DELETE_IN_HALDA_EXAMPLE3,
+    deleteInHalda4: DELETE_IN_HALDA_EXAMPLE4,
+    deleteInHalda5: DELETE_IN_HALDA_EXAMPLE5,
+    deleteInHalda6: DELETE_IN_HALDA_EXAMPLE6,
+    deleteInHalda7: DELETE_IN_HALDA_EXAMPLE7,
+    deleteInHalda8: DELETE_IN_HALDA_EXAMPLE8,
+    deleteInHalda9: DELETE_IN_HALDA_EXAMPLE9,
+    deleteInHalda10: DELETE_IN_HALDA_EXAMPLE10,
+    deleteInHalda11: DELETE_IN_HALDA_EXAMPLE11,
     APSAPH1: APS_EXAMPLE1,
     kruskal1: KRUSKAL_EXAMPLE1,
     jarnik1: JARNIK_EXAMPLE1,

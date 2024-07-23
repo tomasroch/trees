@@ -908,7 +908,87 @@ const pages = [
                                 "exercise": {
                                     "name": "deleteInHalda1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Odstraň kořen haldy a nahraď ho správným vrcholem. Po správném přiřazení nové hodnoty kořene se označí vrcholy, které je potřeba přeskládat/smazat.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "deleteInHalda11"
+                                }
+                            },
                         ]
                     }
                 ],
