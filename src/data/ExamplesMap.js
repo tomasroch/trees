@@ -69,7 +69,11 @@ import * as CENTERING_EXAMPLE1 from "./exercises/centering/CenteringExample"
 import * as CENTROID_EXAMPLE1 from "./exercises/centroid/CentroidExample"
 import * as APS_EXAMPLE1 from "./exercises/aps_aph/APSExample"
 import * as KRUSKAL_EXAMPLE1 from "./exercises/kruskal/KruskalExample"
+import * as KRUSKAL_EXAMPLE2 from "./exercises/kruskal/KruskalExample2"
+import * as KRUSKAL_EXAMPLE3 from "./exercises/kruskal/KruskalExample3"
 import * as JARNIK_EXAMPLE1 from "./exercises/jarnik/JarnikExample"
+import * as JARNIK_EXAMPLE2 from "./exercises/jarnik/JarnikExample2"
+import * as JARNIK_EXAMPLE3 from "./exercises/jarnik/JarnikExample3"
 import * as SPANNING_EXAMPLE1 from "./exercises/spanning/SpanningExample"
 
 export const exampleMap = {
@@ -144,6 +148,10 @@ export const exampleMap = {
     deleteInHalda11: DELETE_IN_HALDA_EXAMPLE11,
     APSAPH1: APS_EXAMPLE1,
     kruskal1: KRUSKAL_EXAMPLE1,
+    kruskal2: KRUSKAL_EXAMPLE2,
+    kruskal3: KRUSKAL_EXAMPLE3,
     jarnik1: JARNIK_EXAMPLE1,
+    jarnik2: JARNIK_EXAMPLE2,
+    jarnik3: JARNIK_EXAMPLE3,
     spanning1: SPANNING_EXAMPLE1,
 }

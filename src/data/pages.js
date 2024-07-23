@@ -1116,7 +1116,23 @@ const pages = [
                                 "exercise": {
                                     "name": "kruskal1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal3"
+                                }
+                            },
                         ]
                     }
                 ],
@@ -1145,7 +1161,23 @@ const pages = [
                                 "exercise": {
                                     "name": "jarnik1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Vyřeš příklad pomocí jarníkova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. Pří výběru hran se řiď lexikografickým pravidlem. <b>Dodržuj stanovené názvy hran</b>. Začni vrcholem <b>a</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "jarnik2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Vyřeš příklad pomocí jarníkova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. Pří výběru hran se řiď lexikografickým pravidlem. <b>Dodržuj stanovené názvy hran</b>. Začni vrcholem <b>a</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "jarnik3"
+                                }
+                            },
                         ]
                     }
                 ],

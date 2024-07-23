@@ -3,36 +3,36 @@ const width = 50
 export const exampleNodes = [
     {
         id: '0',
-        position: {x: -100, y: 440},
+        position: {x: 400, y: 280},
         data: {
             value: "ac, fh, ad, ce, ab, bd, bg, dh, df, dg, be, de, ef",
             placeHolder: "ac, fh, ad...",
             label: "Seznam všech hran: ",
-            width: 600
+            width: 350
         },
         hidden: false,
         type:'inputInfoNode'
     },
     {
         id: '1',
-        position: {x: -100, y: 500},
+        position: {x: 400, y: 340},
         data: {
             placeHolder: "ac5, fh2, ad3...",
             label: "Pomocné pole pro incidentní hrany:",
-            width: 600
+            width: 350
         },
         hidden: false,
         type:'inputHelperNode'
     },
     {
         id: '2',
-        position: {x: -100, y: 560},
+        position: {x: 400, y: 400},
         data: {
             value: "",
             result: "ac,ad,ce,ab,bg,dh,fh",
             placeHolder: "ac, fh, ad...",
             label: "Začni přidávat hrany:",
-            width: 600
+            width: 350
         },
         hidden: false,
         type:'inputResultKruskalNode'
