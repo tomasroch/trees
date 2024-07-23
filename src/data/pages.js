@@ -1111,7 +1111,7 @@ const pages = [
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
-                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
                                 "images": null,
                                 "exercise": {
                                     "name": "kruskal1"
@@ -1140,7 +1140,7 @@ const pages = [
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
-                                "text": "Vyřeš příklad pomocí jarníkova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. Pří výběru hran se řiď lexikografickým pravidlem. Začni vrcholem a.",
+                                "text": "Vyřeš příklad pomocí jarníkova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. Pří výběru hran se řiď lexikografickým pravidlem. <b>Dodržuj stanovené názvy hran</b>. Začni vrcholem <b>a</b>.",
                                 "images": null,
                                 "exercise": {
                                     "name": "jarnik1"
