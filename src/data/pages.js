@@ -1063,7 +1063,87 @@ const pages = [
                         "exercise": {
                             "name": "spanning1"
                         }
-                    }
+                    },
+                    {
+                        "smallTitle": "Příklad 2",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning2"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 3",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning3"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 4",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning4"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 5",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning5"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 6",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning6"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 7",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning7"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 8",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning8"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 9",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning9"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 10",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning10"
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 11",
+                        "text": "Urči počet možných koster v grafu.",
+                        "images": null,
+                        "exercise": {
+                            "name": "spanning11"
+                        }
+                    },
                 ]
             }
         ]

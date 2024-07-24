@@ -3,74 +3,74 @@ const width = 50
 export const exampleNodes = [
     {
         id: '1',
-        position: {x: -75, y: 180},
+        position: {x: -40, y: 220},
         data: {text: "Vyber správný počet koster grafu: ",width:width, radio: [
-                {value: "16", result: false},
-                {value: "48", result: true},
-                {value: "64", result: false}
+                {value: "75", result: true},
+                {value: "150", result: false},
+                {value: "225", result: false}
             ]},
         hidden: false,
         type:'radioButtonResultNode'
     },
     {
         id: 'a',
-        position: {x: -100, y: 0},
-        data: {width:width},
-        hidden: false,
-        type:'spanningNode'
-    },
-    {
-        id: 'd',
-        position: {x: -25, y: 100},
+        position: {x: 0, y: 0},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'b',
-        position: {x: -25, y: -100},
+        position: {x: 200, y: -100},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'c',
-        position: {x: 150, y: 0},
+        position: {x: 100, y: 150},
+        data: {width:width},
+        hidden: false,
+        type:'spanningNode'
+    },
+    {
+        id: 'd',
+        position: {x: 400, y: 0},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'e',
-        position: {x: 250, y: -100},
-        data: {width:width},
-        hidden: false,
-        type:'spanningNode'
-    },
-    {
-        id: 'f',
-        position: {x: 250, y: 50},
+        position: {x: 350, y: 150},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'h',
-        position: {x: 300, y: 200},
-        data: {width:width},
-        hidden: false,
-        type:'spanningNode'
-    },
-    {
-        id: 'g',
-        position: {x: 400, y: 100},
+        position: {x: 300, y: 300},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'i',
-        position: {x: 500, y: 200},
+        position: {x: 500, y: 250},
+        data: {width:width},
+        hidden: false,
+        type:'spanningNode'
+    },
+    {
+        id: 'f',
+        position: {x: 600, y: -50},
+        data: {width:width},
+        hidden: false,
+        type:'spanningNode'
+    },
+    {
+        id: 'g',
+        position: {x: 600, y: 100},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
@@ -136,41 +136,77 @@ export const exampleEdges = [
         type: 'floatingEdge'
     },
     {
-        id: 'cf',
-        source: 'c',
-        target: 'f',
+        id: 'de',
+        source: 'd',
+        target: 'e',
         hidden: false,
         animated: true,
         type: 'floatingEdge'
     },
     {
-        id: 'ef',
+        id: 'ei',
         source: 'e',
-        target: 'f',
+        target: 'i',
         hidden: false,
         animated: true,
         type: 'floatingEdge'
     },
     {
-        id: 'fh',
+        id: 'fg',
         source: 'f',
-        target: 'h',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
-        id: 'hg',
-        source: 'h',
         target: 'g',
         hidden: false,
         animated: true,
         type: 'floatingEdge'
     },
     {
-        id: 'hi',
+        id: 'he',
         source: 'h',
+        target: 'e',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'ae',
+        source: 'a',
+        target: 'e',
+
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'df',
+        source: 'd',
+        target: 'f',
+
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'ei',
+        source: 'e',
         target: 'i',
+
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'df',
+        source: 'd',
+        target: 'g',
+
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'be',
+        source: 'b',
+        target: 'e',
 
         hidden: false,
         animated: true,

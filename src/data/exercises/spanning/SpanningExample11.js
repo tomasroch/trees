@@ -3,74 +3,74 @@ const width = 50
 export const exampleNodes = [
     {
         id: '1',
-        position: {x: -75, y: 180},
+        position: {x: 190, y: 50},
         data: {text: "Vyber správný počet koster grafu: ",width:width, radio: [
-                {value: "16", result: false},
-                {value: "48", result: true},
-                {value: "64", result: false}
+                {value: "576", result: false},
+                {value: "768", result: true},
+                {value: "1024", result: false}
             ]},
         hidden: false,
         type:'radioButtonResultNode'
     },
     {
         id: 'a',
-        position: {x: -100, y: 0},
+        position: {x: 0, y: 0},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'd',
-        position: {x: -25, y: 100},
-        data: {width:width},
-        hidden: false,
-        type:'spanningNode'
-    },
-    {
-        id: 'b',
-        position: {x: -25, y: -100},
-        data: {width:width},
-        hidden: false,
-        type:'spanningNode'
-    },
-    {
-        id: 'c',
         position: {x: 150, y: 0},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
-        id: 'e',
-        position: {x: 250, y: -100},
+        id: 'b',
+        position: {x: 0, y: 150},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
-        id: 'f',
-        position: {x: 250, y: 50},
-        data: {width:width},
-        hidden: false,
-        type:'spanningNode'
-    },
-    {
-        id: 'h',
-        position: {x: 300, y: 200},
+        id: 'c',
+        position: {x: 150, y: 150},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'g',
-        position: {x: 400, y: 100},
+        position: {x: 550, y: 0},
+        data: {width:width},
+        hidden: false,
+        type:'spanningNode'
+    },
+    {
+        id: 'f',
+        position: {x: 350, y: -80},
+        data: {width:width},
+        hidden: false,
+        type:'spanningNode'
+    },
+    {
+        id: 'e',
+        position: {x: 350, y: -200},
+        data: {width:width},
+        hidden: false,
+        type:'spanningNode'
+    },
+    {
+        id: 'h',
+        position: {x: 500, y: 150},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'i',
-        position: {x: 500, y: 200},
+        position: {x: 650, y: 150},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
@@ -128,22 +128,6 @@ export const exampleEdges = [
         type: 'floatingEdge'
     },
     {
-        id: 'ce',
-        source: 'c',
-        target: 'e',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
-        id: 'cf',
-        source: 'c',
-        target: 'f',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
         id: 'ef',
         source: 'e',
         target: 'f',
@@ -152,17 +136,49 @@ export const exampleEdges = [
         type: 'floatingEdge'
     },
     {
-        id: 'fh',
-        source: 'f',
-        target: 'h',
+        id: 'dg',
+        source: 'd',
+        target: 'g',
         hidden: false,
         animated: true,
         type: 'floatingEdge'
     },
     {
-        id: 'hg',
-        source: 'h',
+        id: 'de',
+        source: 'd',
+        target: 'e',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'df',
+        source: 'd',
+        target: 'f',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'eg',
+        source: 'e',
         target: 'g',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'fg',
+        source: 'f',
+        target: 'g',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: 'gh',
+        source: 'g',
+        target: 'h',
         hidden: false,
         animated: true,
         type: 'floatingEdge'
@@ -171,10 +187,16 @@ export const exampleEdges = [
         id: 'hi',
         source: 'h',
         target: 'i',
-
         hidden: false,
         animated: true,
         type: 'floatingEdge'
     },
-
+    {
+        id: 'gi',
+        source: 'g',
+        target: 'i',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
 ]

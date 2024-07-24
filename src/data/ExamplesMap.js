@@ -75,6 +75,16 @@ import * as JARNIK_EXAMPLE1 from "./exercises/jarnik/JarnikExample"
 import * as JARNIK_EXAMPLE2 from "./exercises/jarnik/JarnikExample2"
 import * as JARNIK_EXAMPLE3 from "./exercises/jarnik/JarnikExample3"
 import * as SPANNING_EXAMPLE1 from "./exercises/spanning/SpanningExample"
+import * as SPANNING_EXAMPLE2 from "./exercises/spanning/SpanningExample2"
+import * as SPANNING_EXAMPLE3 from "./exercises/spanning/SpanningExample3"
+import * as SPANNING_EXAMPLE4 from "./exercises/spanning/SpanningExample4"
+import * as SPANNING_EXAMPLE5 from "./exercises/spanning/SpanningExample5"
+import * as SPANNING_EXAMPLE6 from "./exercises/spanning/SpanningExample6"
+import * as SPANNING_EXAMPLE7 from "./exercises/spanning/SpanningExample7"
+import * as SPANNING_EXAMPLE8 from "./exercises/spanning/SpanningExample8"
+import * as SPANNING_EXAMPLE9 from "./exercises/spanning/SpanningExample9"
+import * as SPANNING_EXAMPLE10 from "./exercises/spanning/SpanningExample10"
+import * as SPANNING_EXAMPLE11 from "./exercises/spanning/SpanningExample11"
 
 export const exampleMap = {
     center1: CENTERING_EXAMPLE1,
@@ -154,4 +164,14 @@ export const exampleMap = {
     jarnik2: JARNIK_EXAMPLE2,
     jarnik3: JARNIK_EXAMPLE3,
     spanning1: SPANNING_EXAMPLE1,
+    spanning2: SPANNING_EXAMPLE2,
+    spanning3: SPANNING_EXAMPLE3,
+    spanning4: SPANNING_EXAMPLE4,
+    spanning5: SPANNING_EXAMPLE5,
+    spanning6: SPANNING_EXAMPLE6,
+    spanning7: SPANNING_EXAMPLE7,
+    spanning8: SPANNING_EXAMPLE8,
+    spanning9: SPANNING_EXAMPLE9,
+    spanning10: SPANNING_EXAMPLE10,
+    spanning11: SPANNING_EXAMPLE11,
 }
