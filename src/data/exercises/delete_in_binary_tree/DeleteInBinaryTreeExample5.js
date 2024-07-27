@@ -81,7 +81,7 @@ export const exampleNodes = [
     {
         id: '10',
         position: {x: -224, y: 210},
-        data: {result: '12', width:width, placeHolder: ""},
+        data: {result: '', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },
@@ -166,7 +166,7 @@ export const exampleNodes = [
     {
         id: '22',
         position: {x: -128, y: 280},
-        data: {result: '', width:width, placeHolder: ""},
+        data: {result: '12', width:width, placeHolder: ""},
         hidden: false,
         type:'deleteNode'
     },

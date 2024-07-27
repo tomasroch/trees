@@ -70,7 +70,7 @@ export const exampleNodes = [
     {
         id: '10',
         position: {x: -224, y: 210},
-        data: {result: '12', width:width, placeHolder: ""},
+        data: {result: 'ㅤ', width:width, placeHolder: ""},
         hidden: false,
         type:'commonNode'
     },
@@ -155,7 +155,7 @@ export const exampleNodes = [
     {
         id: '22',
         position: {x: -128, y: 280},
-        data: {result: 'ㅤ', width:width, placeHolder: ""},
+        data: {result: '12', width:width, placeHolder: ""},
         hidden: false,
         type:'commonNode'
     },
