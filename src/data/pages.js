@@ -774,8 +774,148 @@ const pages = [
                                         "inOrder": "2, 5, 7, 11, 14, 22, 25, 30, 33, 38, 60",
                                         "postOrder": "2, 7, 14, 11, 5, 25, 60, 38, 33, 30, 22",
                                     },
-                                }
-                            }
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering2",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "15, 3, 7, 2, 10, 20, 18, 25, 21, 100",
+                                        "inOrder": "2, 7, 10, 13, 15, 18, 20 ,21, 25, 100",
+                                        "postOrder": "2, 10, 7, 13, 18, 21, 100, 23, 20, 15",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering3",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "15, 3, 7, 2, 10, 20, 18, 25, 21, 100",
+                                        "inOrder": "2, 7, 10, 13, 15, 18, 20 ,21, 25, 100",
+                                        "postOrder": "2, 10, 7, 13, 18, 21, 100, 23, 20, 15",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering4",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "40, 25, 7, 2, 8, 37, 39, 50, 45, 53",
+                                        "inOrder": "2, 7, 8, 25, 37, 39, 40, 45, 50, 53",
+                                        "postOrder": "2, 8, 7, 39, 37, 25, 45, 53, 50, 40",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering5",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "18, 6, 5, 11, 13, 12, 52, 28, 38, 48",
+                                        "inOrder": "5, 6, 11, 12, 13, 18, 28, 38, 48, 52",
+                                        "postOrder": "5, 12, 13, 11, 6, 48, 38, 28, 52, 18",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering6",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "42, 21, 4, 1, 5, 22, 32, 70, 52, 62",
+                                        "inOrder": "1, 4, 5, 21, 22, 32, 52, 52, 62, 70",
+                                        "postOrder": "1, 5, 4, 32, 22, 21, 62, 52, 70, 42",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering7",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "13, 8, 7, 5, 3, 2, 4, 19, 15, 14, 20",
+                                        "inOrder": "2, 3, 4, 5, 7, 8, 13, 14, 15, 19, 20",
+                                        "postOrder": "2, 4, 3, 5, 7, 8, 14, 15, 20, 19, 13",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering8",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "28, 16, 10, 8, 4, 2, 12, 38, 30, 32, 40",
+                                        "inOrder": "2, 4, 8, 10, 12, 16, 28, 30, 32, 38, 40",
+                                        "postOrder": "2, 4, 8, 12, 10, 16, 32, 30, 40, 38, 28",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering9",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "33, 17, 13, 3, 5, 15, 23, 25, 43, 35, 53",
+                                        "inOrder": "3, 5, 13, 15, 17, 23, 25, 33, 35, 43, 53",
+                                        "postOrder": "5, 3, 15, 13, 25, 23, 17, 35, 53, 43, 33",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering10",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "32, 17, 7, 5, 16, 13, 8, 30, 43, 40",
+                                        "inOrder": "5, 7, 8, 13, 16, 17, 30, 32, 40, 43",
+                                        "postOrder": "5, 8, 13, 16, 7, 30, 17, 40, 43, 32",
+                                    },
+                                },
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Zapiš průchod vrcholy zobrazeného stromu. Jako nápovědu lze využít animaci.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "ordering11",
+                                    "dfs": true,
+                                    "data": {
+                                        "preOrder": "17, 7, 3, 1, 5, 13, 15, 27, 23, 25",
+                                        "inOrder": "1, 3, 5, 7, 13, 15, 17, 23, 25, 27",
+                                        "postOrder": "1, 5, 3, 15, 13, 7, 25, 23, 27, 17",
+                                    },
+                                },
+                            },
                         ]
                     }
                 ],

@@ -65,6 +65,16 @@ import * as DELETE_IN_HALDA_EXAMPLE9 from "./exercises/delete_in_halda/DeleteInH
 import * as DELETE_IN_HALDA_EXAMPLE10 from "./exercises/delete_in_halda/DeleteInHaldaExample10"
 import * as DELETE_IN_HALDA_EXAMPLE11 from "./exercises/delete_in_halda/DeleteInHaldaExample11"
 import * as ORDERING_EXAMPLE1 from "./exercises/ordering/OrderingExample"
+import * as ORDERING_EXAMPLE2 from "./exercises/ordering/OrderingExample2"
+import * as ORDERING_EXAMPLE3 from "./exercises/ordering/OrderingExample3"
+import * as ORDERING_EXAMPLE4 from "./exercises/ordering/OrderingExample4"
+import * as ORDERING_EXAMPLE5 from "./exercises/ordering/OrderingExample5"
+import * as ORDERING_EXAMPLE6 from "./exercises/ordering/OrderingExample6"
+import * as ORDERING_EXAMPLE7 from "./exercises/ordering/OrderingExample7"
+import * as ORDERING_EXAMPLE8 from "./exercises/ordering/OrderingExample8"
+import * as ORDERING_EXAMPLE9 from "./exercises/ordering/OrderingExample9"
+import * as ORDERING_EXAMPLE10 from "./exercises/ordering/OrderingExample10"
+import * as ORDERING_EXAMPLE11 from "./exercises/ordering/OrderingExample11"
 import * as CENTERING_EXAMPLE1 from "./exercises/centering/CenteringExample"
 import * as CENTROID_EXAMPLE1 from "./exercises/centroid/CentroidExample"
 import * as APS_EXAMPLE1 from "./exercises/aps_aph/APSExample"
@@ -134,6 +144,16 @@ export const exampleMap = {
     deleteInBinaryTree10: DELETE_IN_BINARY_TREE_EXAMPLE10,
     deleteInBinaryTree11: DELETE_IN_BINARY_TREE_EXAMPLE11,
     ordering1: ORDERING_EXAMPLE1,
+    ordering2: ORDERING_EXAMPLE2,
+    ordering3: ORDERING_EXAMPLE3,
+    ordering4: ORDERING_EXAMPLE4,
+    ordering5: ORDERING_EXAMPLE5,
+    ordering6: ORDERING_EXAMPLE6,
+    ordering7: ORDERING_EXAMPLE7,
+    ordering8: ORDERING_EXAMPLE8,
+    ordering9: ORDERING_EXAMPLE9,
+    ordering10: ORDERING_EXAMPLE10,
+    ordering11: ORDERING_EXAMPLE11,
     createHalda1: CREATE_HALDA_EXAMPLE1,
     createHalda2: CREATE_HALDA_EXAMPLE2,
     createHalda3: CREATE_HALDA_EXAMPLE3,
