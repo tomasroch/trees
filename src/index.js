@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import HomePage from "./components/pages/HomePage";
 import TemplatePage from "./components/pages/templates/TemplatePage"
 import pages from "./data/pages";
+import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -38,7 +39,7 @@ root.render(
         </BrowserRouter>
     </React.StrictMode>
 );
-
+reportWebVitals(console.log);
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
