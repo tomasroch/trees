@@ -136,7 +136,7 @@ export default function TemplatePage({page, subpage}) {
                                                             }
                                                             {/*it is safe to use dangerouslySetInnerHTML because data are static!*/}
                                                             <Typography level="body-md">
-                                                                <article
+                                                                <span
                                                                     dangerouslySetInnerHTML={{__html: textData.text}}/>
                                                             </Typography>
                                                             {/*přidání doplňku ke cvičením prohledávání do šířky/hloubky*/}
@@ -182,8 +182,8 @@ export default function TemplatePage({page, subpage}) {
                                     </Tabs>
                                 ) : ( /*Only one tab - singlepage*/
                                     <Box sx={{mb: 1}}>
-                                        {mainPage.textData.map(textData => (
-                                            <div key={mainPage.path}>
+                                        {mainPage.textData.map((textData, index) => (
+                                            <div key={mainPage.path + index}>
                                                 {textData.smallTitle !== null &&
                                                     <Typography level="title-lg">{textData.smallTitle}</Typography>
                                                 }
