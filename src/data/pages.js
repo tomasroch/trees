@@ -12,7 +12,7 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Strom se řadí mezi jedny ze základních struktur v přírodě i v oblasti matematiky. Stromy v přírodě vynikají svou rozmanitou a výrazně složitou strukturou. Naopak stromy v rámci teorie grafů představují prakticky nejjednodušší varianty grafů, ačkoliv analýza jejich vlast- ností poskytuje zajímavý výzkumný prostor. V kontextu teorie grafů je strom definován jako konečný graf, to znamená, že počet jeho vrcholů je konečný.<br><b>Strom je souvislý graf, neobsahující kružnici (acyklický souvislý graf)</b>. <br> Strom obsahující pouze jeden vrchol, nazýváme triviálním stromem. Strom, který obsahuje alespoň dva vrcholy, nazveme netriviálním stromem.",
+                        "text": "Strom se řadí mezi jedny ze základních struktur v přírodě i v oblasti matematiky. Stromy v přírodě vynikají svou rozmanitou a výrazně složitou strukturou. Naopak stromy v rámci teorie grafů představují prakticky nejjednodušší varianty grafů, ačkoliv analýza jejich vlastností poskytuje zajímavý výzkumný prostor. V kontextu teorie grafů je strom definován jako konečný graf, to znamená, že počet jeho vrcholů je konečný.<br><b>Strom je souvislý graf, neobsahující kružnici (acyklický souvislý graf)</b>. <br> Strom obsahující pouze jeden vrchol, nazýváme triviálním stromem. Strom, který obsahuje alespoň dva vrcholy, nazveme netriviálním stromem.",
                         "images": [
                             {
                                 "imagePath": "/images/strom.jpeg",
@@ -20,7 +20,37 @@ const pages = [
                                 "aspectRatio": "4"
                             }
                         ]
-                    }
+                    },
+                    {
+                        "smallTitle": "Definice listu / vnitřního vrcholu:",
+                        "text": "Nechť T=(V, E) je netriviální strom. Vrchol v&isin;V stupně 1 nazýváme listem stromu T. Vrchol u&isin;V stupně většího než jedna nazýváme vnitřním vrcholem stromu T.",
+                        "images": null,
+                    },
+                    {
+                        "smallTitle": "Věta (o listu):",
+                        "text": "Každý netriviální strom obsahuje list.",
+                        "images": null,
+                    },
+                    {
+                        "smallTitle": "Věta (o listech):",
+                        "text": "Každý netriviální strom T má alespoň dva vrcholy stupně 1 (listy).",
+                        "images": null,
+                    },
+                    {
+                        "smallTitle": "Tvrzení (o odebrání listu ze stromu):",
+                        "text": "Nechť T=(V, E) je strom, deg v=1&and;v&isin;V(T). Pak T - v je opět strom. <br><br>Zřejmě graf T' = T - v neobsahuje kružnici. Zbývá dokázat, že graf T' je souvislý graf. Nechť x, y jsou dva libovolné vrcholy stromu T různé od vrcholu v a nechť Px,y je cesta z vrcholu x do vrcholu y ve stromu T. Cesta Px,y neobsahuje vrchol v, neboť cesta může obsahovat nejvýše dva vrcholy stupně jedna (koncové vrcholy cesty) a těmi by mohly být pouze vrcholy x a y. Cesta Px,y je tak celá obsažena i v grafu T' a graf T' je tudíž souvislý.",
+                        "images": null,
+                    },
+                    {
+                        "smallTitle": "Tvrzení (o přidaní hrany s vrcholem):",
+                        "text": "Přidáme-li k libovolnému vrcholu v stromu T = (V, E) hranu s vrcholem {v, w}, w V∉(T), dostaneme opět strom <br><br> Důkaz (E.Milková:Problém minimální kostry): Přidáním jednoho vrcholu a jedné hrany ke grafu nemůžeme zřejmě kružnici vytvořit. Zbývá dokázat, že graf T'=(V&cup;{w}, E&cup;{v, w}) získaný ze stromu T přidáním hrany {v, w}, v&isin;V, w&notin;V, bude souvislý. To však zřejmě plyne ze skutečnosti, že pro každé dva vrcholy x a y grafu T' různé od vrcholu w existuje cesta z x do y v grafu T' totožná s cestou z x do y ve stromu T. A cestu v grafu T' z libovolného vrcholu x do vrcholu w dostaneme prodloužením cesty z vrcholu x do vrcholu v ve stromu T o hranu {v, w}. A naopak cestu z vrcholu w do libovolného vrcholu x v grafu T' získáme připojením cesty z vrcholu v do vrcholu x ve stromu T k hraně {w, v}.",
+                        "images": null,
+                    },
+                    {
+                        "smallTitle": "Ekvivalentní podmínky: ",
+                        "text": "Ekvivalentní podmínky Nechť T je graf s n vrcholy a m hranami. Následující tvrzení jsou ekvivalentní:<br> (1) T je strom, <br> (2) mezi libovolnými dvěma vrcholy grafu T existuje právě jedna cesta ( matem. zápis &forall;x, y&isin;V &exist;! Px,y ), <br> (3) T je souvislý graf a m = n – 1 <br> (4) T je souvislý a každá jeho hrana je most <br> (5) T neobsahuje kružnici a m = n – 1 <br> (6) T neobsahuje kružnici a když libovolné 2 nesousední vrcholy v T spojíme hranou, získaný graf T má pravě jednu kružnici. ",
+                        "images": null,
+                    },
                 ]
             },
             {
@@ -38,7 +68,18 @@ const pages = [
                                 "aspectRatio": "2"
                             }
                         ]
-                    }
+                    },
+                    {
+                        "smallTitle": "Tvrzení (vztah mezi vrcholy a hranami v lese):",
+                        "text": "Nechť G = (V, E) je les, který obsahuje k komponent, k ≥ 1. Potom platí vztah: |V| = |E| + k.<br><br> Důkaz (E.Milková:Problém minimální kostry): Označme Ti = (Vi, Ei), i = 1, 2, ..., k, komponenty lesa G. Protože každá komponenta je strom, platí |Vi| = |Ei| + 1, i = 1, 2, ..., k. Odtud rovnice viz obrázek.",
+                        "images": [
+                            {
+                                "imagePath": "/images/les_rovnice.png",
+                                "imageDescription": "Rovnice",
+                                "aspectRatio": "8"
+                            }
+                        ],
+                    },
                 ]
             },
             {
@@ -134,6 +175,11 @@ const pages = [
                                 "aspectRatio": "3"
                             }
                         ]
+                    },
+                    {
+                        "smallTitle": "Definice – kořenový strom/kořen stromu:",
+                        "text": "Dvojici (T, r), kde T = (V, E) je strom a r&isin;V pevně zvolený vrchol, nazýváme kořenový strom a vrchol r kořen stromu (T, r).",
+                        "images": null,
                     }
                 ]
             },
@@ -145,6 +191,11 @@ const pages = [
                     {
                         "smallTitle": "",
                         "text": "Také se používá označení z „rodinné“ terminologie otec a syn. V kořenovém stromě, pokud existuje hrana vedoucí z vrcholu x do vrcholu y, pak je vrchol x považován za předchůdce vrcholu y a vrchol y je považován za následníka vrcholu x. Lze je oba označit jako předchůdce i následníka přímého, protože se jedná o sousední vrcholy. Vrcholy, které mají společného předchůdce lze také označit jako bratry. Analogicky se pak lze setkat s označením dědeček pro předchůdce předchůdce a vnuka pro následníka následníka, že se nejedná o přímého předchůdce a následníka lze zdůraznit přívlastkem „nepřímý“ předchůdce a následník.<br>V kořenovém stromě má tedy každý vrchol svého předchůdce s výjimkou kořene, ten předchůdce nemá. Pokud vrchol nemá žádného následníka je označován jako list. Pokud alespoň jednoho následníka má, tak se jedná o vnitřní vrchol.",
+                        "images": null
+                    },
+                    {
+                        "smallTitle": "Definice - předchůdce/následník:",
+                        "text": "Nechť (T, r) je kořenový strom. Jestliže vrchol x leží na cestě z kořene r do vrcholu y, pak říkáme, že x je předchůdce y a y je následník x. Jestliže navíc jsou x a y sousední vrcholy, nazýváme x přímým předchůdcem y a y přímým následníkem x.<br> Pokud chceme zdůraznit, že vrchol x je předchůdce vrcholu y, ale zároveň není jeho přímý předchůdce, řekneme, že x je nepřímý předchůdce y. Totéž platí pro pojem nepřímý následník.",
                         "images": null
                     }
                 ]
@@ -169,7 +220,35 @@ const pages = [
                                 "aspectRatio": "2"
                             }
                         ]
+                    },
+                    {
+                        "smallTitle": "Definice – vrstva, hloubka stromu:",
+                        "text": "Nechť (T, r) je kořenový strom, v jeho libovolný vrchol a k délka cesty z kořene r do vrcholu v. Pak říkáme, že vrchol v leží v k - té vrstvě stromu (T, r) nebo též ve vrstvě číslo k. Hloubka stromu (T, r) je rovna největšímu číslu z čísel vrstev, ve kterých leží listy stromu (T, r).",
+                        "images": null
                     }
+                ]
+            },
+            {
+                "name": "Podstrom",
+                "path": "podstrom",
+                "tabs": null,
+                "textData": [
+                    {
+                        "smallTitle": "",
+                        "text": "Podstrom stromu T je strom, který se skládá z určitého vrcholu V ve stromu T a všech jeho potomků. Podstrom je tedy tvořen podmnožinou vrcholů a hran původního stromu.",
+                        "images": null,
+                    },
+                    {
+                        "smallTitle": "Definice podstromu:",
+                        "text": "Nechť (T, r) je kořenový strom. Pak podgraf (T', v) stromu (T, r) obsahující vrchol v a všechny následníky vrcholu v, nazýváme podstrom stromu (T, r) s kořenem v.",
+                        "images": [
+                            {
+                                "imagePath": "/images/podstrom.png",
+                                "imageDescription": "Příklad kořenového stromu a jeho podstromu",
+                                "aspectRatio": "2"
+                            }
+                        ]
+                    },
                 ]
             },
             {
@@ -181,7 +260,22 @@ const pages = [
                         "smallTitle": "",
                         "text": "Také nazýván pěstovaný strom. Potomci každého vrcholu jsou uspořádány do pevně dané sekvence v rovině a bez křížení jednotlivých hran. Následkem toho má strom při stejném souboru vrcholů různé struktury definované právě uspořádáním potomků.",
                         "images": null
-                    }
+                    },
+                    {
+                        "smallTitle": "",
+                        "text": "<br>Uspořádaný kořenový strom si můžeme představit jako strom s vyznačeným kořenem a pevně zvoleným nakreslením v rovině bez křížení hran. Nakreslení hran následníků vzhledem k hraně předchůdce udává (ve zvolené orientaci) pořadí.",
+                        "images": null
+                    },
+                    {
+                        "smallTitle": "",
+                        "text": "<br>Uspořádání potomků vrcholu ve stromu je přirozeně požadováno v mnoha praktických situacích. Například ve stromových datových strukturách jsou často potomci explicitně seřazeni podle daného klíče, jako třeba ve vyhledávacích binárních stromech. I v případech, kdy uspořádání potomků ve stromě není dáno, je možné jej jednoznačně definovat.",
+                        "images": null
+                    },
+                    {
+                        "smallTitle": "Definice uspořádaného (pěstovaného) stromu:",
+                        "text": "Kořenový strom T, r je uspořádaný, pokud je pro každý jeho vrchol jednoznačně dáno pořadí jeho následníků (zleva doprava). Uspořádaný kořenový strom se také nazývá pěstovaný strom.",
+                        "images": null
+                    },
                 ]
             }
         ]
@@ -216,7 +310,7 @@ const pages = [
                 ]
             },
             {
-                "name": "Kořenové stromy",
+                "name": "Isomorfismus kořenové stromy",
                 "path": "korenove-stromy",
                 "tabs": null,
                 "textData": [
@@ -230,11 +324,16 @@ const pages = [
                                 "aspectRatio": "3"
                             }
                         ]
+                    },
+                    {
+                        "smallTitle": "Definice izomorfismů kořenových stromů:",
+                        "text": "Dva kořenové stromy (T,r) a (T´,r´) jsou izomorfní, pokud existuje izomorfismus mezi stromy T a T´ , který zobrazí kořen r na kořen r´.",
+                        "images": null,
                     }
                 ]
             },
             {
-                "name": "Uspořádané kořenové stromy",
+                "name": "Isomorfimus uspořádané kořenové stromy",
                 "path": "usporadane-korenove-stromy",
                 "tabs": null,
                 "textData": [
@@ -248,7 +347,12 @@ const pages = [
                                 "aspectRatio": "3"
                             }
                         ]
-                    }
+                    },
+                    {
+                        "smallTitle": "Definice izomorfismu uspořádaných kořenových stromů:",
+                        "text": "Dva uspořádané kořenové (pěstované) stromy jsou izomorfní, jestliže pro ně existuje izomorfismus kořenových stromů, který navíc zachová pořadí potomků všech vrcholů.",
+                        "images": null,
+                    },
                 ]
             },
             {
@@ -273,6 +377,16 @@ const pages = [
                                 "smallTitle": "",
                                 "text": "Pokud již existuje řetězec daného stromu, lze z něj opět sestavit strom (dekódovat) následujícím postupem.<ul><li>S prvním znakem nuly se vytvoří kořen a to bude aktuální vrchol.</li><li>Každá další nula znamená novou hranu z aktuálního vrcholu a vytvoření vrcholu následníka. Tento vrchol následníka se stává aktuálním vrcholem.</li><li>Každý znak jedničky znamená, že se předchůdce aktuálního vrcholu stane aktuálním vrcholem.</li></ul> Alternativním postupem je použít šipkovou metodu.",
                                 "images": null
+                            },
+                            {
+                                "smallTitle": "Definice kódu uspořádaného stromu:",
+                                "text": "Kód uspořádaného kořenového stromu se sestaví rekurzivně z kódů všech podstromů kořene, seřazených ve stejném pořadí jako jsou seřazeny kořeny podstromů (jeho následníci), a uzavřených do páru 0 a 1.",
+                                "images": null,
+                            },
+                            {
+                                "smallTitle": "Věta o izomorfismu pěstovaných stromů:",
+                                "text": "Dva uspořádané kořenové (pěstované) stromy jsou isomorfní právě tehdy, když jejich kódy jsou shodné řetězce.",
+                                "images": null,
                             }
                         ]
                     },
@@ -543,7 +657,7 @@ const pages = [
                         ]
                     },
                     {
-                        "name": "Příklady – Tvorba",
+                        "name": "Příklady – BVS",
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
@@ -636,7 +750,7 @@ const pages = [
                         ]
                     },
                     {
-                        "name": "Příklady – Mazání",
+                        "name": "Příklady – Odstranění kořene",
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
@@ -731,7 +845,7 @@ const pages = [
                 ],
             },
             {
-                "name": "Průchod stromu do hloubky",
+                "name": "Průchody binárního stromu",
                 "path": "pruchod-stromu-do-hloubky",
                 "tabs": [
                     {
@@ -946,7 +1060,7 @@ const pages = [
                         ]
                     },
                     {
-                        "name": "Příklady – Tvorba",
+                        "name": "Příklady – Halda",
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
@@ -1039,7 +1153,7 @@ const pages = [
                         ]
                     },
                     {
-                        "name": "Příklady – Mazání",
+                        "name": "Příklady – Odstranění kořene",
                         "textData": [
                             {
                                 "smallTitle": "Příklad 1",
@@ -1190,6 +1304,22 @@ const pages = [
                         "smallTitle": "",
                         "text": "Kostra grafu je strom daného spojitého grafu, který zahrnuje všechny vrcholy původního grafu. Pro spojitý graf s N vrcholy má kostra vždy N - 1 hran. Kostra grafu tedy spojuje všechny vrcholy původního grafu s co nejmenším počtem hran a neobsahuje žádné kružnice. V závislosti na typu grafu existují postupy jak určit počet možných koster grafu.",
                         "images": null,
+                    },
+                    {
+                        "smallTitle": "Definice kostry grafu:",
+                        "text": "Kostra grafu G=(V,E) je strom T=(V,E´), který obsahuje všechny vrcholy grafu a E´ &sube; E, tj. acyklický a souvislý faktor grafu G. <br><br> Kostra grafu je minimální souvislý podgraf grafu G obsahující všechny jeho vrcholy. Je to strom \"rozpínající se\" do všech vrcholů daného grafu (spanning tree). Jak dále uvidíme, v daném grafu může existovat více koster.<br>",
+                        "images": [
+                            {
+                                "imagePath": "/images/kostra.png",
+                                "imageDescription": "Graf na kterém budou znázorněny kostry",
+                                "aspectRatio": "2"
+                            },
+                            {
+                                "imagePath": "/images/kostra_kostry.png",
+                                "imageDescription": "Kostry grafu",
+                                "aspectRatio": "6"
+                            }
+                        ],
                     }
                 ]
             },
@@ -1426,8 +1556,19 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "",
-                        "text": "Prohledávání stromu do hloubky v angličtině Depth-first search (DFS) na rozdíl od BFS, který prohledává postupně všechny vrcholy v jedné určité vzdálenosti jde algoritmus 17 DFS vždy nejhlouběji co to jde. Vrcholy jsou zde ukládány do zásobníku (LIFO) z angl. stack. Algoritmus prochází z první zvoleného vrcholu do prvního neprozkoumaného vrcholu ve kterém ještě nebyl a takto postupně prochází vrcholy do hloubky, dokud nenarazí na poslední vrchol nebo cesta nevede do vrcholu v kterém už byl. V ten moment se postupně vrací na začátek ke zdrojovému vrcholu dokud po cestě nenalezne hranu, která vede do dalšího neprozkoumaného vrcholu. Takto pokračuje dokud nezbudou žádné neprozkoumané vrcholy. DFS je často používáno v algoritmech hledání cest, detekce cyklů, topologické řazení a řešení bludiště. Pro oba typy algoritmů se používá technika obarvení vrcholů, které značí jejich stav v algoritmu.",
-                        "images": null,
+                        "text": "Prohledávání stromu do hloubky v angličtině Depth-first search (DFS) na rozdíl od BFS, který prohledává postupně všechny vrcholy v jedné určité vzdálenosti jde algoritmus DFS vždy nejhlouběji co to jde. Vrcholy jsou zde ukládány do zásobníku (LIFO) z angl. stack. Algoritmus prochází z první zvoleného vrcholu do prvního neprozkoumaného vrcholu ve kterém ještě nebyl a takto postupně prochází vrcholy do hloubky, dokud nenarazí na poslední vrchol nebo cesta nevede do vrcholu v kterém už byl. V ten moment se postupně vrací na začátek ke zdrojovému vrcholu dokud po cestě nenalezne hranu, která vede do dalšího neprozkoumaného vrcholu. Takto pokračuje dokud nezbudou žádné neprozkoumané vrcholy. DFS je často používáno v algoritmech hledání cest, detekce cyklů, topologické řazení a řešení bludiště. Pro oba typy algoritmů se používá technika obarvení vrcholů, které značí jejich stav v algoritmu.",
+                        "images": [
+                            {
+                                "imagePath": "/images/prohledavani.png",
+                                "imageDescription": "Graf pro znázornění prohledávání do hloubky",
+                                "aspectRatio": "4"
+                            },
+                            {
+                                "imagePath": "/images/prohledavani_hloubka.png",
+                                "imageDescription": "Výsledný strom po prohledávání do hloubky",
+                                "aspectRatio": "2"
+                            }
+                        ],
                     }
                 ]
             },
@@ -1458,7 +1599,18 @@ const pages = [
                     {
                         "smallTitle": "",
                         "text": "Prohledávání stromu do šířky v angličtině Breadth-first search (BFS) je algoritmus na sys- tematické prozkoumávání všech sousední vrcholů a poté jejich sousedů. Začíná se zvoleným vrcholem, kdy se všechny jeho sousední vrcholy vloží do fronty (FIFO) z angl. queue. Ná- sledně se veme další vrchol z fronty a opět se jeho sousední vrcholy, které ještě nejsou ve frontě do ní vloží. Takto algoritmus pokračuje dokud neprojde všechny vrcholy ve frontě. Svůj název získal, protože rozšiřuje hranici objevených vrcholů vždy jednotně o stejnou vzdálenost. Nejdříve objeví sousedy prvního vybraného vrcholu a poté sousedy těchto sou- sedů, tedy vždy objevuje vrcholy na stejné hranici vzdálenosti od zdrojového vrcholu. BFS je často používán k nalezení nejkratší cesty v nevážených grafech, protože garantuje, že pokud existuje cesta, první nalezená cesta bude nejkratší. BFS je také užitečný pro prohledávání stromů a grafů ve scénářích, kde je důležitá úroveň nebo vzdálenost od kořene, například v síťových protokolech. Tento algoritmus slouží také jako základ pro Jarníkův algoritmus pro nalezení minimální kostry.",
-                        "images": null,
+                        "images": [
+                            {
+                                "imagePath": "/images/prohledavani.png",
+                                "imageDescription": "Graf pro znázornění prohledávání do šířky",
+                                "aspectRatio": "4"
+                            },
+                            {
+                                "imagePath": "/images/prohledavani_sirka.png",
+                                "imageDescription": "Výsledný strom po prohledávání do šířky",
+                                "aspectRatio": "3"
+                            }
+                        ],
                     }
                 ]
             },

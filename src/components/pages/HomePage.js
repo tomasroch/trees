@@ -89,8 +89,7 @@ export default function HomePage() {
                                     {/*<Typography level="title-lg">Small Title</Typography>*/}
 
                                     <Typography level="body-md" sx={{mb: 2}}>
-                                        Tato webová aplikace slouží na podporu výuky předmětů diskrétní matematika a
-                                        teorie grafů. Zaměřuje se primárně na stromy.
+                                        Tato webová aplikace Stromy slouží na podporu výuky předmětů diskrétní matematika a teorie grafů. Konkrétně na oblast stromy.
                                     </Typography>
                                     <Typography level="body-md" sx={{mb: 2}}>
                                         Každá stránka nabízí teorii k danému tématu a vybraná témata obsahují interaktivní příklady na procvičování.
