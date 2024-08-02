@@ -81,6 +81,14 @@ import * as APS_EXAMPLE1 from "./exercises/aps_aph/APSExample"
 import * as KRUSKAL_EXAMPLE1 from "./exercises/kruskal/KruskalExample"
 import * as KRUSKAL_EXAMPLE2 from "./exercises/kruskal/KruskalExample2"
 import * as KRUSKAL_EXAMPLE3 from "./exercises/kruskal/KruskalExample3"
+import * as KRUSKAL_EXAMPLE4 from "./exercises/kruskal/KruskalExample4"
+import * as KRUSKAL_EXAMPLE5 from "./exercises/kruskal/KruskalExample5"
+import * as KRUSKAL_EXAMPLE6 from "./exercises/kruskal/KruskalExample6"
+import * as KRUSKAL_EXAMPLE7 from "./exercises/kruskal/KruskalExample7"
+import * as KRUSKAL_EXAMPLE8 from "./exercises/kruskal/KruskalExample8"
+import * as KRUSKAL_EXAMPLE9 from "./exercises/kruskal/KruskalExample9"
+import * as KRUSKAL_EXAMPLE10 from "./exercises/kruskal/KruskalExample10"
+import * as KRUSKAL_EXAMPLE11 from "./exercises/kruskal/KruskalExample11"
 import * as JARNIK_EXAMPLE1 from "./exercises/jarnik/JarnikExample"
 import * as JARNIK_EXAMPLE2 from "./exercises/jarnik/JarnikExample2"
 import * as JARNIK_EXAMPLE3 from "./exercises/jarnik/JarnikExample3"
@@ -180,6 +188,14 @@ export const exampleMap = {
     kruskal1: KRUSKAL_EXAMPLE1,
     kruskal2: KRUSKAL_EXAMPLE2,
     kruskal3: KRUSKAL_EXAMPLE3,
+    kruskal4: KRUSKAL_EXAMPLE4,
+    kruskal5: KRUSKAL_EXAMPLE5,
+    kruskal6: KRUSKAL_EXAMPLE6,
+    kruskal7: KRUSKAL_EXAMPLE7,
+    kruskal8: KRUSKAL_EXAMPLE8,
+    kruskal9: KRUSKAL_EXAMPLE9,
+    kruskal10: KRUSKAL_EXAMPLE10,
+    kruskal11: KRUSKAL_EXAMPLE11,
     jarnik1: JARNIK_EXAMPLE1,
     jarnik2: JARNIK_EXAMPLE2,
     jarnik3: JARNIK_EXAMPLE3,

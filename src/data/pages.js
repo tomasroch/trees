@@ -1483,6 +1483,70 @@ const pages = [
                                     "name": "kruskal3"
                                 }
                             },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Vyřeš příklad pomocí kruskalova algoritmu, využij grafické znázornění aby se nevytvořila kružnice. <b>Dodržuj stanovené názvy hran</b>.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "kruskal11"
+                                }
+                            },
                         ]
                     }
                 ],
