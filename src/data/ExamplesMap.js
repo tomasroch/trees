@@ -92,6 +92,14 @@ import * as KRUSKAL_EXAMPLE11 from "./exercises/kruskal/KruskalExample11"
 import * as JARNIK_EXAMPLE1 from "./exercises/jarnik/JarnikExample"
 import * as JARNIK_EXAMPLE2 from "./exercises/jarnik/JarnikExample2"
 import * as JARNIK_EXAMPLE3 from "./exercises/jarnik/JarnikExample3"
+import * as JARNIK_EXAMPLE4 from "./exercises/jarnik/JarnikExample4"
+import * as JARNIK_EXAMPLE5 from "./exercises/jarnik/JarnikExample5"
+import * as JARNIK_EXAMPLE6 from "./exercises/jarnik/JarnikExample6"
+import * as JARNIK_EXAMPLE7 from "./exercises/jarnik/JarnikExample7"
+import * as JARNIK_EXAMPLE8 from "./exercises/jarnik/JarnikExample8"
+import * as JARNIK_EXAMPLE9 from "./exercises/jarnik/JarnikExample9"
+import * as JARNIK_EXAMPLE10 from "./exercises/jarnik/JarnikExample10"
+import * as JARNIK_EXAMPLE11 from "./exercises/jarnik/JarnikExample11"
 import * as SPANNING_EXAMPLE1 from "./exercises/spanning/SpanningExample"
 import * as SPANNING_EXAMPLE2 from "./exercises/spanning/SpanningExample2"
 import * as SPANNING_EXAMPLE3 from "./exercises/spanning/SpanningExample3"
@@ -199,6 +207,14 @@ export const exampleMap = {
     jarnik1: JARNIK_EXAMPLE1,
     jarnik2: JARNIK_EXAMPLE2,
     jarnik3: JARNIK_EXAMPLE3,
+    jarnik4: JARNIK_EXAMPLE4,
+    jarnik5: JARNIK_EXAMPLE5,
+    jarnik6: JARNIK_EXAMPLE6,
+    jarnik7: JARNIK_EXAMPLE7,
+    jarnik8: JARNIK_EXAMPLE8,
+    jarnik9: JARNIK_EXAMPLE9,
+    jarnik10: JARNIK_EXAMPLE10,
+    jarnik11: JARNIK_EXAMPLE11,
     spanning1: SPANNING_EXAMPLE1,
     spanning2: SPANNING_EXAMPLE2,
     spanning3: SPANNING_EXAMPLE3,

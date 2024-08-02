@@ -2,23 +2,34 @@ const width = 50
 
 export const exampleNodes = [
     {
-        id: '1',
+        id: '0',
         position: {x: 0, y: 340},
         data: {
             value: "ab, bg, ei, be, cf, gh, bd, cg, de, ac, hi, ad, cd, fg, dg, eh",
             placeHolder: "ac, fh, ad...",
-            label: "Seřazené hrany podle váhy:",
+            label: "Seznam všech hran: ",
             width: 400
         },
         hidden: false,
         type:'inputInfoNode'
     },
     {
-        id: '2',
+        id: '1',
         position: {x: 0, y: 400},
         data: {
+            placeHolder: "ac5, fh2, ad3...",
+            label: "Pomocné pole pro incidentní hrany:",
+            width: 400
+        },
+        hidden: false,
+        type:'inputHelperNode'
+    },
+    {
+        id: '2',
+        position: {x: 0, y: 460},
+        data: {
             value: "",
-            result: "ab,bg,ei,be,cf,gh,bd,cg",
+            result: "ab,bg,be,ei,gh,bd,cg,cf,",
             placeHolder: "ac, fh, ad...",
             label: "Začni přidávat hrany:",
             width: 400
