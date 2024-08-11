@@ -4,9 +4,25 @@ import {Clear} from "@mui/icons-material";
 import {Box, Button, FormControl, FormLabel} from "@mui/joy";
 import OrderingInput from "./tree-lib/components/OrderingInput";
 
+// funkce která prohází hrany v poli, aby student nemohl odhadnout výsledek podle uspořádání hran
+function arrayRandomizeShuffle(a) {
+    let index = a.length;
+    // dokud zbývají hranyk prohození
+    while (index != 0) {
+        // Vyber hrany
+        let random = Math.floor(Math.random() * index);
+        index--;
+        // a prohoď ji s aktulní
+        [a[index], a[random]] = [
+            a[random], a[index]];
+    }
+}
+
 export default function ApsAphTable(props) {
     const placeHolderNode = "a, b, c, d..."
     const placeHolderEdges = "ab, ac, bc, bd..."
+
+    arrayRandomizeShuffle(props.edges)
 
     let edges = "";
     props.edges.map(edge => {
@@ -20,6 +36,8 @@ export default function ApsAphTable(props) {
     let nodes;
     let edgesIn;
     let edgesOut;
+    let prefix = props.nodes[0].prefixId;
+
     if (props.fifo){
         title = "FIFO:";
         result = props.nodes[0].fifo;
@@ -56,7 +74,7 @@ export default function ApsAphTable(props) {
     return (
         <Box>
         <Table borderAxis="both" aria-label="striped table" stripe="odd" sx={{ mt: 1, mb: 0}}>
-            <caption>Popisek příkladu </caption>
+            {/*<caption>Popisek příkladu </caption>*/}
             <thead>
             <tr>
                 {/*Left Top corner*/}
@@ -68,9 +86,9 @@ export default function ApsAphTable(props) {
             </thead>
             <tbody>
             {props.nodes.map(node => {
-                return <tr id={node.id} style={{backgroundColor: ""}} key={node.id}>
+                return <tr id={prefix + node.id} style={{backgroundColor: ""}} key={node.id}>
                     {/*column head*/}
-                    <th scope="row" id={node.id} >{node.id}</th>
+                    <th scope="row" id={prefix + node.id} >{node.id}</th>
                     {props.nodes.map(nodeInner => {
                         //diagonal
                         if (node.id === nodeInner.id)
@@ -78,7 +96,7 @@ export default function ApsAphTable(props) {
                         // find edge of two vertexes
                         let edgeExist = props.edges.find(edge => ((edge.source === node.id && edge.target === nodeInner.id) || (edge.source === nodeInner.id && edge.target === node.id)))
                         if (edgeExist)
-                            return <td style={{textAlign:"center"}}><Button size="sm" style={{ width:"100%", textDecoration:'none'}} id={"b" +node.id + nodeInner.id} onClick={() => changeStyles("b" +node.id + nodeInner.id, node.id, "b" +nodeInner.id + node.id)}>1</Button></td>
+                            return <td style={{textAlign:"center"}}><Button size="sm" style={{ width:"100%", textDecoration:'none'}} id={prefix + "b" +node.id + nodeInner.id} onClick={() => changeStyles(prefix + "b" +node.id + nodeInner.id, prefix + node.id, prefix + "b" +nodeInner.id + node.id)}>1</Button></td>
                         return <td style={{textAlign:"center"}}>0</td>
                     })}
                 </tr>

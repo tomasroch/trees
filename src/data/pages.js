@@ -1705,13 +1705,103 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "Příklad 1",
-                        "text": "Řeš příklad prohledávání do hloubky",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
                         "images": null,
                         "apsaph": {
                             "name": "APSAPH1",
                             "fifo": false
                         }
-                    }
+                    },
+                    {
+                        "smallTitle": "Příklad 2",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH2",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 3",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH3",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 4",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH4",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 5",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH5",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 6",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH6",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 7",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH7",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 8",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH8",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 9",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH9",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 10",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH10",
+                            "fifo": false
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 11",
+                        "text": "Řeš příklad prohledávání do hloubky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH11",
+                            "fifo": false
+                        }
+                    },
                 ]
             }
         ],
@@ -1747,13 +1837,103 @@ const pages = [
                 "textData": [
                     {
                         "smallTitle": "Příklad 1",
-                        "text": "Řeš příklad prohledávání do šířky",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
                         "images": null,
                         "apsaph": {
                             "name": "APSAPH1",
                             "fifo": true
                         }
-                    }
+                    },
+                    {
+                        "smallTitle": "Příklad 2",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH2",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 3",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH3",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 4",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH4",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 5",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH5",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 6",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH6",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 7",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH7",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 8",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH8",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 9",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH9",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 10",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH10",
+                            "fifo": true
+                        }
+                    },
+                    {
+                        "smallTitle": "Příklad 11",
+                        "text": "Řeš příklad prohledávání do šířky, název hrany zapisuj vždy podle lexikografické pravidla tj. vrcholy seřazené podle abecedy.",
+                        "images": null,
+                        "apsaph": {
+                            "name": "APSAPH11",
+                            "fifo": true
+                        }
+                    },
                 ]
             }
         ],

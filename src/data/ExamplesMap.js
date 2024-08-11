@@ -78,6 +78,16 @@ import * as ORDERING_EXAMPLE11 from "./exercises/ordering/OrderingExample11"
 import * as CENTERING_EXAMPLE1 from "./exercises/centering/CenteringExample"
 import * as CENTROID_EXAMPLE1 from "./exercises/centroid/CentroidExample"
 import * as APS_EXAMPLE1 from "./exercises/aps_aph/APSExample"
+import * as APS_EXAMPLE2 from "./exercises/aps_aph/APSExample2"
+import * as APS_EXAMPLE3 from "./exercises/aps_aph/APSExample3"
+import * as APS_EXAMPLE4 from "./exercises/aps_aph/APSExample4"
+import * as APS_EXAMPLE5 from "./exercises/aps_aph/APSExample5"
+import * as APS_EXAMPLE6 from "./exercises/aps_aph/APSExample6"
+import * as APS_EXAMPLE7 from "./exercises/aps_aph/APSExample7"
+import * as APS_EXAMPLE8 from "./exercises/aps_aph/APSExample8"
+import * as APS_EXAMPLE9 from "./exercises/aps_aph/APSExample9"
+import * as APS_EXAMPLE10 from "./exercises/aps_aph/APSExample10"
+import * as APS_EXAMPLE11 from "./exercises/aps_aph/APSExample11"
 import * as KRUSKAL_EXAMPLE1 from "./exercises/kruskal/KruskalExample"
 import * as KRUSKAL_EXAMPLE2 from "./exercises/kruskal/KruskalExample2"
 import * as KRUSKAL_EXAMPLE3 from "./exercises/kruskal/KruskalExample3"
@@ -193,6 +203,16 @@ export const exampleMap = {
     deleteInHalda10: DELETE_IN_HALDA_EXAMPLE10,
     deleteInHalda11: DELETE_IN_HALDA_EXAMPLE11,
     APSAPH1: APS_EXAMPLE1,
+    APSAPH2: APS_EXAMPLE2,
+    APSAPH3: APS_EXAMPLE3,
+    APSAPH4: APS_EXAMPLE4,
+    APSAPH5: APS_EXAMPLE5,
+    APSAPH6: APS_EXAMPLE6,
+    APSAPH7: APS_EXAMPLE7,
+    APSAPH8: APS_EXAMPLE8,
+    APSAPH9: APS_EXAMPLE9,
+    APSAPH10: APS_EXAMPLE10,
+    APSAPH11: APS_EXAMPLE11,
     kruskal1: KRUSKAL_EXAMPLE1,
     kruskal2: KRUSKAL_EXAMPLE2,
     kruskal3: KRUSKAL_EXAMPLE3,

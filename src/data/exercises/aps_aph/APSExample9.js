@@ -2,15 +2,15 @@ export const exampleNodes = [
     {
         id: 'a',
         hidden: false,
-        fifo:'a,c,d,e,f,g,b,h',
-        fifoNodes:'a,c,d,e,f,g,b,h',
-        fifoEdgesIn:'ac,ad,ae,cf,cg,db,fh',
-        fifoEdgesOut:'ce,df,dg,eg,bh',
-        lifo:'a,c,e,g,d,b,h,f',
-        lifoNodes:'a,c,e,g,d,b,h,f',
-        lifoEdgesIn:'ac,ce,eg,gd,db,bh,hf',
-        lifoEdgesOut:'ea,gc,da,fc,fd',
-        prefixId: "1",
+        fifo:'a,b,c,d,f,g,e',
+        fifoNodes:'a,b,c,d,f,g,e',
+        fifoEdgesIn:'ab,ac,ad,af,ag,be',
+        fifoEdgesOut:'bc,bf,cd,de,ef,fg',
+        lifo:'a,b,c,d,e,f,g',
+        lifoNodes:'a,b,c,d,e,f,g',
+        lifoEdgesIn:'ab,bc,cd,de,ef,fg',
+        lifoEdgesOut:'ac,ad,be,af,bf,df,ag,dg,eg',
+        prefixId: "9",
         type:''
     },
     {
@@ -43,15 +43,57 @@ export const exampleNodes = [
         hidden: false,
         type:''
     },
-    {
-        id: 'h',
-        hidden: false,
-        type:''
-    },
-
 ]
 
 export const exampleEdges = [
+    {
+        id: 'ab',
+        source: 'a',
+        target: 'b',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'bc',
+        source: 'b',
+        target: 'c',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'cd',
+        source: 'c',
+        target: 'd',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'de',
+        source: 'd',
+        target: 'e',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'ef',
+        source: 'e',
+        target: 'f',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'fg',
+        source: 'f',
+        target: 'g',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
     {
         id: 'ac',
         source: 'a',
@@ -69,41 +111,25 @@ export const exampleEdges = [
         type: ''
     },
     {
-        id: 'ae',
+        id: 'be',
+        source: 'b',
+        target: 'e',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'af',
         source: 'a',
-        target: 'e',
-        hidden: false,
-        animated: true,
-        type: ''
-    },
-    {
-        id: 'ce',
-        source: 'c',
-        target: 'e',
-        hidden: false,
-        animated: true,
-        type: ''
-    },
-    {
-        id: 'cf',
-        source: 'c',
         target: 'f',
         hidden: false,
         animated: true,
         type: ''
     },
     {
-        id: 'cg',
-        source: 'c',
-        target: 'g',
-        hidden: false,
-        animated: true,
-        type: ''
-    },
-    {
-        id: 'db',
-        source: 'd',
-        target: 'b',
+        id: 'bf',
+        source: 'b',
+        target: 'f',
         hidden: false,
         animated: true,
         type: ''
@@ -112,6 +138,14 @@ export const exampleEdges = [
         id: 'df',
         source: 'd',
         target: 'f',
+        hidden: false,
+        animated: true,
+        type: ''
+    },
+    {
+        id: 'ag',
+        source: 'a',
+        target: 'g',
         hidden: false,
         animated: true,
         type: ''
@@ -128,22 +162,6 @@ export const exampleEdges = [
         id: 'eg',
         source: 'e',
         target: 'g',
-        hidden: false,
-        animated: true,
-        type: ''
-    },
-    {
-        id: 'fh',
-        source: 'f',
-        target: 'h',
-        hidden: false,
-        animated: true,
-        type: ''
-    },
-    {
-        id: 'bh',
-        source: 'b',
-        target: 'h',
         hidden: false,
         animated: true,
         type: ''
