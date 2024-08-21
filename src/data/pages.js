@@ -112,7 +112,87 @@ const pages = [
                                 "exercise": {
                                     "name": "center1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centrum/bicentrum stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "center11"
+                                }
+                            },
                         ]
                     }
                 ],
@@ -147,7 +227,87 @@ const pages = [
                                 "exercise": {
                                     "name": "centroid1"
                                 }
-                            }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid4"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 5",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid5"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 6",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid6"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 7",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid7"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 8",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid8"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 9",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid9"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 10",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid10"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 11",
+                                "text": "Klikni správně na vrchol/vrcholy, který tvoří centroid/bicentroid stromu.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "centroid11"
+                                }
+                            },
                         ]
                     }
                 ],

@@ -18,6 +18,13 @@ export const exampleNodes = [
     {
         id: '3',
         position: {x: 200, y: 0},
+        data: {result: true, width:width},
+        hidden: false,
+        type:'centeringNode'
+    },
+    {
+        id: '4',
+        position: {x: 300, y: 0},
         data: {result: false, width:width},
         hidden: false,
         type:'centeringNode'
@@ -38,6 +45,14 @@ export const exampleEdges = [
         id: '2-3',
         source: '2',
         target: '3',
+        hidden: false,
+        animated: true,
+        type: 'floatingEdge'
+    },
+    {
+        id: '3-4',
+        source: '3',
+        target: '4',
         hidden: false,
         animated: true,
         type: 'floatingEdge'

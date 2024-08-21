@@ -76,7 +76,27 @@ import * as ORDERING_EXAMPLE9 from "./exercises/ordering/OrderingExample9"
 import * as ORDERING_EXAMPLE10 from "./exercises/ordering/OrderingExample10"
 import * as ORDERING_EXAMPLE11 from "./exercises/ordering/OrderingExample11"
 import * as CENTERING_EXAMPLE1 from "./exercises/centering/CenteringExample"
+import * as CENTERING_EXAMPLE2 from "./exercises/centering/CenteringExample2"
+import * as CENTERING_EXAMPLE3 from "./exercises/centering/CenteringExample3"
+import * as CENTERING_EXAMPLE4 from "./exercises/centering/CenteringExample4"
+import * as CENTERING_EXAMPLE5 from "./exercises/centering/CenteringExample5"
+import * as CENTERING_EXAMPLE6 from "./exercises/centering/CenteringExample6"
+import * as CENTERING_EXAMPLE7 from "./exercises/centering/CenteringExample7"
+import * as CENTERING_EXAMPLE8 from "./exercises/centering/CenteringExample8"
+import * as CENTERING_EXAMPLE9 from "./exercises/centering/CenteringExample9"
+import * as CENTERING_EXAMPLE10 from "./exercises/centering/CenteringExample10"
+import * as CENTERING_EXAMPLE11 from "./exercises/centering/CenteringExample11"
 import * as CENTROID_EXAMPLE1 from "./exercises/centroid/CentroidExample"
+import * as CENTROID_EXAMPLE2 from "./exercises/centroid/CentroidExample2"
+import * as CENTROID_EXAMPLE3 from "./exercises/centroid/CentroidExample3"
+import * as CENTROID_EXAMPLE4 from "./exercises/centroid/CentroidExample4"
+import * as CENTROID_EXAMPLE5 from "./exercises/centroid/CentroidExample5"
+import * as CENTROID_EXAMPLE6 from "./exercises/centroid/CentroidExample6"
+import * as CENTROID_EXAMPLE7 from "./exercises/centroid/CentroidExample7"
+import * as CENTROID_EXAMPLE8 from "./exercises/centroid/CentroidExample8"
+import * as CENTROID_EXAMPLE9 from "./exercises/centroid/CentroidExample9"
+import * as CENTROID_EXAMPLE10 from "./exercises/centroid/CentroidExample10"
+import * as CENTROID_EXAMPLE11 from "./exercises/centroid/CentroidExample11"
 import * as APS_EXAMPLE1 from "./exercises/aps_aph/APSExample"
 import * as APS_EXAMPLE2 from "./exercises/aps_aph/APSExample2"
 import * as APS_EXAMPLE3 from "./exercises/aps_aph/APSExample3"
@@ -124,7 +144,27 @@ import * as SPANNING_EXAMPLE11 from "./exercises/spanning/SpanningExample11"
 
 export const exampleMap = {
     center1: CENTERING_EXAMPLE1,
+    center2: CENTERING_EXAMPLE2,
+    center3: CENTERING_EXAMPLE3,
+    center4: CENTERING_EXAMPLE4,
+    center5: CENTERING_EXAMPLE5,
+    center6: CENTERING_EXAMPLE6,
+    center7: CENTERING_EXAMPLE7,
+    center8: CENTERING_EXAMPLE8,
+    center9: CENTERING_EXAMPLE9,
+    center10: CENTERING_EXAMPLE10,
+    center11: CENTERING_EXAMPLE11,
     centroid1: CENTROID_EXAMPLE1,
+    centroid2: CENTROID_EXAMPLE2,
+    centroid3: CENTROID_EXAMPLE3,
+    centroid4: CENTROID_EXAMPLE4,
+    centroid5: CENTROID_EXAMPLE5,
+    centroid6: CENTROID_EXAMPLE6,
+    centroid7: CENTROID_EXAMPLE7,
+    centroid8: CENTROID_EXAMPLE8,
+    centroid9: CENTROID_EXAMPLE9,
+    centroid10: CENTROID_EXAMPLE10,
+    centroid11: CENTROID_EXAMPLE11,
     code1: CODE_TREE_EXAMPLE1,
     code2: CODE_TREE_EXAMPLE2,
     code3: CODE_TREE_EXAMPLE3,

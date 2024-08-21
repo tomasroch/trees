@@ -4,49 +4,21 @@ export const exampleNodes = [
     {
         id: '1',
         position: {x: 0, y: 0},
-        data: {result: true, source: true, sourcePosition: "BOTTOM", target: true, targetPosition: "RIGHT", width:width},
+        data: {result: false, width:width},
         hidden: false,
         type:'centeringNode'
     },
     {
         id: '2',
-        position: {x: -100, y: 70},
-        data: {result: false, target: true, targetPosition: "TOP", width:width},
+        position: {x: 100, y: 0},
+        data: {result: true, width:width},
         hidden: false,
         type:'centeringNode'
     },
     {
         id: '3',
-        position: {x: 0, y: 70},
-        data: {result: false, target: true, targetPosition: "TOP", width:width},
-        hidden: false,
-        type:'centeringNode'
-    },
-    {
-        id: '4',
-        position: {x: 100, y: 70},
-        data: {result: false, target: true, targetPosition: "TOP", width:width},
-        hidden: false,
-        type:'centeringNode'
-    },
-    {
-        id: '5',
         position: {x: 200, y: 0},
-        data: {result: false, source: true, sourcePosition: "LEFT", target: true, targetPosition: "RIGHT", width:width},
-        hidden: false,
-        type:'centeringNode'
-    },
-    {
-        id: '6',
-        position: {x: 300, y: 0},
-        data: {result: false, source: true, sourcePosition: "LEFT", target: true, targetPosition: "BOTTOM", width:width},
-        hidden: false,
-        type:'centeringNode'
-    },
-    {
-        id: '7',
-        position: {x: 300, y: 70},
-        data: {result: false, source: true, sourcePosition: "TOP", width:width},
+        data: {result: false, width:width},
         hidden: false,
         type:'centeringNode'
     },
@@ -63,41 +35,9 @@ export const exampleEdges = [
         type: 'floatingEdge'
     },
     {
-        id: '1-3',
-        source: '1',
+        id: '2-3',
+        source: '2',
         target: '3',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
-        id: '1-4',
-        source: '1',
-        target: '4',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
-        id: '5-1',
-        source: '5',
-        target: '1',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
-        id: '6-5',
-        source: '6',
-        target: '5',
-        hidden: false,
-        animated: true,
-        type: 'floatingEdge'
-    },
-    {
-        id: '7-6',
-        source: '7',
-        target: '6',
         hidden: false,
         animated: true,
         type: 'floatingEdge'
