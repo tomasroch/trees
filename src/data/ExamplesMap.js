@@ -141,8 +141,10 @@ import * as SPANNING_EXAMPLE8 from "./exercises/spanning/SpanningExample8"
 import * as SPANNING_EXAMPLE9 from "./exercises/spanning/SpanningExample9"
 import * as SPANNING_EXAMPLE10 from "./exercises/spanning/SpanningExample10"
 import * as SPANNING_EXAMPLE11 from "./exercises/spanning/SpanningExample11"
+import * as DEPTH_EXAMPLE1 from "./exercises/depth/DepthExample"
 
 export const exampleMap = {
+    depth1: DEPTH_EXAMPLE1,
     center1: CENTERING_EXAMPLE1,
     center2: CENTERING_EXAMPLE2,
     center3: CENTERING_EXAMPLE3,

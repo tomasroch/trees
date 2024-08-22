@@ -363,30 +363,47 @@ const pages = [
             {
                 "name": "Vrstva / Hloubka / Výška",
                 "path": "vrstva-hloubka-vyska",
-                "tabs": null,
-                "textData": [
+                "tabs": [
                     {
-                        "smallTitle": "Hloubka a výška",
-                        "text": "V kořenovém stromě je hloubka vrcholu označována hodnotou počtu hran z daného vrcholu do kořene stromu. Výška vrcholu je potom rovna počtu hran z daného vrcholu do nejvzdálenějšího listu stromu. Je-li tedy kořen stromu nahoře, tak hloubka vrcholu je počet hran směrem nahoru ke kořenu a výška vrcholu je počet hran směrem dolů do nejvzdálenějšího listu.<br>Hloubka a výška celého kořenového stromu je potom rovna počtu hran z kořene do nejvzdálenějšího listu.",
-                        "images": null
-                    },
-                    {
-                        "smallTitle": "Vrstva",
-                        "text": "Vrstva je množina všech vrcholů, které se nacházejí ve stejné hloubce, nikoliv výšce, protože ta se může vrcholy ve stejné hloubce lišit. Stane se tak v případě, když ve stejné vrstvě nejsou všechny listy.",
-                        "images": [
+                        "name": "Detail",
+                        "textData": [
                             {
-                                "imagePath": "/images/VHV.jpeg",
-                                "imageDescription": "Na obrázku je znázorněna hloubka každého vrcholu. Vrcholy ve stejné hloubce tvoří vrstvu",
-                                "aspectRatio": "2"
+                                "smallTitle": "Hloubka a výška",
+                                "text": "V kořenovém stromě je hloubka vrcholu označována hodnotou počtu hran z daného vrcholu do kořene stromu. Výška vrcholu je potom rovna počtu hran z daného vrcholu do nejvzdálenějšího listu stromu. Je-li tedy kořen stromu nahoře, tak hloubka vrcholu je počet hran směrem nahoru ke kořenu a výška vrcholu je počet hran směrem dolů do nejvzdálenějšího listu.<br>Hloubka a výška celého kořenového stromu je potom rovna počtu hran z kořene do nejvzdálenějšího listu.",
+                                "images": null
+                            },
+                            {
+                                "smallTitle": "Vrstva",
+                                "text": "Vrstva je množina všech vrcholů, které se nacházejí ve stejné hloubce, nikoliv výšce, protože ta se může vrcholy ve stejné hloubce lišit. Stane se tak v případě, když ve stejné vrstvě nejsou všechny listy.",
+                                "images": [
+                                    {
+                                        "imagePath": "/images/VHV.jpeg",
+                                        "imageDescription": "Na obrázku je znázorněna hloubka každého vrcholu. Vrcholy ve stejné hloubce tvoří vrstvu",
+                                        "aspectRatio": "2"
+                                    }
+                                ]
+                            },
+                            {
+                                "smallTitle": "Definice – vrstva, hloubka stromu:",
+                                "text": "Nechť (T, r) je kořenový strom, v jeho libovolný vrchol a k délka cesty z kořene r do vrcholu v. Pak říkáme, že vrchol v leží v k - té vrstvě stromu (T, r) nebo též ve vrstvě číslo k. Hloubka stromu (T, r) je rovna největšímu číslu z čísel vrstev, ve kterých leží listy stromu (T, r).",
+                                "images": null
                             }
                         ]
                     },
                     {
-                        "smallTitle": "Definice – vrstva, hloubka stromu:",
-                        "text": "Nechť (T, r) je kořenový strom, v jeho libovolný vrchol a k délka cesty z kořene r do vrcholu v. Pak říkáme, že vrchol v leží v k - té vrstvě stromu (T, r) nebo též ve vrstvě číslo k. Hloubka stromu (T, r) je rovna největšímu číslu z čísel vrstev, ve kterých leží listy stromu (T, r).",
-                        "images": null
+                        "name": "Příklady",
+                        "textData": [
+                            {
+                                "smallTitle": "Příklad 1",
+                                "text": "Urči kolik vrstev má strom a v jaké vrstvě se nachází daný vrchol.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "depth1"
+                                }
+                            },
+                        ]
                     }
-                ]
+                ],
             },
             {
                 "name": "Podstrom",
