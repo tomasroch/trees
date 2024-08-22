@@ -346,19 +346,60 @@ const pages = [
             {
                 "name": "Předchůdce / Následník",
                 "path": "predchudce-naslednik",
-                "tabs": null,
-                "textData": [
+                "tabs": [
                     {
-                        "smallTitle": "",
-                        "text": "Také se používá označení z „rodinné“ terminologie otec a syn. V kořenovém stromě, pokud existuje hrana vedoucí z vrcholu x do vrcholu y, pak je vrchol x považován za předchůdce vrcholu y a vrchol y je považován za následníka vrcholu x. Lze je oba označit jako předchůdce i následníka přímého, protože se jedná o sousední vrcholy. Vrcholy, které mají společného předchůdce lze také označit jako bratry. Analogicky se pak lze setkat s označením dědeček pro předchůdce předchůdce a vnuka pro následníka následníka, že se nejedná o přímého předchůdce a následníka lze zdůraznit přívlastkem „nepřímý“ předchůdce a následník.<br>V kořenovém stromě má tedy každý vrchol svého předchůdce s výjimkou kořene, ten předchůdce nemá. Pokud vrchol nemá žádného následníka je označován jako list. Pokud alespoň jednoho následníka má, tak se jedná o vnitřní vrchol.",
-                        "images": null
+                        "name": "Detail",
+                        "textData": [
+                            {
+                                "smallTitle": "",
+                                "text": "Také se používá označení z „rodinné“ terminologie otec a syn. V kořenovém stromě, pokud existuje hrana vedoucí z vrcholu x do vrcholu y, pak je vrchol x považován za předchůdce vrcholu y a vrchol y je považován za následníka vrcholu x. Lze je oba označit jako předchůdce i následníka přímého, protože se jedná o sousední vrcholy. Vrcholy, které mají společného předchůdce lze také označit jako bratry. Analogicky se pak lze setkat s označením dědeček pro předchůdce předchůdce a vnuka pro následníka následníka, že se nejedná o přímého předchůdce a následníka lze zdůraznit přívlastkem „nepřímý“ předchůdce a následník.<br>V kořenovém stromě má tedy každý vrchol svého předchůdce s výjimkou kořene, ten předchůdce nemá. Pokud vrchol nemá žádného následníka je označován jako list. Pokud alespoň jednoho následníka má, tak se jedná o vnitřní vrchol.",
+                                "images": null
+                            },
+                            {
+                                "smallTitle": "Definice - předchůdce/následník:",
+                                "text": "Nechť (T, r) je kořenový strom. Jestliže vrchol x leží na cestě z kořene r do vrcholu y, pak říkáme, že x je předchůdce y a y je následník x. Jestliže navíc jsou x a y sousední vrcholy, nazýváme x přímým předchůdcem y a y přímým následníkem x.<br> Pokud chceme zdůraznit, že vrchol x je předchůdce vrcholu y, ale zároveň není jeho přímý předchůdce, řekneme, že x je nepřímý předchůdce y. Totéž platí pro pojem nepřímý následník.",
+                                "images": null
+                            }
+                        ]
                     },
                     {
-                        "smallTitle": "Definice - předchůdce/následník:",
-                        "text": "Nechť (T, r) je kořenový strom. Jestliže vrchol x leží na cestě z kořene r do vrcholu y, pak říkáme, že x je předchůdce y a y je následník x. Jestliže navíc jsou x a y sousední vrcholy, nazýváme x přímým předchůdcem y a y přímým následníkem x.<br> Pokud chceme zdůraznit, že vrchol x je předchůdce vrcholu y, ale zároveň není jeho přímý předchůdce, řekneme, že x je nepřímý předchůdce y. Totéž platí pro pojem nepřímý následník.",
-                        "images": null
+                        "name": "Příklady",
+                        "textData": [
+                            {
+                                "smallTitle": "Příklad 1",
+                                "text": "Urči kliknutím všechny následníky vrcholu C",
+                                "images": null,
+                                "exercise": {
+                                    "name": "parent1"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Urči kliknutím všechny předchůdce vrcholu D",
+                                "images": null,
+                                "exercise": {
+                                    "name": "parent2"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 3",
+                                "text": "Urči kliknutím přímé následníky vrcholu B",
+                                "images": null,
+                                "exercise": {
+                                    "name": "parent3"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 4",
+                                "text": "Urči kliknutím přímé předchůdce vrcholu K",
+                                "images": null,
+                                "exercise": {
+                                    "name": "parent4"
+                                }
+                            },
+                        ]
                     }
-                ]
+                ],
             },
             {
                 "name": "Vrstva / Hloubka / Výška",
@@ -399,6 +440,14 @@ const pages = [
                                 "images": null,
                                 "exercise": {
                                     "name": "depth1"
+                                }
+                            },
+                            {
+                                "smallTitle": "Příklad 2",
+                                "text": "Urči kolik vrstev má strom a v jaké vrstvě se nachází daný vrchol.",
+                                "images": null,
+                                "exercise": {
+                                    "name": "depth2"
                                 }
                             },
                         ]

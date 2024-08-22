@@ -142,9 +142,19 @@ import * as SPANNING_EXAMPLE9 from "./exercises/spanning/SpanningExample9"
 import * as SPANNING_EXAMPLE10 from "./exercises/spanning/SpanningExample10"
 import * as SPANNING_EXAMPLE11 from "./exercises/spanning/SpanningExample11"
 import * as DEPTH_EXAMPLE1 from "./exercises/depth/DepthExample"
+import * as DEPTH_EXAMPLE2 from "./exercises/depth/DepthExample2"
+import * as PARENT_EXAMPLE1 from "./exercises/parent_children/ParentChildrenExample"
+import * as PARENT_EXAMPLE2 from "./exercises/parent_children/ParentChildrenExample2"
+import * as PARENT_EXAMPLE3 from "./exercises/parent_children/ParentChildrenExample3"
+import * as PARENT_EXAMPLE4 from "./exercises/parent_children/ParentChildrenExample4"
 
 export const exampleMap = {
+    parent1: PARENT_EXAMPLE1,
+    parent2: PARENT_EXAMPLE2,
+    parent3: PARENT_EXAMPLE3,
+    parent4: PARENT_EXAMPLE4,
     depth1: DEPTH_EXAMPLE1,
+    depth2: DEPTH_EXAMPLE2,
     center1: CENTERING_EXAMPLE1,
     center2: CENTERING_EXAMPLE2,
     center3: CENTERING_EXAMPLE3,

@@ -7,9 +7,9 @@ export const exampleNodes = [
         data: {
             value: "",
             result: "3",
-            placeHolder: "",
+            placeHolder: "Zadej počet vrstev...",
             label: "Kolik vrstev má následující strom:",
-            width: 150
+            width: 180
         },
         hidden: false,
         type:'inputResultKruskalNode'
@@ -19,10 +19,10 @@ export const exampleNodes = [
         position: {x: 50, y: 240},
         data: {
             value: "",
-            result: "2",
-            placeHolder: "",
+            result: "1",
+            placeHolder: "Zadej číslo vrstvy...",
             label: "V jaké vrstvě se nachází vrchol c:",
-            width: 150
+            width: 180
         },
         hidden: false,
         type:'inputResultKruskalNode'
@@ -64,14 +64,14 @@ export const exampleNodes = [
     },
     {
         id: 'f',
-        position: {x: 150, y: 200},
+        position: {x: 50, y: 200},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
     },
     {
         id: 'g',
-        position: {x: 50, y: 200},
+        position: {x: 150, y: 200},
         data: {width:width},
         hidden: false,
         type:'spanningNode'
