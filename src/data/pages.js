@@ -8,79 +8,160 @@ const pages = [
             {
                 "name": "Strom",
                 "path": "strom",
-                "tabs": null,
-                "textData": [
+                "tabs": [
                     {
-                        "smallTitle": "",
-                        "text": "Strom se řadí mezi jedny ze základních struktur v přírodě i v oblasti matematiky. Stromy v přírodě vynikají svou rozmanitou a výrazně složitou strukturou. Naopak stromy v rámci teorie grafů představují prakticky nejjednodušší varianty grafů, ačkoliv analýza jejich vlastností poskytuje zajímavý výzkumný prostor. V kontextu teorie grafů je strom definován jako konečný graf, to znamená, že počet jeho vrcholů je konečný.<br><b>Strom je souvislý graf, neobsahující kružnici (acyklický souvislý graf)</b>. <br> Strom obsahující pouze jeden vrchol, nazýváme triviálním stromem. Strom, který obsahuje alespoň dva vrcholy, nazveme netriviálním stromem.",
-                        "images": [
+                        "name": "Detail",
+                        "textData": [
                             {
-                                "imagePath": "/images/strom.jpeg",
-                                "imageDescription": "Příklad čtyř různých stromů",
-                                "aspectRatio": "4"
-                            }
+                                "smallTitle": "",
+                                "text": "Strom se řadí mezi jedny ze základních struktur v přírodě i v oblasti matematiky. Stromy v přírodě vynikají svou rozmanitou a výrazně složitou strukturou. Naopak stromy v rámci teorie grafů představují prakticky nejjednodušší varianty grafů, ačkoliv analýza jejich vlastností poskytuje zajímavý výzkumný prostor. V kontextu teorie grafů je strom definován jako konečný graf, to znamená, že počet jeho vrcholů je konečný.<br><b>Strom je souvislý graf, neobsahující kružnici (acyklický souvislý graf)</b>. <br> Strom obsahující pouze jeden vrchol, nazýváme triviálním stromem. Strom, který obsahuje alespoň dva vrcholy, nazveme netriviálním stromem.",
+                                "images": [
+                                    {
+                                        "imagePath": "/images/strom.jpeg",
+                                        "imageDescription": "Příklad čtyř různých stromů",
+                                        "aspectRatio": "4"
+                                    }
+                                ]
+                            },
+                            {
+                                "smallTitle": "Definice listu / vnitřního vrcholu:",
+                                "text": "Nechť T=(V, E) je netriviální strom. Vrchol v&isin;V stupně 1 nazýváme listem stromu T. Vrchol u&isin;V stupně většího než jedna nazýváme vnitřním vrcholem stromu T.",
+                                "images": null,
+                            },
+                            {
+                                "smallTitle": "Věta (o listu):",
+                                "text": "Každý netriviální strom obsahuje list.",
+                                "images": null,
+                            },
+                            {
+                                "smallTitle": "Věta (o listech):",
+                                "text": "Každý netriviální strom T má alespoň dva vrcholy stupně 1 (listy).",
+                                "images": null,
+                            },
+                            {
+                                "smallTitle": "Tvrzení (o odebrání listu ze stromu):",
+                                "text": "Nechť T=(V, E) je strom, deg v=1&and;v&isin;V(T). Pak T - v je opět strom. <br><br>Zřejmě graf T' = T - v neobsahuje kružnici. Zbývá dokázat, že graf T' je souvislý graf. Nechť x, y jsou dva libovolné vrcholy stromu T různé od vrcholu v a nechť Px,y je cesta z vrcholu x do vrcholu y ve stromu T. Cesta Px,y neobsahuje vrchol v, neboť cesta může obsahovat nejvýše dva vrcholy stupně jedna (koncové vrcholy cesty) a těmi by mohly být pouze vrcholy x a y. Cesta Px,y je tak celá obsažena i v grafu T' a graf T' je tudíž souvislý.",
+                                "images": null,
+                            },
+                            {
+                                "smallTitle": "Tvrzení (o přidaní hrany s vrcholem):",
+                                "text": "Přidáme-li k libovolnému vrcholu v stromu T = (V, E) hranu s vrcholem {v, w}, w V∉(T), dostaneme opět strom <br><br> Důkaz (E.Milková:Problém minimální kostry): Přidáním jednoho vrcholu a jedné hrany ke grafu nemůžeme zřejmě kružnici vytvořit. Zbývá dokázat, že graf T'=(V&cup;{w}, E&cup;{v, w}) získaný ze stromu T přidáním hrany {v, w}, v&isin;V, w&notin;V, bude souvislý. To však zřejmě plyne ze skutečnosti, že pro každé dva vrcholy x a y grafu T' různé od vrcholu w existuje cesta z x do y v grafu T' totožná s cestou z x do y ve stromu T. A cestu v grafu T' z libovolného vrcholu x do vrcholu w dostaneme prodloužením cesty z vrcholu x do vrcholu v ve stromu T o hranu {v, w}. A naopak cestu z vrcholu w do libovolného vrcholu x v grafu T' získáme připojením cesty z vrcholu v do vrcholu x ve stromu T k hraně {w, v}.",
+                                "images": null,
+                            },
+                            {
+                                "smallTitle": "Ekvivalentní podmínky: ",
+                                "text": "Ekvivalentní podmínky Nechť T je graf s n vrcholy a m hranami. Následující tvrzení jsou ekvivalentní:<br> (1) T je strom, <br> (2) mezi libovolnými dvěma vrcholy grafu T existuje právě jedna cesta ( matem. zápis &forall;x, y&isin;V &exist;! Px,y ), <br> (3) T je souvislý graf a m = n – 1 <br> (4) T je souvislý a každá jeho hrana je most <br> (5) T neobsahuje kružnici a m = n – 1 <br> (6) T neobsahuje kružnici a když libovolné 2 nesousední vrcholy v T spojíme hranou, získaný graf T má pravě jednu kružnici. ",
+                                "images": null,
+                            },
                         ]
                     },
                     {
-                        "smallTitle": "Definice listu / vnitřního vrcholu:",
-                        "text": "Nechť T=(V, E) je netriviální strom. Vrchol v&isin;V stupně 1 nazýváme listem stromu T. Vrchol u&isin;V stupně většího než jedna nazýváme vnitřním vrcholem stromu T.",
-                        "images": null,
-                    },
-                    {
-                        "smallTitle": "Věta (o listu):",
-                        "text": "Každý netriviální strom obsahuje list.",
-                        "images": null,
-                    },
-                    {
-                        "smallTitle": "Věta (o listech):",
-                        "text": "Každý netriviální strom T má alespoň dva vrcholy stupně 1 (listy).",
-                        "images": null,
-                    },
-                    {
-                        "smallTitle": "Tvrzení (o odebrání listu ze stromu):",
-                        "text": "Nechť T=(V, E) je strom, deg v=1&and;v&isin;V(T). Pak T - v je opět strom. <br><br>Zřejmě graf T' = T - v neobsahuje kružnici. Zbývá dokázat, že graf T' je souvislý graf. Nechť x, y jsou dva libovolné vrcholy stromu T různé od vrcholu v a nechť Px,y je cesta z vrcholu x do vrcholu y ve stromu T. Cesta Px,y neobsahuje vrchol v, neboť cesta může obsahovat nejvýše dva vrcholy stupně jedna (koncové vrcholy cesty) a těmi by mohly být pouze vrcholy x a y. Cesta Px,y je tak celá obsažena i v grafu T' a graf T' je tudíž souvislý.",
-                        "images": null,
-                    },
-                    {
-                        "smallTitle": "Tvrzení (o přidaní hrany s vrcholem):",
-                        "text": "Přidáme-li k libovolnému vrcholu v stromu T = (V, E) hranu s vrcholem {v, w}, w V∉(T), dostaneme opět strom <br><br> Důkaz (E.Milková:Problém minimální kostry): Přidáním jednoho vrcholu a jedné hrany ke grafu nemůžeme zřejmě kružnici vytvořit. Zbývá dokázat, že graf T'=(V&cup;{w}, E&cup;{v, w}) získaný ze stromu T přidáním hrany {v, w}, v&isin;V, w&notin;V, bude souvislý. To však zřejmě plyne ze skutečnosti, že pro každé dva vrcholy x a y grafu T' různé od vrcholu w existuje cesta z x do y v grafu T' totožná s cestou z x do y ve stromu T. A cestu v grafu T' z libovolného vrcholu x do vrcholu w dostaneme prodloužením cesty z vrcholu x do vrcholu v ve stromu T o hranu {v, w}. A naopak cestu z vrcholu w do libovolného vrcholu x v grafu T' získáme připojením cesty z vrcholu v do vrcholu x ve stromu T k hraně {w, v}.",
-                        "images": null,
-                    },
-                    {
-                        "smallTitle": "Ekvivalentní podmínky: ",
-                        "text": "Ekvivalentní podmínky Nechť T je graf s n vrcholy a m hranami. Následující tvrzení jsou ekvivalentní:<br> (1) T je strom, <br> (2) mezi libovolnými dvěma vrcholy grafu T existuje právě jedna cesta ( matem. zápis &forall;x, y&isin;V &exist;! Px,y ), <br> (3) T je souvislý graf a m = n – 1 <br> (4) T je souvislý a každá jeho hrana je most <br> (5) T neobsahuje kružnici a m = n – 1 <br> (6) T neobsahuje kružnici a když libovolné 2 nesousední vrcholy v T spojíme hranou, získaný graf T má pravě jednu kružnici. ",
-                        "images": null,
-                    },
-                ]
+                        "name": "Otázky",
+                        "textData": [
+                            {
+                                "smallTitle": "Otázka 1",
+                                "images": null,
+                                "question": {
+                                    "name": "Nechť graf G je souvislý graf, který má 12 vrcholů stupně 1, tři vrcholy stupně 2 a čtyři vrcholy stupně 5. Určete pomocí vztahu vrcholů a hran v stromě, zda G je či není strom?",
+                                    "answer": " ",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 2",
+                                "images": null,
+                                "question": {
+                                    "name": "Nechť graf G je obyčejný souvislý graf, který má 10 vrcholů stupně jedna, čtyři vrcholy stupně dva a čtyři vrcholy stupně čtyři. Určete pomocí vztahu vrcholů a hran v stromě, zda G je či není strom?",
+                                    "answer": " ",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 3",
+                                "images": null,
+                                "question": {
+                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,1,1,1,1,1,2,2,3,5) může být stromem?",
+                                    "answer": " ",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                        ]
+                    }
+                ],
             },
             {
                 "name": "Les",
                 "path": "les",
-                "tabs": null,
-                "textData": [
+                "tabs": [
                     {
-                        "smallTitle": "",
-                        "text": "Graf bez cyklů (acyklický graf) se nazývá les. Lze tedy les definovat jako nespojitý graf, jehož každá spojitá složka je strom. Les tedy může být i jeden souvislý strom bez cyklů nebo soubor izolovaných stromů.",
-                        "images": [
+                        "name": "Detail",
+                        "textData": [
                             {
-                                "imagePath": "/images/les.jpeg",
-                                "imageDescription": "Dva stromy na obrázku představují příklad lesa",
-                                "aspectRatio": "2"
-                            }
+                                "smallTitle": "",
+                                "text": "Graf bez cyklů (acyklický graf) se nazývá les. Lze tedy les definovat jako nespojitý graf, jehož každá spojitá složka je strom. Les tedy může být i jeden souvislý strom bez cyklů nebo soubor izolovaných stromů.",
+                                "images": [
+                                    {
+                                        "imagePath": "/images/les.jpeg",
+                                        "imageDescription": "Dva stromy na obrázku představují příklad lesa",
+                                        "aspectRatio": "2"
+                                    }
+                                ]
+                            },
+                            {
+                                "smallTitle": "Tvrzení (vztah mezi vrcholy a hranami v lese):",
+                                "text": "Nechť G = (V, E) je les, který obsahuje k komponent, k ≥ 1. Potom platí vztah: |V| = |E| + k.<br><br> Důkaz (E.Milková:Problém minimální kostry): Označme Ti = (Vi, Ei), i = 1, 2, ..., k, komponenty lesa G. Protože každá komponenta je strom, platí |Vi| = |Ei| + 1, i = 1, 2, ..., k. Odtud rovnice viz obrázek.",
+                                "images": [
+                                    {
+                                        "imagePath": "/images/les_rovnice.png",
+                                        "imageDescription": "Rovnice",
+                                        "aspectRatio": "8"
+                                    }
+                                ],
+                            },
                         ]
                     },
                     {
-                        "smallTitle": "Tvrzení (vztah mezi vrcholy a hranami v lese):",
-                        "text": "Nechť G = (V, E) je les, který obsahuje k komponent, k ≥ 1. Potom platí vztah: |V| = |E| + k.<br><br> Důkaz (E.Milková:Problém minimální kostry): Označme Ti = (Vi, Ei), i = 1, 2, ..., k, komponenty lesa G. Protože každá komponenta je strom, platí |Vi| = |Ei| + 1, i = 1, 2, ..., k. Odtud rovnice viz obrázek.",
-                        "images": [
+                        "name": "Otázky",
+                        "textData": [
                             {
-                                "imagePath": "/images/les_rovnice.png",
-                                "imageDescription": "Rovnice",
-                                "aspectRatio": "8"
-                            }
-                        ],
-                    },
-                ]
+                                "smallTitle": "Otázka 1",
+                                "images": null,
+                                "question": {
+                                    "name": "Kolik hran má les obsahující 7 vrcholů a 3 komponenty?",
+                                    "answer": " ",
+                                    "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 2",
+                                "images": null,
+                                "question": {
+                                    "name": "Kolik komponent obsahuje les s 13 vrcholy a 11 hranami? ",
+                                    "answer": " ",
+                                    "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 3",
+                                "images": null,
+                                "question": {
+                                    "name": "Kolik vrcholů má les obsahující 10 hran a 4 komponenty?",
+                                    "answer": " ",
+                                    "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 4",
+                                "images": null,
+                                "question": {
+                                    "name": "Kolik hran a kolik komponent má les, jehož skóre je (1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 4)?",
+                                    "answer": " ",
+                                    "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
+                                }
+                            },
+                        ]
+                    }
+                ],
             },
             {
                 "name": "Centrum / Bicentrum",

@@ -23,6 +23,7 @@ import {exampleMap} from "../../../data/ExamplesMap";
 import CustomTreeFlow from "./tree-lib/CustomTreeFlow";
 import OrderingInputs from "./tree-lib/components/OrderingInputs";
 import ApsAphTable from "./ApsAphTable";
+import Question from "./Question";
 
 export default function TemplatePage({page, subpage}) {
     const isSinglePage = page.subpages === null;
@@ -78,7 +79,6 @@ export default function TemplatePage({page, subpage}) {
                                         <Link
                                             underline="hover"
                                             color="neutral"
-                                            href="#some-link"
                                             fontSize={12}
                                             fontWeight={500}
                                             disabled={true}
@@ -145,6 +145,8 @@ export default function TemplatePage({page, subpage}) {
                                                             {textData.exercise !== undefined && <CustomTreeFlow nodes={exampleMap[textData.exercise.name].exampleNodes} edges={exampleMap[textData.exercise.name].exampleEdges} />}
                                                             {/*přidání aps/aph cvičení*/}
                                                             {textData.apsaph !== undefined && <ApsAphTable nodes={exampleMap[textData.apsaph.name].exampleNodes} edges={exampleMap[textData.apsaph.name].exampleEdges} fifo={textData.apsaph.fifo} />}
+                                                            {/*přidání otázek*/}
+                                                            {textData.question !== undefined && <Question result={textData.question.answer} placeHolder={textData.question.placeHolder} label={textData.question.name} />}
 
                                                             {textData.images !== null && textData.images.map(image => (
                                                                 // <Box display="flex" justifyContent="center" alignItems="center">
