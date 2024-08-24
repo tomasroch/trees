@@ -63,7 +63,7 @@ const pages = [
                                 "images": null,
                                 "question": {
                                     "name": "Nechť graf G je souvislý graf, který má 12 vrcholů stupně 1, tři vrcholy stupně 2 a čtyři vrcholy stupně 5. Určete pomocí vztahu vrcholů a hran v stromě, zda G je či není strom?",
-                                    "answer": " ",
+                                    "answer": "Ne",
                                     "placeHolder": "Ano/Ne..."
                                 }
                             },
@@ -72,7 +72,7 @@ const pages = [
                                 "images": null,
                                 "question": {
                                     "name": "Nechť graf G je obyčejný souvislý graf, který má 10 vrcholů stupně jedna, čtyři vrcholy stupně dva a čtyři vrcholy stupně čtyři. Určete pomocí vztahu vrcholů a hran v stromě, zda G je či není strom?",
-                                    "answer": " ",
+                                    "answer": "Ano",
                                     "placeHolder": "Ano/Ne..."
                                 }
                             },
@@ -80,8 +80,44 @@ const pages = [
                                 "smallTitle": "Otázka 3",
                                 "images": null,
                                 "question": {
-                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,1,1,1,1,1,2,2,3,5) může být stromem?",
-                                    "answer": " ",
+                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,1,1,1,1,1,2,2,3,5) může být stromem?",
+                                    "answer": "Ne",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 4",
+                                "images": null,
+                                "question": {
+                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,2,2,3,3,3) může být stromem?",
+                                    "answer": "Ano",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 5",
+                                "images": null,
+                                "question": {
+                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,1,2,2,3,5) může být stromem?",
+                                    "answer": "Ano",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 6",
+                                "images": null,
+                                "question": {
+                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,1,1,1,2,3,4,5) může být stromem?",
+                                    "answer": "Ano",
+                                    "placeHolder": "Ano/Ne..."
+                                }
+                            },
+                            {
+                                "smallTitle": "Otázka 7",
+                                "images": null,
+                                "question": {
+                                    "name": "Rozhodněte pomocí vztahu vrcholů a hran v stromě, zda graf se skórem (1,1,1,1,1,1,2,2,2,2,3,4,5) může být stromem?",
+                                    "answer": "Ne",
                                     "placeHolder": "Ano/Ne..."
                                 }
                             },
@@ -128,7 +164,7 @@ const pages = [
                                 "images": null,
                                 "question": {
                                     "name": "Kolik hran má les obsahující 7 vrcholů a 3 komponenty?",
-                                    "answer": " ",
+                                    "answer": "4",
                                     "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
                                 }
                             },
@@ -137,7 +173,7 @@ const pages = [
                                 "images": null,
                                 "question": {
                                     "name": "Kolik komponent obsahuje les s 13 vrcholy a 11 hranami? ",
-                                    "answer": " ",
+                                    "answer": "2",
                                     "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
                                 }
                             },
@@ -146,7 +182,7 @@ const pages = [
                                 "images": null,
                                 "question": {
                                     "name": "Kolik vrcholů má les obsahující 10 hran a 4 komponenty?",
-                                    "answer": " ",
+                                    "answer": "14",
                                     "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
                                 }
                             },
@@ -155,8 +191,8 @@ const pages = [
                                 "images": null,
                                 "question": {
                                     "name": "Kolik hran a kolik komponent má les, jehož skóre je (1, 1, 1, 1, 1, 1, 1, 1, 2, 3, 3, 4)?",
-                                    "answer": " ",
-                                    "placeHolder": "Odpověď zadej pouze číselně, ne slovy..."
+                                    "answer": "10,2",
+                                    "placeHolder": "Zadej číselně ve tvaru {hrany},{komponenty}"
                                 }
                             },
                         ]
